@@ -1,0 +1,500 @@
+<frases>
+  <frase>comer pan con tomate</frase>
+  <frase>beber zumo de naranja</frase>
+  <frase>comer arroz con leche</frase>
+  <frase>comer tortilla de patata</frase>
+  <frase>beber chocolate a la taza</frase>
+  <frase>comer churros con azúcar</frase>
+  <frase>comer bocadillo de jamón</frase>
+  <frase>comer queso de oveja</frase>
+  <frase>comer lentejas con chorizo</frase>
+  <frase>comer garbanzos con carne</frase>
+  <frase>beber agua fresca</frase>
+  <frase>comer ensalada de lechuga</frase>
+  <frase>comer pollo asado</frase>
+  <frase>comer pescado frito</frase>
+  <frase>comer paella de marisco</frase>
+  <frase>beber leche con galletas</frase>
+  <frase>comer sopa de fideos</frase>
+  <frase>comer filete de ternera</frase>
+  <frase>comer huevo frito</frase>
+  <frase>comer patatas bravas</frase>
+  <frase>comer aceitunas verdes</frase>
+  <frase>beber refresco de cola</frase>
+  <frase>comer fruta de postre</frase>
+  <frase>comer plátano maduro</frase>
+  <frase>pelar la manzana</frase>
+  <frase>comer uvas dulces</frase>
+  <frase>comer melón con jamón</frase>
+  <frase>comer sandía roja</frase>
+  <frase>comer cerezas del jerte</frase>
+  <frase>comer fresas con nata</frase>
+  <frase>comer turrón de almendra</frase>
+  <frase>comer mazapán de toledo</frase>
+  <frase>comer polvorón de canela</frase>
+  <frase>comer roscón de reyes</frase>
+  <frase>beber sidra natural</frase>
+  <frase>beber vino tinto</frase>
+  <frase>tomar café con leche</frase>
+  <frase>comer tarta de cumpleaños</frase>
+  <frase>comer helado de chocolate</frase>
+  <frase>comer yogur de fresa</frase>
+  <frase>comer flan de huevo</frase>
+  <frase>comer natillas de vainilla</frase>
+  <frase>comer arroz con pollo</frase>
+  <frase>comer macarrones con tomate</frase>
+  <frase>comer espaguetis con queso</frase>
+  <frase>comer pizza de jamón</frase>
+  <frase>comer hamburguesa con queso</frase>
+  <frase>comer salchichas fritas</frase>
+  <frase>comer puré de patatas</frase>
+  <frase>comer crema de calabacín</frase>
+  <frase>comer gazpacho andaluz</frase>
+  <frase>comer salmorejo con huevo</frase>
+  <frase>comer migas de pan</frase>
+  <frase>comer gachas dulces</frase>
+  <frase>comer pisto con huevo</frase>
+  <frase>comer cocido madrileño</frase>
+  <frase>comer fabada asturiana</frase>
+  <frase>comer pulpo a la gallega</frase>
+  <frase>comer empanada de atún</frase>
+  <frase>comer calamares a la romana</frase>
+  <frase>comer gambas a la plancha</frase>
+  <frase>comer mejillones al vapor</frase>
+  <frase>comer sardinas asadas</frase>
+  <frase>comer boquerones en vinagre</frase>
+  <frase>comer merluza en salsa</frase>
+  <frase>comer bacalao con tomate</frase>
+  <frase>comer atún con tomate</frase>
+  <frase>comer lomo embuchado</frase>
+  <frase>comer chorizo y salchichón</frase>
+  <frase>comer morcilla de burgos</frase>
+  <frase>comer sobrasada con pan</frase>
+  <frase>comer queso manchego</frase>
+  <frase>comer queso de cabra</frase>
+  <frase>comer requesón con miel</frase>
+  <frase>comer membrillo con queso</frase>
+  <frase>comer nueces y pasas</frase>
+  <frase>comer almendras tostadas</frase>
+  <frase>comer avellanas peladas</frase>
+  <frase>comer pipas de girasol</frase>
+  <frase>comer palomitas de maíz</frase>
+  <frase>comer patatas de bolsa</frase>
+  <frase>beber mosto de uva</frase>
+  <frase>beber horchata de chufa</frase>
+  <frase>beber granizado de limón</frase>
+  <frase>beber batido de chocolate</frase>
+  <frase>beber infusión caliente</frase>
+  <frase>tomar té con limón</frase>
+  <frase>poner sal en la comida</frase>
+  <frase>echar aceite de oliva</frase>
+  <frase>echar vinagre a la ensalada</frase>
+  <frase>cortar el pan</frase>
+  <frase>usar tenedor y cuchillo</frase>
+  <frase>beber agua del vaso</frase>
+  <frase>limpiar la boca con servilleta</frase>
+  <frase>poner la mesa</frase>
+  <frase>quitar la mesa</frase>
+  <frase>lavar los platos sucios</frase>
+  <frase>secar los vasos</frase>
+  <frase>guardar comida en nevera</frase>
+  <frase>cocinar en la cocina</frase>
+  <frase>celebrar la navidad</frase>
+  <frase>poner el árbol de navidad</frase>
+  <frase>decorar con bolas y luces</frase>
+  <frase>poner el nacimiento</frase>
+  <frase>cantar villancicos alegres</frase>
+  <frase>tocar la zambomba</frase>
+  <frase>tocar la pandereta</frase>
+  <frase>tocar la botella de anís</frase>
+  <frase>esperar a papa noel</frase>
+  <frase>escribir la carta a los reyes</frase>
+  <frase>ver la cabalgata de reyes</frase>
+  <frase>coger caramelos del suelo</frase>
+  <frase>abrir los regalos</frase>
+  <frase>comer carbón dulce</frase>
+  <frase>celebrar la nochevieja</frase>
+  <frase>comer las doce uvas</frase>
+  <frase>brindar por año nuevo</frase>
+  <frase>llevar ropa interior roja</frase>
+  <frase>celebrar el carnaval</frase>
+  <frase>poner el disfraz</frase>
+  <frase>poner la máscara</frase>
+  <frase>pintar la cara</frase>
+  <frase>ver el desfile de carnaval</frase>
+  <frase>enterrar la sardina</frase>
+  <frase>ver la semana santa</frase>
+  <frase>ver la procesión</frase>
+  <frase>ver el paso</frase>
+  <frase>escuchar la saeta</frase>
+  <frase>tocar el tambor</frase>
+  <frase>tocar el bombo</frase>
+  <frase>vestir de nazareno</frase>
+  <frase>llevar la palma</frase>
+  <frase>comer torrijas de leche</frase>
+  <frase>comer mona de pascua</frase>
+  <frase>celebrar la pascua</frase>
+  <frase>ir a la romería</frase>
+  <frase>vestir traje de flamenco</frase>
+  <frase>vestir traje de flamenca</frase>
+  <frase>bailar sevillanas</frase>
+  <frase>tocar las castañuelas</frase>
+  <frase>montar en la carreta</frase>
+  <frase>ver los caballos</frase>
+  <frase>ir a la feria de abril</frase>
+  <frase>beber rebujito frío</frase>
+  <frase>comer pescaíto frito</frase>
+  <frase>bailar en la caseta</frase>
+  <frase>celebrar las fallas</frase>
+  <frase>ver la mascletá</frase>
+  <frase>ver la falla</frase>
+  <frase>tirar petardos</frase>
+  <frase>ver la cremá</frase>
+  <frase>vestir de fallera</frase>
+  <frase>llevar flores a la virgen</frase>
+  <frase>celebrar san fermín</frase>
+  <frase>correr el encierro</frase>
+  <frase>ver los toros</frase>
+  <frase>llevar pañuelo rojo</frase>
+  <frase>cantar el pobre de mí</frase>
+  <frase>ver los gigantes</frase>
+  <frase>ver los cabezudos</frase>
+  <frase>correr delante de cabezudos</frase>
+  <frase>celebrar san juan</frase>
+  <frase>hacer una hoguera</frase>
+  <frase>saltar la hoguera</frase>
+  <frase>quemar lo viejo</frase>
+  <frase>pedir un deseo</frase>
+  <frase>bañar en el mar de noche</frase>
+  <frase>comer coca de san juan</frase>
+  <frase>celebrar el pilar</frase>
+  <frase>ver la ofrenda de flores</frase>
+  <frase>vestir de baturro</frase>
+  <frase>vestir de baturra</frase>
+  <frase>bailar jota aragonesa</frase>
+  <frase>escuchar la rondalla</frase>
+  <frase>celebrar sant jordi</frase>
+  <frase>regalar una rosa</frase>
+  <frase>regalar un libro</frase>
+  <frase>ver la castanyada</frase>
+  <frase>comer castañas asadas</frase>
+  <frase>comer panellets de piñones</frase>
+  <frase>comer boniatos asados</frase>
+  <frase>celebrar todos los santos</frase>
+  <frase>llevar flores al cementerio</frase>
+  <frase>comer huesos de santo</frase>
+  <frase>comer buñuelos de viento</frase>
+  <frase>bailar sardana en la plaza</frase>
+  <frase>bailar muñeira gallega</frase>
+  <frase>tocar la gaita gallega</frase>
+  <frase>bailar aurresku</frase>
+  <frase>levantar piedras</frase>
+  <frase>cortar troncos</frase>
+  <frase>jugar a la pelota vasca</frase>
+  <frase>bailar chotis en madrid</frase>
+  <frase>vestir de chulapo</frase>
+  <frase>vestir de chulapa</frase>
+  <frase>comer rosquillas de san isidro</frase>
+  <frase>beber agua del botijo</frase>
+  <frase>hacer el camino de santiago</frase>
+  <frase>ser peregrino</frase>
+  <frase>ir al colegio</frase>
+  <frase>llegar puntual a clase</frase>
+  <frase>saludar a la maestra</frase>
+  <frase>colgar la mochila</frase>
+  <frase>colgar el abrigo</frase>
+  <frase>sentar en la silla</frase>
+  <frase>sacar el estuche</frase>
+  <frase>sacar el libro</frase>
+  <frase>sacar el cuaderno</frase>
+  <frase>escribir con lápiz</frase>
+  <frase>borrar con goma</frase>
+  <frase>sacar punta al lápiz</frase>
+  <frase>pintar con colores</frase>
+  <frase>pintar con rotuladores</frase>
+  <frase>pintar con ceras</frase>
+  <frase>recortar con tijeras</frase>
+  <frase>pegar con pegamento</frase>
+  <frase>hacer una ficha</frase>
+  <frase>leer un cuento</frase>
+  <frase>escuchar el cuento</frase>
+  <frase>mirar la pizarra</frase>
+  <frase>levantar la mano</frase>
+  <frase>preguntar la duda</frase>
+  <frase>pedir permiso para ir al baño</frase>
+  <frase>ir al servicio</frase>
+  <frase>lavar las manos</frase>
+  <frase>salir al recreo</frase>
+  <frase>comer el almuerzo</frase>
+  <frase>beber agua de la fuente</frase>
+  <frase>jugar con los amigos</frase>
+  <frase>jugar al fútbol</frase>
+  <frase>jugar al baloncesto</frase>
+  <frase>jugar al pilla pilla</frase>
+  <frase>jugar al escondite</frase>
+  <frase>saltar a la comba</frase>
+  <frase>jugar a las canicas</frase>
+  <frase>jugar a la peonza</frase>
+  <frase>jugar con la pelota</frase>
+  <frase>compartir los juguetes</frase>
+  <frase>no pegar a los compañeros</frase>
+  <frase>hacer fila</frase>
+  <frase>entrar en clase</frase>
+  <frase>escuchar música</frase>
+  <frase>tocar la flauta</frase>
+  <frase>cantar una canción</frase>
+  <frase>hacer gimnasia</frase>
+  <frase>correr en el patio</frase>
+  <frase>aprender los números</frase>
+  <frase>aprender las letras</frase>
+  <frase>sumar y restar</frase>
+  <frase>hacer un dibujo</frase>
+  <frase>hacer un regalo para mamá</frase>
+  <frase>hacer un regalo para papá</frase>
+  <frase>celebrar el día de la paz</frase>
+  <frase>celebrar el carnaval en el cole</frase>
+  <frase>ir de excursión</frase>
+  <frase>montar en autobús</frase>
+  <frase>visitar la granja</frase>
+  <frase>ver los animales</frase>
+  <frase>volver al colegio</frase>
+  <frase>recoger la mesa</frase>
+  <frase>guardar los materiales</frase>
+  <frase>limpiar la clase</frase>
+  <frase>poner la silla bien</frase>
+  <frase>decir adiós</frase>
+  <frase>salir del colegio</frase>
+  <frase>ver a mamá y papá</frase>
+  <frase>ir a casa</frase>
+  <frase>merendar en casa</frase>
+  <frase>hacer los deberes</frase>
+  <frase>estudiar para el examen</frase>
+  <frase>leer un libro en casa</frase>
+  <frase>ver la televisión</frase>
+  <frase>jugar con la consola</frase>
+  <frase>jugar con la tableta</frase>
+  <frase>jugar con los muñecos</frase>
+  <frase>jugar con los coches</frase>
+  <frase>hacer un puzzle</frase>
+  <frase>jugar a juegos de mesa</frase>
+  <frase>jugar al parchís</frase>
+  <frase>jugar a la oca</frase>
+  <frase>jugar al dominó</frase>
+  <frase>jugar a las cartas</frase>
+  <frase>ayudar en casa</frase>
+  <frase>hacer la cama</frase>
+  <frase>ordenar la habitación</frase>
+  <frase>poner la ropa sucia</frase>
+  <frase>doblar la ropa limpia</frase>
+  <frase>preparar la mochila</frase>
+  <frase>cenar en familia</frase>
+  <frase>lavar los dientes</frase>
+  <frase>leer antes de dormir</frase>
+  <frase>apagar la luz</frase>
+  <frase>dormir y soñar</frase>
+  <frase>descansar para mañana</frase>
+  <frase>despertar con energía</frase>
+  <frase>ir contento al cole</frase>
+  <frase>aprender cosas nuevas</frase>
+  <frase>tener buenos amigos</frase>
+  <frase>respetar a los profesores</frase>
+  <frase>despertar por la mañana</frase>
+  <frase>levantar de la cama</frase>
+  <frase>ir al baño</frase>
+  <frase>hacer pis en el váter</frase>
+  <frase>lavar la cara</frase>
+  <frase>lavar las manos con jabón</frase>
+  <frase>secar con la toalla</frase>
+  <frase>peinar el pelo</frase>
+  <frase>quitar el pijama</frase>
+  <frase>poner la ropa interior</frase>
+  <frase>poner los calcetines</frase>
+  <frase>poner el pantalón</frase>
+  <frase>poner la camiseta</frase>
+  <frase>poner el jersey</frase>
+  <frase>poner los zapatos</frase>
+  <frase>atar los cordones</frase>
+  <frase>poner el abrigo</frase>
+  <frase>coger la mochila</frase>
+  <frase>salir de casa</frase>
+  <frase>cerrar la puerta con llave</frase>
+  <frase>llamar al ascensor</frase>
+  <frase>bajar las escaleras</frase>
+  <frase>caminar por la acera</frase>
+  <frase>cruzar por el paso de cebra</frase>
+  <frase>mirar el semáforo</frase>
+  <frase>esperar al autobús</frase>
+  <frase>subir al coche</frase>
+  <frase>poner el cinturón</frase>
+  <frase>ir al supermercado</frase>
+  <frase>coger el carrito</frase>
+  <frase>comprar pan</frase>
+  <frase>comprar leche</frase>
+  <frase>comprar fruta</frase>
+  <frase>comprar carne</frase>
+  <frase>comprar pescado</frase>
+  <frase>pagar en la caja</frase>
+  <frase>guardar la compra</frase>
+  <frase>ir a la farmacia</frase>
+  <frase>comprar medicinas</frase>
+  <frase>ir al médico</frase>
+  <frase>esperar en la sala</frase>
+  <frase>entrar en la consulta</frase>
+  <frase>hablar con el doctor</frase>
+  <frase>ir al parque</frase>
+  <frase>pasear al perro</frase>
+  <frase>recoger la caca del perro</frase>
+  <frase>tirar la basura al contenedor</frase>
+  <frase>reciclar plástico y papel</frase>
+  <frase>reciclar vidrio en iglú</frase>
+  <frase>saludar al vecino</frase>
+  <frase>hablar con amigos</frase>
+  <frase>ir a la biblioteca</frase>
+  <frase>pedir un libro prestado</frase>
+  <frase>leer en silencio</frase>
+  <frase>devolver el libro</frase>
+  <frase>ir al cine</frase>
+  <frase>comprar la entrada</frase>
+  <frase>comprar palomitas y refresco</frase>
+  <frase>ver la película</frase>
+  <frase>ir al teatro</frase>
+  <frase>ver una obra de teatro</frase>
+  <frase>aplaudir a los actores</frase>
+  <frase>ir al museo</frase>
+  <frase>ver cuadros y esculturas</frase>
+  <frase>ir a la piscina</frase>
+  <frase>poner el bañador</frase>
+  <frase>poner el gorro</frase>
+  <frase>nadar en el agua</frase>
+  <frase>duchar en el vestuario</frase>
+  <frase>secar el pelo</frase>
+  <frase>volver a casa</frase>
+  <frase>abrir el buzón</frase>
+  <frase>coger las cartas</frase>
+  <frase>abrir la puerta</frase>
+  <frase>quitar el abrigo</frase>
+  <frase>quitar los zapatos</frase>
+  <frase>poner las zapatillas</frase>
+  <frase>lavar las manos</frase>
+  <frase>ayudar a cocinar</frase>
+  <frase>poner la mesa</frase>
+  <frase>comer con la familia</frase>
+  <frase>hablar del día</frase>
+  <frase>recoger la mesa</frase>
+  <frase>poner el lavavajillas</frase>
+  <frase>ver la tele en el sofá</frase>
+  <frase>escuchar música</frase>
+  <frase>bailar en el salón</frase>
+  <frase>hablar por teléfono</frase>
+  <frase>llamar a los abuelos</frase>
+  <frase>escribir un mensaje</frase>
+  <frase>jugar con el gato</frase>
+  <frase>regar las plantas</frase>
+  <frase>limpiar el polvo</frase>
+  <frase>barrer el suelo</frase>
+  <frase>fregar el suelo</frase>
+  <frase>hacer la cama</frase>
+  <frase>preparar la ropa</frase>
+  <frase>dar un beso de buenas noches</frase>
+  <frase>apagar la luz</frase>
+  <frase>dormir tranquilo</frase>
+  <frase>visitar la catedral de santiago</frase>
+  <frase>ver el botafumeiro</frase>
+  <frase>abrazar al apóstol</frase>
+  <frase>ser peregrino del camino</frase>
+  <frase>llevar la concha</frase>
+  <frase>sellar la credencial</frase>
+  <frase>llegar a la plaza del obradoiro</frase>
+  <frase>comer tarta de santiago</frase>
+  <frase>beber vino ribeiro</frase>
+  <frase>comer pimientos de padrón</frase>
+  <frase>ver la torre de hércules</frase>
+  <frase>visitar el museo guggenheim</frase>
+  <frase>ver al cachorro de flores</frase>
+  <frase>comer pintxos en la parte vieja</frase>
+  <frase>beber txakoli fresco</frase>
+  <frase>ir a una sidrería</frase>
+  <frase>beber sidra al txotx</frase>
+  <frase>comer chuletón de buey</frase>
+  <frase>ver la playa de la concha</frase>
+  <frase>visitar la sagrada familia</frase>
+  <frase>pasear por las ramblas</frase>
+  <frase>comprar flores en las ramblas</frase>
+  <frase>ver la estatua de colón</frase>
+  <frase>comer crema catalana</frase>
+  <frase>comer butifarra con mongetes</frase>
+  <frase>beber cava catalán</frase>
+  <frase>bailar sardana en la catedral</frase>
+  <frase>ver los castellers</frase>
+  <frase>hacer un castillo humano</frase>
+  <frase>ver al enxaneta subir</frase>
+  <frase>visitar la ciudad de las artes</frase>
+  <frase>ver el oceanográfico</frase>
+  <frase>comer paella valenciana</frase>
+  <frase>beber agua de valencia</frase>
+  <frase>tirar petardos en fallas</frase>
+  <frase>ver la nit del foc</frase>
+  <frase>ver la ofrenda a la virgen</frase>
+  <frase>visitar la alhambra de granada</frase>
+  <frase>ver el patio de los leones</frase>
+  <frase>pasear por el generalife</frase>
+  <frase>ver sierra nevada</frase>
+  <frase>comer gazpacho en verano</frase>
+  <frase>beber vino fino</frase>
+  <frase>ver la mezquita de córdoba</frase>
+  <frase>pasear por el patio de los naranjos</frase>
+  <frase>ver los patios de córdoba</frase>
+  <frase>comer salmorejo cordobés</frase>
+  <frase>comer flamenquín</frase>
+  <frase>visitar la giralda de sevilla</frase>
+  <frase>subir a la giralda</frase>
+  <frase>ver la torre del oro</frase>
+  <frase>pasear por el parque maria luisa</frase>
+  <frase>ir a la feria de abril</frase>
+  <frase>comer pescaíto frito</frase>
+  <frase>beber rebujito con hielo</frase>
+  <frase>visitar el teatro romano de mérida</frase>
+  <frase>ver una obra clásica</frase>
+  <frase>comer jamón ibérico</frase>
+  <frase>comer migas extremeñas</frase>
+  <frase>comer torta del casar</frase>
+  <frase>visitar la plaza mayor de salamanca</frase>
+  <frase>ver la rana en la fachada</frase>
+  <frase>comer hornazo de salamanca</frase>
+  <frase>visitar el acueducto de segovia</frase>
+  <frase>comer cochinillo asado</frase>
+  <frase>visitar la muralla de ávila</frase>
+  <frase>comer yemas de santa teresa</frase>
+  <frase>visitar la catedral de burgos</frase>
+  <frase>comer morcilla de burgos</frase>
+  <frase>visitar la catedral de león</frase>
+  <frase>ver las vidrieras</frase>
+  <frase>ir de tapas al barrio húmedo</frase>
+  <frase>comer cecina de león</frase>
+  <frase>visitar el museo del prado</frase>
+  <frase>ver las meninas</frase>
+  <frase>pasear por el retiro</frase>
+  <frase>montar en barca en el retiro</frase>
+  <frase>comer bocadillo de calamares</frase>
+  <frase>comer cocido madrileño</frase>
+  <frase>comer callos a la madrileña</frase>
+  <frase>ir a la puerta del sol</frase>
+  <frase>ver el oso y el madroño</frase>
+  <frase>comer las uvas en sol</frase>
+  <frase>visitar la basílica del pilar</frase>
+  <frase>ver a la virgen del pilar</frase>
+  <frase>comer frutas de aragón</frase>
+  <frase>comer ternasco asado</frase>
+  <frase>bailar la jota</frase>
+  <frase>visitar los molinos de viento</frase>
+  <frase>leer el quijote</frase>
+  <frase>comer queso manchego</frase>
+  <frase>comer pisto manchego</frase>
+  <frase>comer miguelitos de la roda</frase>
+  <frase>visitar las casas colgadas</frase>
+  <frase>visitar el teide</frase>
+  <frase>subir en teleférico</frase>
+  <frase>comer plátano de canarias</frase>
+  <frase>comer papas con mojo</frase>
+  <frase>comer gofio escaldado</frase>
+</frases>

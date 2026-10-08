@@ -1,0 +1,10022 @@
+[
+  {
+    "oracion": "comer pan con tomate",
+    "tokens": [
+      "comer",
+      "pan",
+      "con",
+      "tomate"
+    ],
+    "elecciones": [
+      "2031-comer.jpg",
+      "11642-pan_con_tomate.jpg",
+      null,
+      null
+    ],
+    "secuencia_final": [
+      "2031-comer.jpg",
+      "11642-pan_con_tomate.jpg",
+      null,
+      null
+    ]
+  },
+  {
+    "oracion": "beber zumo de naranja",
+    "tokens": [
+      "beber",
+      "zumo",
+      "de",
+      "naranja"
+    ],
+    "elecciones": [
+      "29-beber.jpg",
+      "368-zumo_de_naranja.jpg",
+      null,
+      null
+    ],
+    "secuencia_final": [
+      "29-beber.jpg",
+      "368-zumo_de_naranja.jpg",
+      null,
+      null
+    ]
+  },
+  {
+    "oracion": "comer arroz con leche",
+    "tokens": [
+      "comer",
+      "arroz",
+      "con",
+      "leche"
+    ],
+    "elecciones": [
+      "123-comer.jpg",
+      "10375-arroz_con_leche.jpg",
+      null,
+      null
+    ],
+    "secuencia_final": [
+      "123-comer.jpg",
+      "10375-arroz_con_leche.jpg",
+      null,
+      null
+    ]
+  },
+  {
+    "oracion": "comer tortilla de patata",
+    "tokens": [
+      "comer",
+      "tortilla",
+      "de",
+      "patata"
+    ],
+    "elecciones": [
+      "123-comer.jpg",
+      "9799-tortilla_de_atún.jpg",
+      "2424-de.jpg",
+      "258-patata.jpg"
+    ],
+    "secuencia_final": [
+      "123-comer.jpg",
+      "9799-tortilla_de_atún.jpg",
+      "2424-de.jpg",
+      "258-patata.jpg"
+    ]
+  },
+  {
+    "oracion": "beber chocolate a la taza",
+    "tokens": [
+      "beber",
+      "chocolate",
+      "a",
+      "la",
+      "taza"
+    ],
+    "elecciones": [
+      "7590-beber.jpg",
+      "5117-chocolate_a_la_taza.jpg",
+      "727-a.jpg",
+      "3057-la.jpg",
+      "10426-fregar_la_taza.jpg"
+    ],
+    "secuencia_final": [
+      "7590-beber.jpg",
+      "5117-chocolate_a_la_taza.jpg",
+      "727-a.jpg",
+      "3057-la.jpg",
+      "10426-fregar_la_taza.jpg"
+    ]
+  },
+  {
+    "oracion": "comer churros con azúcar",
+    "tokens": [
+      "comer",
+      "churros",
+      "con",
+      "azúcar"
+    ],
+    "elecciones": [
+      "7100-comer.jpg",
+      "962-churros.jpg",
+      "2409-con.jpg",
+      "6033-azúcar.jpg"
+    ],
+    "secuencia_final": [
+      "7100-comer.jpg",
+      "962-churros.jpg",
+      "2409-con.jpg",
+      "6033-azúcar.jpg"
+    ]
+  },
+  {
+    "oracion": "comer bocadillo de jamón",
+    "tokens": [
+      "comer",
+      "bocadillo",
+      "de",
+      "jamón"
+    ],
+    "elecciones": [
+      "2031-comer.jpg",
+      "35-bocadillo.jpg",
+      "2424-de.jpg",
+      "7337-plato_de_jamón.jpg"
+    ],
+    "secuencia_final": [
+      "2031-comer.jpg",
+      "35-bocadillo.jpg",
+      "2424-de.jpg",
+      "7337-plato_de_jamón.jpg"
+    ]
+  },
+  {
+    "oracion": "comer queso de oveja",
+    "tokens": [
+      "comer",
+      "queso",
+      "de",
+      "oveja"
+    ],
+    "elecciones": [
+      "123-comer.jpg",
+      "10082-queso_de_oveja.jpg",
+      null,
+      null
+    ],
+    "secuencia_final": [
+      "123-comer.jpg",
+      "10082-queso_de_oveja.jpg",
+      null,
+      null
+    ]
+  },
+  {
+    "oracion": "comer lentejas con chorizo",
+    "tokens": [
+      "comer",
+      "lentejas",
+      "con",
+      "chorizo"
+    ],
+    "elecciones": [
+      "123-comer.jpg",
+      "222-lentejas.jpg",
+      "7082-patatas_con_chorizo.jpg",
+      "89-chorizo.jpg"
+    ],
+    "secuencia_final": [
+      "123-comer.jpg",
+      "222-lentejas.jpg",
+      "7082-patatas_con_chorizo.jpg",
+      "89-chorizo.jpg"
+    ]
+  },
+  {
+    "oracion": "comer garbanzos con carne",
+    "tokens": [
+      "comer",
+      "garbanzos",
+      "con",
+      "carne"
+    ],
+    "elecciones": [
+      "2031-comer.jpg",
+      "164-garbanzos.jpg",
+      "2409-con.jpg",
+      "69-carne.jpg"
+    ],
+    "secuencia_final": [
+      "2031-comer.jpg",
+      "164-garbanzos.jpg",
+      "2409-con.jpg",
+      "69-carne.jpg"
+    ]
+  },
+  {
+    "oracion": "beber agua fresca",
+    "tokens": [
+      "beber",
+      "agua",
+      "fresca"
+    ],
+    "elecciones": [
+      "11530-beber.jpg",
+      "1-agua.jpg",
+      "12037-queso_fresco.jpg"
+    ],
+    "secuencia_final": [
+      "11530-beber.jpg",
+      "1-agua.jpg",
+      "12037-queso_fresco.jpg"
+    ]
+  },
+  {
+    "oracion": "comer ensalada de lechuga",
+    "tokens": [
+      "comer",
+      "ensalada",
+      "de",
+      "lechuga"
+    ],
+    "elecciones": [
+      "7100-comer.jpg",
+      "146-ensalada.jpg",
+      "2424-de.jpg",
+      "203-lechuga.jpg"
+    ],
+    "secuencia_final": [
+      "7100-comer.jpg",
+      "146-ensalada.jpg",
+      "2424-de.jpg",
+      "203-lechuga.jpg"
+    ]
+  },
+  {
+    "oracion": "comer pollo asado",
+    "tokens": [
+      "comer",
+      "pollo",
+      "asado"
+    ],
+    "elecciones": [
+      "2031-comer.jpg",
+      "1411-pollo_asado.jpg",
+      null
+    ],
+    "secuencia_final": [
+      "2031-comer.jpg",
+      "1411-pollo_asado.jpg",
+      null
+    ]
+  },
+  {
+    "oracion": "comer pescado frito",
+    "tokens": [
+      "comer",
+      "pescado",
+      "frito"
+    ],
+    "elecciones": [
+      "2031-comer.jpg",
+      "10042-pescado.jpg",
+      "4590-frito.jpg"
+    ],
+    "secuencia_final": [
+      "2031-comer.jpg",
+      "10042-pescado.jpg",
+      "4590-frito.jpg"
+    ]
+  },
+  {
+    "oracion": "comer paella de marisco",
+    "tokens": [
+      "comer",
+      "paella",
+      "de",
+      "marisco"
+    ],
+    "elecciones": [
+      "123-comer.jpg",
+      "1643-paella.jpg",
+      "2424-de.jpg",
+      "4727-sopa_de_marisco.jpg"
+    ],
+    "secuencia_final": [
+      "123-comer.jpg",
+      "1643-paella.jpg",
+      "2424-de.jpg",
+      "4727-sopa_de_marisco.jpg"
+    ]
+  },
+  {
+    "oracion": "beber leche con galletas",
+    "tokens": [
+      "beber",
+      "leche",
+      "con",
+      "galletas"
+    ],
+    "elecciones": [
+      "29-beber.jpg",
+      "197-leche.jpg",
+      "2409-con.jpg",
+      "6040-galletas.jpg"
+    ],
+    "secuencia_final": [
+      "29-beber.jpg",
+      "197-leche.jpg",
+      "2409-con.jpg",
+      "6040-galletas.jpg"
+    ]
+  },
+  {
+    "oracion": "comer sopa de fideos",
+    "tokens": [
+      "comer",
+      "sopa",
+      "de",
+      "fideos"
+    ],
+    "elecciones": [
+      "2031-comer.jpg",
+      "4728-sopa_de_pescado.jpg",
+      "2424-de.jpg",
+      "3161-fideos.jpg"
+    ],
+    "secuencia_final": [
+      "2031-comer.jpg",
+      "4728-sopa_de_pescado.jpg",
+      "2424-de.jpg",
+      "3161-fideos.jpg"
+    ]
+  },
+  {
+    "oracion": "comer filete de ternera",
+    "tokens": [
+      "comer",
+      "filete",
+      "de",
+      "ternera"
+    ],
+    "elecciones": [
+      "7100-comer.jpg",
+      "12901-filete_de_jamón_de_york.jpg",
+      "2424-de.jpg",
+      "11023-milanesa_de_ternera.jpg"
+    ],
+    "secuencia_final": [
+      "7100-comer.jpg",
+      "12901-filete_de_jamón_de_york.jpg",
+      "2424-de.jpg",
+      "11023-milanesa_de_ternera.jpg"
+    ]
+  },
+  {
+    "oracion": "comer huevo frito",
+    "tokens": [
+      "comer",
+      "huevo",
+      "frito"
+    ],
+    "elecciones": [
+      "123-comer.jpg",
+      "180-huevo_frito.jpg",
+      null
+    ],
+    "secuencia_final": [
+      "123-comer.jpg",
+      "180-huevo_frito.jpg",
+      null
+    ]
+  },
+  {
+    "oracion": "comer patatas bravas",
+    "tokens": [
+      "comer",
+      "patatas",
+      "bravas"
+    ],
+    "elecciones": [
+      "7100-comer.jpg",
+      "4930-patatas_bravas.jpg",
+      null
+    ],
+    "secuencia_final": [
+      "7100-comer.jpg",
+      "4930-patatas_bravas.jpg",
+      null
+    ]
+  },
+  {
+    "oracion": "comer aceitunas verdes",
+    "tokens": [
+      "comer",
+      "aceitunas",
+      "verdes"
+    ],
+    "elecciones": [
+      "7100-comer.jpg",
+      "592-aceitunas.jpg",
+      "1369-verde.jpg"
+    ],
+    "secuencia_final": [
+      "7100-comer.jpg",
+      "592-aceitunas.jpg",
+      "1369-verde.jpg"
+    ]
+  },
+  {
+    "oracion": "beber refresco de cola",
+    "tokens": [
+      "beber",
+      "refresco",
+      "de",
+      "cola"
+    ],
+    "elecciones": [
+      "1884-beber.jpg",
+      "1291-refresco.jpg",
+      "2424-de.jpg",
+      "448-cola.jpg"
+    ],
+    "secuencia_final": [
+      "1884-beber.jpg",
+      "1291-refresco.jpg",
+      "2424-de.jpg",
+      "448-cola.jpg"
+    ]
+  },
+  {
+    "oracion": "comer fruta de postre",
+    "tokens": [
+      "comer",
+      "fruta",
+      "de",
+      "postre"
+    ],
+    "elecciones": [
+      "123-comer.jpg",
+      "1213-fruta.jpg",
+      "2424-de.jpg",
+      "11201-cucharilla_de_postre.jpg"
+    ],
+    "secuencia_final": [
+      "123-comer.jpg",
+      "1213-fruta.jpg",
+      "2424-de.jpg",
+      "11201-cucharilla_de_postre.jpg"
+    ]
+  },
+  {
+    "oracion": "comer plátano maduro",
+    "tokens": [
+      "comer",
+      "plátano",
+      "maduro"
+    ],
+    "elecciones": [
+      "2031-comer.jpg",
+      "283-plátano.jpg",
+      null
+    ],
+    "secuencia_final": [
+      "2031-comer.jpg",
+      "283-plátano.jpg",
+      null
+    ]
+  },
+  {
+    "oracion": "pelar la manzana",
+    "tokens": [
+      "pelar",
+      "la",
+      "manzana"
+    ],
+    "elecciones": [
+      "1644-pelar.jpg",
+      "3057-la.jpg",
+      "4395-manzana.jpg"
+    ],
+    "secuencia_final": [
+      "1644-pelar.jpg",
+      "3057-la.jpg",
+      "4395-manzana.jpg"
+    ]
+  },
+  {
+    "oracion": "comer uvas dulces",
+    "tokens": [
+      "comer",
+      "uvas",
+      "dulces"
+    ],
+    "elecciones": [
+      "2031-comer.jpg",
+      "941-uvas.jpg",
+      "10092-dulces.jpg"
+    ],
+    "secuencia_final": [
+      "2031-comer.jpg",
+      "941-uvas.jpg",
+      "10092-dulces.jpg"
+    ]
+  },
+  {
+    "oracion": "comer melón con jamón",
+    "tokens": [
+      "comer",
+      "melón",
+      "con",
+      "jamón"
+    ],
+    "elecciones": [
+      "7118-comer.jpg",
+      "218-melón.jpg",
+      "11642-pan_con_tomate.jpg",
+      "184-jamón.jpg"
+    ],
+    "secuencia_final": [
+      "7118-comer.jpg",
+      "218-melón.jpg",
+      "11642-pan_con_tomate.jpg",
+      "184-jamón.jpg"
+    ]
+  },
+  {
+    "oracion": "comer sandía roja",
+    "tokens": [
+      "comer",
+      "sandía",
+      "roja"
+    ],
+    "elecciones": [
+      "2031-comer.jpg",
+      "302-sandía.jpg",
+      "532-rojo.jpg"
+    ],
+    "secuencia_final": [
+      "2031-comer.jpg",
+      "302-sandía.jpg",
+      "532-rojo.jpg"
+    ]
+  },
+  {
+    "oracion": "comer cerezas del jerte",
+    "tokens": [
+      "comer",
+      "cerezas",
+      "del",
+      "jerte"
+    ],
+    "elecciones": [
+      "123-comer.jpg",
+      "82-cerezas.jpg",
+      "4251-del.jpg",
+      null
+    ],
+    "secuencia_final": [
+      "123-comer.jpg",
+      "82-cerezas.jpg",
+      "4251-del.jpg",
+      null
+    ]
+  },
+  {
+    "oracion": "comer fresas con nata",
+    "tokens": [
+      "comer",
+      "fresas",
+      "con",
+      "nata"
+    ],
+    "elecciones": [
+      "7100-comer.jpg",
+      "11497-fresas.jpg",
+      "2409-con.jpg",
+      "1630-nata.jpg"
+    ],
+    "secuencia_final": [
+      "7100-comer.jpg",
+      "11497-fresas.jpg",
+      "2409-con.jpg",
+      "1630-nata.jpg"
+    ]
+  },
+  {
+    "oracion": "comer turrón de almendra",
+    "tokens": [
+      "comer",
+      "turrón",
+      "de",
+      "almendra"
+    ],
+    "elecciones": [
+      "123-comer.jpg",
+      "10511-turrón_de_chocolate.jpg",
+      "2424-de.jpg",
+      "12490-alfajor_de_almendra.jpg"
+    ],
+    "secuencia_final": [
+      "123-comer.jpg",
+      "10511-turrón_de_chocolate.jpg",
+      "2424-de.jpg",
+      "12490-alfajor_de_almendra.jpg"
+    ]
+  },
+  {
+    "oracion": "comer mazapán de toledo",
+    "tokens": [
+      "comer",
+      "mazapán",
+      "de",
+      "toledo"
+    ],
+    "elecciones": [
+      "7100-comer.jpg",
+      "4374-mazapán.jpg",
+      "2424-de.jpg",
+      "4500-toledo.jpg"
+    ],
+    "secuencia_final": [
+      "7100-comer.jpg",
+      "4374-mazapán.jpg",
+      "2424-de.jpg",
+      "4500-toledo.jpg"
+    ]
+  },
+  {
+    "oracion": "comer polvorón de canela",
+    "tokens": [
+      "comer",
+      "polvorón",
+      "de",
+      "canela"
+    ],
+    "elecciones": [
+      "7100-comer.jpg",
+      "2896-polvorón.jpg",
+      "2424-de.jpg",
+      "12462-roll_de_canela.jpg"
+    ],
+    "secuencia_final": [
+      "7100-comer.jpg",
+      "2896-polvorón.jpg",
+      "2424-de.jpg",
+      "12462-roll_de_canela.jpg"
+    ]
+  },
+  {
+    "oracion": "comer roscón de reyes",
+    "tokens": [
+      "comer",
+      "roscón",
+      "de",
+      "reyes"
+    ],
+    "elecciones": [
+      "123-comer.jpg",
+      "1670-roscón.jpg",
+      "2424-de.jpg",
+      "1453-día_de_reyes.jpg"
+    ],
+    "secuencia_final": [
+      "123-comer.jpg",
+      "1670-roscón.jpg",
+      "2424-de.jpg",
+      "1453-día_de_reyes.jpg"
+    ]
+  },
+  {
+    "oracion": "beber sidra natural",
+    "tokens": [
+      "beber",
+      "sidra",
+      "natural"
+    ],
+    "elecciones": [
+      "29-beber.jpg",
+      "1693-sidra.jpg",
+      null
+    ],
+    "secuencia_final": [
+      "29-beber.jpg",
+      "1693-sidra.jpg",
+      null
+    ]
+  },
+  {
+    "oracion": "beber vino tinto",
+    "tokens": [
+      "beber",
+      "vino",
+      "tinto"
+    ],
+    "elecciones": [
+      "7590-beber.jpg",
+      "356-vino.jpg",
+      null
+    ],
+    "secuencia_final": [
+      "7590-beber.jpg",
+      "356-vino.jpg",
+      null
+    ]
+  },
+  {
+    "oracion": "tomar café con leche",
+    "tokens": [
+      "tomar",
+      "café",
+      "con",
+      "leche"
+    ],
+    "elecciones": [
+      "4326-tomar_conciencia.jpg",
+      "71-café.jpg",
+      "2409-con.jpg",
+      "10375-arroz_con_leche.jpg"
+    ],
+    "secuencia_final": [
+      "4326-tomar_conciencia.jpg",
+      "71-café.jpg",
+      "2409-con.jpg",
+      "10375-arroz_con_leche.jpg"
+    ]
+  },
+  {
+    "oracion": "comer tarta de cumpleaños",
+    "tokens": [
+      "comer",
+      "tarta",
+      "de",
+      "cumpleaños"
+    ],
+    "elecciones": [
+      "7100-comer.jpg",
+      "12470-tarta_de_queso.jpg",
+      "2424-de.jpg",
+      "11371-cumpleaños.jpg"
+    ],
+    "secuencia_final": [
+      "7100-comer.jpg",
+      "12470-tarta_de_queso.jpg",
+      "2424-de.jpg",
+      "11371-cumpleaños.jpg"
+    ]
+  },
+  {
+    "oracion": "comer helado de chocolate",
+    "tokens": [
+      "comer",
+      "helado",
+      "de",
+      "chocolate"
+    ],
+    "elecciones": [
+      "123-comer.jpg",
+      "9814-helado.jpg",
+      "2424-de.jpg",
+      "7341-pastel_de_chocolate.jpg"
+    ],
+    "secuencia_final": [
+      "123-comer.jpg",
+      "9814-helado.jpg",
+      "2424-de.jpg",
+      "7341-pastel_de_chocolate.jpg"
+    ]
+  },
+  {
+    "oracion": "comer yogur de fresa",
+    "tokens": [
+      "comer",
+      "yogur",
+      "de",
+      "fresa"
+    ],
+    "elecciones": [
+      "123-comer.jpg",
+      "359-yogur.jpg",
+      "2424-de.jpg",
+      "153-fresa.jpg"
+    ],
+    "secuencia_final": [
+      "123-comer.jpg",
+      "359-yogur.jpg",
+      "2424-de.jpg",
+      "153-fresa.jpg"
+    ]
+  },
+  {
+    "oracion": "comer flan de huevo",
+    "tokens": [
+      "comer",
+      "flan",
+      "de",
+      "huevo"
+    ],
+    "elecciones": [
+      "7100-comer.jpg",
+      "5903-flan.jpg",
+      "2424-de.jpg",
+      "210-huevo.jpg"
+    ],
+    "secuencia_final": [
+      "7100-comer.jpg",
+      "5903-flan.jpg",
+      "2424-de.jpg",
+      "210-huevo.jpg"
+    ]
+  },
+  {
+    "oracion": "comer natillas de vainilla",
+    "tokens": [
+      "comer",
+      "natillas",
+      "de",
+      "vainilla"
+    ],
+    "elecciones": [
+      "2031-comer.jpg",
+      "12696-natilla_de_chocolate.jpg",
+      "2424-de.jpg",
+      "7126-vainilla.jpg"
+    ],
+    "secuencia_final": [
+      "2031-comer.jpg",
+      "12696-natilla_de_chocolate.jpg",
+      "2424-de.jpg",
+      "7126-vainilla.jpg"
+    ]
+  },
+  {
+    "oracion": "comer arroz con pollo",
+    "tokens": [
+      "comer",
+      "arroz",
+      "con",
+      "pollo"
+    ],
+    "elecciones": [
+      "7100-comer.jpg",
+      "12-arroz_con_tomate.jpg",
+      "7354-arroz_con_almejas.jpg",
+      "6056-pollo.jpg"
+    ],
+    "secuencia_final": [
+      "7100-comer.jpg",
+      "12-arroz_con_tomate.jpg",
+      "7354-arroz_con_almejas.jpg",
+      "6056-pollo.jpg"
+    ]
+  },
+  {
+    "oracion": "comer macarrones con tomate",
+    "tokens": [
+      "comer",
+      "macarrones",
+      "con",
+      "tomate"
+    ],
+    "elecciones": [
+      "2031-comer.jpg",
+      "204-macarrones.jpg",
+      "11642-pan_con_tomate.jpg",
+      "10379-bacalao_con_tomate.jpg"
+    ],
+    "secuencia_final": [
+      "2031-comer.jpg",
+      "204-macarrones.jpg",
+      "11642-pan_con_tomate.jpg",
+      "10379-bacalao_con_tomate.jpg"
+    ]
+  },
+  {
+    "oracion": "comer espaguetis con queso",
+    "tokens": [
+      "comer",
+      "espaguetis",
+      "con",
+      "queso"
+    ],
+    "elecciones": [
+      "7100-comer.jpg",
+      "7252-espaguetis.jpg",
+      "2409-con.jpg",
+      "1375-queso.jpg"
+    ],
+    "secuencia_final": [
+      "7100-comer.jpg",
+      "7252-espaguetis.jpg",
+      "2409-con.jpg",
+      "1375-queso.jpg"
+    ]
+  },
+  {
+    "oracion": "comer pizza de jamón",
+    "tokens": [
+      "comer",
+      "pizza",
+      "de",
+      "jamón"
+    ],
+    "elecciones": [
+      "7100-comer.jpg",
+      "268-pizza.jpg",
+      "2424-de.jpg",
+      "12902-filete_de_jamón.jpg"
+    ],
+    "secuencia_final": [
+      "7100-comer.jpg",
+      "268-pizza.jpg",
+      "2424-de.jpg",
+      "12902-filete_de_jamón.jpg"
+    ]
+  },
+  {
+    "oracion": "comer hamburguesa con queso",
+    "tokens": [
+      "comer",
+      "hamburguesa",
+      "con",
+      "queso"
+    ],
+    "elecciones": [
+      "2031-comer.jpg",
+      "6222-hamburguesa.jpg",
+      "2409-con.jpg",
+      "1375-queso.jpg"
+    ],
+    "secuencia_final": [
+      "2031-comer.jpg",
+      "6222-hamburguesa.jpg",
+      "2409-con.jpg",
+      "1375-queso.jpg"
+    ]
+  },
+  {
+    "oracion": "comer salchichas fritas",
+    "tokens": [
+      "comer",
+      "salchichas",
+      "fritas"
+    ],
+    "elecciones": [
+      "123-comer.jpg",
+      "297-salchichas.jpg",
+      null
+    ],
+    "secuencia_final": [
+      "123-comer.jpg",
+      "297-salchichas.jpg",
+      null
+    ]
+  },
+  {
+    "oracion": "comer puré de patatas",
+    "tokens": [
+      "comer",
+      "puré",
+      "de",
+      "patatas"
+    ],
+    "elecciones": [
+      "7100-comer.jpg",
+      "278-puré.jpg",
+      "2424-de.jpg",
+      "10458-patatas_asadas.jpg"
+    ],
+    "secuencia_final": [
+      "7100-comer.jpg",
+      "278-puré.jpg",
+      "2424-de.jpg",
+      "10458-patatas_asadas.jpg"
+    ]
+  },
+  {
+    "oracion": "comer crema de calabacín",
+    "tokens": [
+      "comer",
+      "crema",
+      "de",
+      "calabacín"
+    ],
+    "elecciones": [
+      "7100-comer.jpg",
+      "10021-crema.jpg",
+      "2424-de.jpg",
+      "423-calabacín.jpg"
+    ],
+    "secuencia_final": [
+      "7100-comer.jpg",
+      "10021-crema.jpg",
+      "2424-de.jpg",
+      "423-calabacín.jpg"
+    ]
+  },
+  {
+    "oracion": "comer gazpacho andaluz",
+    "tokens": [
+      "comer",
+      "gazpacho",
+      "andaluz"
+    ],
+    "elecciones": [
+      "7100-comer.jpg",
+      "2827-gazpacho.jpg",
+      null
+    ],
+    "secuencia_final": [
+      "7100-comer.jpg",
+      "2827-gazpacho.jpg",
+      null
+    ]
+  },
+  {
+    "oracion": "comer salmorejo con huevo",
+    "tokens": [
+      "comer",
+      "salmorejo",
+      "con",
+      "huevo"
+    ],
+    "elecciones": [
+      "2031-comer.jpg",
+      "11552-salmorejo.jpg",
+      "2409-con.jpg",
+      "10161-comidas_con_huevo.jpg"
+    ],
+    "secuencia_final": [
+      "2031-comer.jpg",
+      "11552-salmorejo.jpg",
+      "2409-con.jpg",
+      "10161-comidas_con_huevo.jpg"
+    ]
+  },
+  {
+    "oracion": "comer migas de pan",
+    "tokens": [
+      "comer",
+      "migas",
+      "de",
+      "pan"
+    ],
+    "elecciones": [
+      "7100-comer.jpg",
+      "2890-migas.jpg",
+      "10618-rebanadas_de_pan.jpg",
+      "3705-pan.jpg"
+    ],
+    "secuencia_final": [
+      "7100-comer.jpg",
+      "2890-migas.jpg",
+      "10618-rebanadas_de_pan.jpg",
+      "3705-pan.jpg"
+    ]
+  },
+  {
+    "oracion": "comer gachas dulces",
+    "tokens": [
+      "comer",
+      "gachas",
+      "dulces"
+    ],
+    "elecciones": [
+      "2031-comer.jpg",
+      null,
+      "10092-dulces.jpg"
+    ],
+    "secuencia_final": [
+      "2031-comer.jpg",
+      null,
+      "10092-dulces.jpg"
+    ]
+  },
+  {
+    "oracion": "comer pisto con huevo",
+    "tokens": [
+      "comer",
+      "pisto",
+      "con",
+      "huevo"
+    ],
+    "elecciones": [
+      "2031-comer.jpg",
+      "10466-pisto.jpg",
+      "2409-con.jpg",
+      "10161-comidas_con_huevo.jpg"
+    ],
+    "secuencia_final": [
+      "2031-comer.jpg",
+      "10466-pisto.jpg",
+      "2409-con.jpg",
+      "10161-comidas_con_huevo.jpg"
+    ]
+  },
+  {
+    "oracion": "comer cocido madrileño",
+    "tokens": [
+      "comer",
+      "cocido",
+      "madrileño"
+    ],
+    "elecciones": [
+      "1175-comer.jpg",
+      "4543-cocido.jpg",
+      null
+    ],
+    "secuencia_final": [
+      "1175-comer.jpg",
+      "4543-cocido.jpg",
+      null
+    ]
+  },
+  {
+    "oracion": "comer fabada asturiana",
+    "tokens": [
+      "comer",
+      "fabada",
+      "asturiana"
+    ],
+    "elecciones": [
+      "123-comer.jpg",
+      "8525-fabada.jpg",
+      null
+    ],
+    "secuencia_final": [
+      "123-comer.jpg",
+      "8525-fabada.jpg",
+      null
+    ]
+  },
+  {
+    "oracion": "comer pulpo a la gallega",
+    "tokens": [
+      "comer",
+      "pulpo",
+      "a",
+      "la",
+      "gallega"
+    ],
+    "elecciones": [
+      "7100-comer.jpg",
+      "1070-pulpo.jpg",
+      "727-a.jpg",
+      "3057-la.jpg",
+      null
+    ],
+    "secuencia_final": [
+      "7100-comer.jpg",
+      "1070-pulpo.jpg",
+      "727-a.jpg",
+      "3057-la.jpg",
+      null
+    ]
+  },
+  {
+    "oracion": "comer empanada de atún",
+    "tokens": [
+      "comer",
+      "empanada",
+      "de",
+      "atún"
+    ],
+    "elecciones": [
+      "7100-comer.jpg",
+      "4875-empanada.jpg",
+      "2424-de.jpg",
+      "4905-lata_de_atún.jpg"
+    ],
+    "secuencia_final": [
+      "7100-comer.jpg",
+      "4875-empanada.jpg",
+      "2424-de.jpg",
+      "4905-lata_de_atún.jpg"
+    ]
+  },
+  {
+    "oracion": "comer calamares a la romana",
+    "tokens": [
+      "comer",
+      "calamares",
+      "a",
+      "la",
+      "romana"
+    ],
+    "elecciones": [
+      "7100-comer.jpg",
+      "1552-calamar.jpg",
+      "10770-á.jpg",
+      "3057-la.jpg",
+      "729-calamares_a_la_romana.jpg"
+    ],
+    "secuencia_final": [
+      "7100-comer.jpg",
+      "1552-calamar.jpg",
+      "10770-á.jpg",
+      "3057-la.jpg",
+      "729-calamares_a_la_romana.jpg"
+    ]
+  },
+  {
+    "oracion": "comer gambas a la plancha",
+    "tokens": [
+      "comer",
+      "gambas",
+      "a",
+      "la",
+      "plancha"
+    ],
+    "elecciones": [
+      "123-comer.jpg",
+      "972-gambas.jpg",
+      "10770-á.jpg",
+      "3057-la.jpg",
+      "272-plancha.jpg"
+    ],
+    "secuencia_final": [
+      "123-comer.jpg",
+      "972-gambas.jpg",
+      "10770-á.jpg",
+      "3057-la.jpg",
+      "272-plancha.jpg"
+    ]
+  },
+  {
+    "oracion": "comer mejillones al vapor",
+    "tokens": [
+      "comer",
+      "mejillones",
+      "al",
+      "vapor"
+    ],
+    "elecciones": [
+      "7100-comer.jpg",
+      "625-mejillón.jpg",
+      "4250-al.jpg",
+      "8428-vapor.jpg"
+    ],
+    "secuencia_final": [
+      "7100-comer.jpg",
+      "625-mejillón.jpg",
+      "4250-al.jpg",
+      "8428-vapor.jpg"
+    ]
+  },
+  {
+    "oracion": "comer sardinas asadas",
+    "tokens": [
+      "comer",
+      "sardinas",
+      "asadas"
+    ],
+    "elecciones": [
+      "2031-comer.jpg",
+      "6770-entierro_de_la_sardina.jpg",
+      null
+    ],
+    "secuencia_final": [
+      "2031-comer.jpg",
+      "6770-entierro_de_la_sardina.jpg",
+      null
+    ]
+  },
+  {
+    "oracion": "comer boquerones en vinagre",
+    "tokens": [
+      "comer",
+      "boquerones",
+      "en",
+      "vinagre"
+    ],
+    "elecciones": [
+      "123-comer.jpg",
+      "6153-boquerones.jpg",
+      "2376-en.jpg",
+      "1700-vinagre.jpg"
+    ],
+    "secuencia_final": [
+      "123-comer.jpg",
+      "6153-boquerones.jpg",
+      "2376-en.jpg",
+      "1700-vinagre.jpg"
+    ]
+  },
+  {
+    "oracion": "comer merluza en salsa",
+    "tokens": [
+      "comer",
+      "merluza",
+      "en",
+      "salsa"
+    ],
+    "elecciones": [
+      "2031-comer.jpg",
+      "11589-merluza.jpg",
+      "2376-en.jpg",
+      "10078-salsa.jpg"
+    ],
+    "secuencia_final": [
+      "2031-comer.jpg",
+      "11589-merluza.jpg",
+      "2376-en.jpg",
+      "10078-salsa.jpg"
+    ]
+  },
+  {
+    "oracion": "comer bacalao con tomate",
+    "tokens": [
+      "comer",
+      "bacalao",
+      "con",
+      "tomate"
+    ],
+    "elecciones": [
+      "7100-comer.jpg",
+      "10379-bacalao_con_tomate.jpg",
+      null,
+      null
+    ],
+    "secuencia_final": [
+      "7100-comer.jpg",
+      "10379-bacalao_con_tomate.jpg",
+      null,
+      null
+    ]
+  },
+  {
+    "oracion": "comer atún con tomate",
+    "tokens": [
+      "comer",
+      "atún",
+      "con",
+      "tomate"
+    ],
+    "elecciones": [
+      "7100-comer.jpg",
+      "2266-atún.jpg",
+      "11642-pan_con_tomate.jpg",
+      "12-arroz_con_tomate.jpg"
+    ],
+    "secuencia_final": [
+      "7100-comer.jpg",
+      "2266-atún.jpg",
+      "11642-pan_con_tomate.jpg",
+      "12-arroz_con_tomate.jpg"
+    ]
+  },
+  {
+    "oracion": "comer lomo embuchado",
+    "tokens": [
+      "comer",
+      "lomo",
+      "embuchado"
+    ],
+    "elecciones": [
+      "2031-comer.jpg",
+      "6239-lomo.jpg",
+      null
+    ],
+    "secuencia_final": [
+      "2031-comer.jpg",
+      "6239-lomo.jpg",
+      null
+    ]
+  },
+  {
+    "oracion": "comer chorizo y salchichón",
+    "tokens": [
+      "comer",
+      "chorizo",
+      "y",
+      "salchichón"
+    ],
+    "elecciones": [
+      "123-comer.jpg",
+      "89-chorizo.jpg",
+      "874-y.jpg",
+      "984-salchichón.jpg"
+    ],
+    "secuencia_final": [
+      "123-comer.jpg",
+      "89-chorizo.jpg",
+      "874-y.jpg",
+      "984-salchichón.jpg"
+    ]
+  },
+  {
+    "oracion": "comer morcilla de burgos",
+    "tokens": [
+      "comer",
+      "morcilla",
+      "de",
+      "burgos"
+    ],
+    "elecciones": [
+      "123-comer.jpg",
+      "989-morcilla.jpg",
+      "2424-de.jpg",
+      "4464-burgos.jpg"
+    ],
+    "secuencia_final": [
+      "123-comer.jpg",
+      "989-morcilla.jpg",
+      "2424-de.jpg",
+      "4464-burgos.jpg"
+    ]
+  },
+  {
+    "oracion": "comer sobrasada con pan",
+    "tokens": [
+      "comer",
+      "sobrasada",
+      "con",
+      "pan"
+    ],
+    "elecciones": [
+      "2031-comer.jpg",
+      "3264-sobrasada.jpg",
+      "2409-con.jpg",
+      "3705-pan.jpg"
+    ],
+    "secuencia_final": [
+      "2031-comer.jpg",
+      "3264-sobrasada.jpg",
+      "2409-con.jpg",
+      "3705-pan.jpg"
+    ]
+  },
+  {
+    "oracion": "comer queso manchego",
+    "tokens": [
+      "comer",
+      "queso",
+      "manchego"
+    ],
+    "elecciones": [
+      "123-comer.jpg",
+      "1375-queso.jpg",
+      null
+    ],
+    "secuencia_final": [
+      "123-comer.jpg",
+      "1375-queso.jpg",
+      null
+    ]
+  },
+  {
+    "oracion": "comer queso de cabra",
+    "tokens": [
+      "comer",
+      "queso",
+      "de",
+      "cabra"
+    ],
+    "elecciones": [
+      "123-comer.jpg",
+      "10091-queso_de_cabra.jpg",
+      null,
+      null
+    ],
+    "secuencia_final": [
+      "123-comer.jpg",
+      "10091-queso_de_cabra.jpg",
+      null,
+      null
+    ]
+  },
+  {
+    "oracion": "comer requesón con miel",
+    "tokens": [
+      "comer",
+      "requesón",
+      "con",
+      "miel"
+    ],
+    "elecciones": [
+      "123-comer.jpg",
+      null,
+      "2409-con.jpg",
+      "10386-berenjenas_con_miel.jpg"
+    ],
+    "secuencia_final": [
+      "123-comer.jpg",
+      null,
+      "2409-con.jpg",
+      "10386-berenjenas_con_miel.jpg"
+    ]
+  },
+  {
+    "oracion": "comer membrillo con queso",
+    "tokens": [
+      "comer",
+      "membrillo",
+      "con",
+      "queso"
+    ],
+    "elecciones": [
+      "2031-comer.jpg",
+      "5936-membrillo.jpg",
+      "2409-con.jpg",
+      "1375-queso.jpg"
+    ],
+    "secuencia_final": [
+      "2031-comer.jpg",
+      "5936-membrillo.jpg",
+      "2409-con.jpg",
+      "1375-queso.jpg"
+    ]
+  },
+  {
+    "oracion": "comer nueces y pasas",
+    "tokens": [
+      "comer",
+      "nueces",
+      "y",
+      "pasas"
+    ],
+    "elecciones": [
+      "123-comer.jpg",
+      "13517-nuez_moscada.jpg",
+      "12492-galletas_de_avena_y_pasas.jpg",
+      "3223-pasas.jpg"
+    ],
+    "secuencia_final": [
+      "123-comer.jpg",
+      "13517-nuez_moscada.jpg",
+      "12492-galletas_de_avena_y_pasas.jpg",
+      "3223-pasas.jpg"
+    ]
+  },
+  {
+    "oracion": "comer almendras tostadas",
+    "tokens": [
+      "comer",
+      "almendras",
+      "tostadas"
+    ],
+    "elecciones": [
+      "7100-comer.jpg",
+      "390-almendras.jpg",
+      "504-tostada.jpg"
+    ],
+    "secuencia_final": [
+      "7100-comer.jpg",
+      "390-almendras.jpg",
+      "504-tostada.jpg"
+    ]
+  },
+  {
+    "oracion": "comer avellanas peladas",
+    "tokens": [
+      "comer",
+      "avellanas",
+      "peladas"
+    ],
+    "elecciones": [
+      "123-comer.jpg",
+      "699-avellana.jpg",
+      "3382-gambas_peladas.jpg"
+    ],
+    "secuencia_final": [
+      "123-comer.jpg",
+      "699-avellana.jpg",
+      "3382-gambas_peladas.jpg"
+    ]
+  },
+  {
+    "oracion": "comer pipas de girasol",
+    "tokens": [
+      "comer",
+      "pipas",
+      "de",
+      "girasol"
+    ],
+    "elecciones": [
+      "2031-comer.jpg",
+      "1062-pipas.jpg",
+      "2424-de.jpg",
+      "3993-girasol.jpg"
+    ],
+    "secuencia_final": [
+      "2031-comer.jpg",
+      "1062-pipas.jpg",
+      "2424-de.jpg",
+      "3993-girasol.jpg"
+    ]
+  },
+  {
+    "oracion": "comer palomitas de maíz",
+    "tokens": [
+      "comer",
+      "palomitas",
+      "de",
+      "maíz"
+    ],
+    "elecciones": [
+      "2031-comer.jpg",
+      "1640-palomitas.jpg",
+      "2424-de.jpg",
+      "2493-mazorca_de_maíz.jpg"
+    ],
+    "secuencia_final": [
+      "2031-comer.jpg",
+      "1640-palomitas.jpg",
+      "2424-de.jpg",
+      "2493-mazorca_de_maíz.jpg"
+    ]
+  },
+  {
+    "oracion": "comer patatas de bolsa",
+    "tokens": [
+      "comer",
+      "patatas",
+      "de",
+      "bolsa"
+    ],
+    "elecciones": [
+      "2031-comer.jpg",
+      "4930-patatas_bravas.jpg",
+      "2424-de.jpg",
+      "6730-bolsa.jpg"
+    ],
+    "secuencia_final": [
+      "2031-comer.jpg",
+      "4930-patatas_bravas.jpg",
+      "2424-de.jpg",
+      "6730-bolsa.jpg"
+    ]
+  },
+  {
+    "oracion": "beber mosto de uva",
+    "tokens": [
+      "beber",
+      "mosto",
+      "de",
+      "uva"
+    ],
+    "elecciones": [
+      "7590-beber.jpg",
+      null,
+      "4124-zumo_de_tomate.jpg",
+      "4135-zumo_de_uva.jpg"
+    ],
+    "secuencia_final": [
+      "7590-beber.jpg",
+      null,
+      "4124-zumo_de_tomate.jpg",
+      "4135-zumo_de_uva.jpg"
+    ]
+  },
+  {
+    "oracion": "beber horchata de chufa",
+    "tokens": [
+      "beber",
+      "horchata",
+      "de",
+      "chufa"
+    ],
+    "elecciones": [
+      "1884-beber.jpg",
+      "2840-horchata.jpg",
+      "2424-de.jpg",
+      null
+    ],
+    "secuencia_final": [
+      "1884-beber.jpg",
+      "2840-horchata.jpg",
+      "2424-de.jpg",
+      null
+    ]
+  },
+  {
+    "oracion": "beber granizado de limón",
+    "tokens": [
+      "beber",
+      "granizado",
+      "de",
+      "limón"
+    ],
+    "elecciones": [
+      "7590-beber.jpg",
+      "12441-granizado.jpg",
+      "13394-sorbete_de_limón.jpg",
+      "3259-rodaja_de_limón.jpg"
+    ],
+    "secuencia_final": [
+      "7590-beber.jpg",
+      "12441-granizado.jpg",
+      "13394-sorbete_de_limón.jpg",
+      "3259-rodaja_de_limón.jpg"
+    ]
+  },
+  {
+    "oracion": "beber batido de chocolate",
+    "tokens": [
+      "beber",
+      "batido",
+      "de",
+      "chocolate"
+    ],
+    "elecciones": [
+      "1884-beber.jpg",
+      "3082-batido.jpg",
+      "2424-de.jpg",
+      "12411-pepitas_de_chocolate.jpg"
+    ],
+    "secuencia_final": [
+      "1884-beber.jpg",
+      "3082-batido.jpg",
+      "2424-de.jpg",
+      "12411-pepitas_de_chocolate.jpg"
+    ]
+  },
+  {
+    "oracion": "beber infusión caliente",
+    "tokens": [
+      "beber",
+      "infusión",
+      "caliente"
+    ],
+    "elecciones": [
+      "29-beber.jpg",
+      "179-infusión.jpg",
+      "1146-caliente.jpg"
+    ],
+    "secuencia_final": [
+      "29-beber.jpg",
+      "179-infusión.jpg",
+      "1146-caliente.jpg"
+    ]
+  },
+  {
+    "oracion": "tomar té con limón",
+    "tokens": [
+      "tomar",
+      "té",
+      "con",
+      "limón"
+    ],
+    "elecciones": [
+      "4326-tomar_conciencia.jpg",
+      "12290-té_moruno.jpg",
+      "2409-con.jpg",
+      "730-limón.jpg"
+    ],
+    "secuencia_final": [
+      "4326-tomar_conciencia.jpg",
+      "12290-té_moruno.jpg",
+      "2409-con.jpg",
+      "730-limón.jpg"
+    ]
+  },
+  {
+    "oracion": "poner sal en la comida",
+    "tokens": [
+      "poner",
+      "sal",
+      "en",
+      "la",
+      "comida"
+    ],
+    "elecciones": [
+      "2362-poner.jpg",
+      "6037-sal.jpg",
+      "11299-orinar_en_la_botella.jpg",
+      "3057-la.jpg",
+      "12048-comida.jpg"
+    ],
+    "secuencia_final": [
+      "2362-poner.jpg",
+      "6037-sal.jpg",
+      "11299-orinar_en_la_botella.jpg",
+      "3057-la.jpg",
+      "12048-comida.jpg"
+    ]
+  },
+  {
+    "oracion": "echar aceite de oliva",
+    "tokens": [
+      "echar",
+      "aceite",
+      "de",
+      "oliva"
+    ],
+    "elecciones": [
+      "1557-echar.jpg",
+      "20-aceite.jpg",
+      "2424-de.jpg",
+      null
+    ],
+    "secuencia_final": [
+      "1557-echar.jpg",
+      "20-aceite.jpg",
+      "2424-de.jpg",
+      null
+    ]
+  },
+  {
+    "oracion": "echar vinagre a la ensalada",
+    "tokens": [
+      "echar",
+      "vinagre",
+      "a",
+      "la",
+      "ensalada"
+    ],
+    "elecciones": [
+      "1557-echar.jpg",
+      "1700-vinagre.jpg",
+      "2388-a.jpg",
+      "3057-la.jpg",
+      "146-ensalada.jpg"
+    ],
+    "secuencia_final": [
+      "1557-echar.jpg",
+      "1700-vinagre.jpg",
+      "2388-a.jpg",
+      "3057-la.jpg",
+      "146-ensalada.jpg"
+    ]
+  },
+  {
+    "oracion": "cortar el pan",
+    "tokens": [
+      "cortar",
+      "el",
+      "pan"
+    ],
+    "elecciones": [
+      "1801-cortar.jpg",
+      null,
+      null
+    ],
+    "secuencia_final": [
+      "1801-cortar.jpg",
+      null,
+      null
+    ]
+  },
+  {
+    "oracion": "usar tenedor y cuchillo",
+    "tokens": [
+      "usar",
+      "tenedor",
+      "y",
+      "cuchillo"
+    ],
+    "elecciones": [
+      null,
+      "335-tenedor.jpg",
+      "874-y.jpg",
+      "936-cuchillo.jpg"
+    ],
+    "secuencia_final": [
+      null,
+      "335-tenedor.jpg",
+      "874-y.jpg",
+      "936-cuchillo.jpg"
+    ]
+  },
+  {
+    "oracion": "beber agua del vaso",
+    "tokens": [
+      "beber",
+      "agua",
+      "del",
+      "vaso"
+    ],
+    "elecciones": [
+      "7590-beber.jpg",
+      "1-agua.jpg",
+      "4251-del.jpg",
+      "352-vaso.jpg"
+    ],
+    "secuencia_final": [
+      "7590-beber.jpg",
+      "1-agua.jpg",
+      "4251-del.jpg",
+      "352-vaso.jpg"
+    ]
+  },
+  {
+    "oracion": "limpiar la boca con servilleta",
+    "tokens": [
+      "limpiar",
+      "la",
+      "boca",
+      "con",
+      "servilleta"
+    ],
+    "elecciones": [
+      "5034-limpiar_la_boca.jpg",
+      "3057-la.jpg",
+      "2603-tapar_la_boca.jpg",
+      "2409-con.jpg",
+      "10353-servilleta.jpg"
+    ],
+    "secuencia_final": [
+      "5034-limpiar_la_boca.jpg",
+      "3057-la.jpg",
+      "2603-tapar_la_boca.jpg",
+      "2409-con.jpg",
+      "10353-servilleta.jpg"
+    ]
+  },
+  {
+    "oracion": "poner la mesa",
+    "tokens": [
+      "poner",
+      "la",
+      "mesa"
+    ],
+    "elecciones": [
+      "8987-poner.jpg",
+      "3057-la.jpg",
+      "830-mesa.jpg"
+    ],
+    "secuencia_final": [
+      "8987-poner.jpg",
+      "3057-la.jpg",
+      "830-mesa.jpg"
+    ]
+  },
+  {
+    "oracion": "quitar la mesa",
+    "tokens": [
+      "quitar",
+      "la",
+      "mesa"
+    ],
+    "elecciones": [
+      "4942-quitar.jpg",
+      "3057-la.jpg",
+      "2129-mesa.jpg"
+    ],
+    "secuencia_final": [
+      "4942-quitar.jpg",
+      "3057-la.jpg",
+      "2129-mesa.jpg"
+    ]
+  },
+  {
+    "oracion": "lavar los platos sucios",
+    "tokens": [
+      "lavar",
+      "los",
+      "platos",
+      "sucios"
+    ],
+    "elecciones": [
+      "9624-lavar.jpg",
+      "3058-los.jpg",
+      "11941-platos.jpg",
+      null
+    ],
+    "secuencia_final": [
+      "9624-lavar.jpg",
+      "3058-los.jpg",
+      "11941-platos.jpg",
+      null
+    ]
+  },
+  {
+    "oracion": "secar los vasos",
+    "tokens": [
+      "secar",
+      "los",
+      "vasos"
+    ],
+    "elecciones": [
+      "4952-secar.jpg",
+      "3058-los.jpg",
+      "352-vaso.jpg"
+    ],
+    "secuencia_final": [
+      "4952-secar.jpg",
+      "3058-los.jpg",
+      "352-vaso.jpg"
+    ]
+  },
+  {
+    "oracion": "guardar comida en nevera",
+    "tokens": [
+      "guardar",
+      "comida",
+      "en",
+      "nevera"
+    ],
+    "elecciones": [
+      "1619-guardar.jpg",
+      "1171-comida.jpg",
+      "2376-en.jpg",
+      "967-nevera.jpg"
+    ],
+    "secuencia_final": [
+      "1619-guardar.jpg",
+      "1171-comida.jpg",
+      "2376-en.jpg",
+      "967-nevera.jpg"
+    ]
+  },
+  {
+    "oracion": "cocinar en la cocina",
+    "tokens": [
+      "cocinar",
+      "en",
+      "la",
+      "cocina"
+    ],
+    "elecciones": [
+      "100-cocinar.jpg",
+      "2376-en.jpg",
+      "3057-la.jpg",
+      "9136-cocina.jpg"
+    ],
+    "secuencia_final": [
+      "100-cocinar.jpg",
+      "2376-en.jpg",
+      "3057-la.jpg",
+      "9136-cocina.jpg"
+    ]
+  },
+  {
+    "oracion": "celebrar la navidad",
+    "tokens": [
+      "celebrar",
+      "la",
+      "navidad"
+    ],
+    "elecciones": [
+      "4874-celebrar.jpg",
+      "3057-la.jpg",
+      "845-navidad.jpg"
+    ],
+    "secuencia_final": [
+      "4874-celebrar.jpg",
+      "3057-la.jpg",
+      "845-navidad.jpg"
+    ]
+  },
+  {
+    "oracion": "poner el árbol de navidad",
+    "tokens": [
+      "poner",
+      "el",
+      "árbol",
+      "de",
+      "navidad"
+    ],
+    "elecciones": [
+      "8987-poner.jpg",
+      null,
+      "767-árbol_de_navidad.jpg",
+      null,
+      null
+    ],
+    "secuencia_final": [
+      "8987-poner.jpg",
+      null,
+      "767-árbol_de_navidad.jpg",
+      null,
+      null
+    ]
+  },
+  {
+    "oracion": "decorar con bolas y luces",
+    "tokens": [
+      "decorar",
+      "con",
+      "bolas",
+      "y",
+      "luces"
+    ],
+    "elecciones": [
+      "7576-decorar.jpg",
+      "2409-con.jpg",
+      "10395-bola_de_espejos.jpg",
+      "4121-y.jpg",
+      "2853-luces.jpg"
+    ],
+    "secuencia_final": [
+      "7576-decorar.jpg",
+      "2409-con.jpg",
+      "10395-bola_de_espejos.jpg",
+      "4121-y.jpg",
+      "2853-luces.jpg"
+    ]
+  },
+  {
+    "oracion": "poner el nacimiento",
+    "tokens": [
+      "poner",
+      "el",
+      "nacimiento"
+    ],
+    "elecciones": [
+      "8987-poner.jpg",
+      null,
+      "6285-nacimiento.jpg"
+    ],
+    "secuencia_final": [
+      "8987-poner.jpg",
+      null,
+      "6285-nacimiento.jpg"
+    ]
+  },
+  {
+    "oracion": "cantar villancicos alegres",
+    "tokens": [
+      "cantar",
+      "villancicos",
+      "alegres"
+    ],
+    "elecciones": [
+      "2307-cantar.jpg",
+      "494-villancico.jpg",
+      "949-alegre.jpg"
+    ],
+    "secuencia_final": [
+      "2307-cantar.jpg",
+      "494-villancico.jpg",
+      "949-alegre.jpg"
+    ]
+  },
+  {
+    "oracion": "tocar la zambomba",
+    "tokens": [
+      "tocar",
+      "la",
+      "zambomba"
+    ],
+    "elecciones": [
+      "11339-tocar_la_flauta.jpg",
+      "3057-la.jpg",
+      "4120-zambomba.jpg"
+    ],
+    "secuencia_final": [
+      "11339-tocar_la_flauta.jpg",
+      "3057-la.jpg",
+      "4120-zambomba.jpg"
+    ]
+  },
+  {
+    "oracion": "tocar la pandereta",
+    "tokens": [
+      "tocar",
+      "la",
+      "pandereta"
+    ],
+    "elecciones": [
+      "11339-tocar_la_flauta.jpg",
+      "3057-la.jpg",
+      "306-pandereta.jpg"
+    ],
+    "secuencia_final": [
+      "11339-tocar_la_flauta.jpg",
+      "3057-la.jpg",
+      "306-pandereta.jpg"
+    ]
+  },
+  {
+    "oracion": "tocar la botella de anís",
+    "tokens": [
+      "tocar",
+      "la",
+      "botella",
+      "de",
+      "anís"
+    ],
+    "elecciones": [
+      "10834-tocar_la_mascarilla.jpg",
+      "3057-la.jpg",
+      "12570-botella_de_metal.jpg",
+      "2424-de.jpg",
+      null
+    ],
+    "secuencia_final": [
+      "10834-tocar_la_mascarilla.jpg",
+      "3057-la.jpg",
+      "12570-botella_de_metal.jpg",
+      "2424-de.jpg",
+      null
+    ]
+  },
+  {
+    "oracion": "esperar a papa noel",
+    "tokens": [
+      "esperar",
+      "a",
+      "papa",
+      "noel"
+    ],
+    "elecciones": [
+      "4891-esperar.jpg",
+      "754-a.jpg",
+      "8823-papá_noel.jpg",
+      null
+    ],
+    "secuencia_final": [
+      "4891-esperar.jpg",
+      "754-a.jpg",
+      "8823-papá_noel.jpg",
+      null
+    ]
+  },
+  {
+    "oracion": "escribir la carta a los reyes",
+    "tokens": [
+      "escribir",
+      "la",
+      "carta",
+      "a",
+      "los",
+      "reyes"
+    ],
+    "elecciones": [
+      "2812-escribir.jpg",
+      "3057-la.jpg",
+      "10388-carta_a_papá_noel.jpg",
+      "10770-á.jpg",
+      "3058-los.jpg",
+      "1453-día_de_reyes.jpg"
+    ],
+    "secuencia_final": [
+      "2812-escribir.jpg",
+      "3057-la.jpg",
+      "10388-carta_a_papá_noel.jpg",
+      "10770-á.jpg",
+      "3058-los.jpg",
+      "1453-día_de_reyes.jpg"
+    ]
+  },
+  {
+    "oracion": "ver la cabalgata de reyes",
+    "tokens": [
+      "ver",
+      "la",
+      "cabalgata",
+      "de",
+      "reyes"
+    ],
+    "elecciones": [
+      "4957-ver_la_televisión.jpg",
+      "3057-la.jpg",
+      "6422-cabalgata.jpg",
+      "2424-de.jpg",
+      "1453-día_de_reyes.jpg"
+    ],
+    "secuencia_final": [
+      "4957-ver_la_televisión.jpg",
+      "3057-la.jpg",
+      "6422-cabalgata.jpg",
+      "2424-de.jpg",
+      "1453-día_de_reyes.jpg"
+    ]
+  },
+  {
+    "oracion": "coger caramelos del suelo",
+    "tokens": [
+      "coger",
+      "caramelos",
+      "del",
+      "suelo"
+    ],
+    "elecciones": [
+      "9716-coger.jpg",
+      "1368-tienda_de_caramelos.jpg",
+      "9396-levantar_del_suelo.jpg",
+      "314-suelo.jpg"
+    ],
+    "secuencia_final": [
+      "9716-coger.jpg",
+      "1368-tienda_de_caramelos.jpg",
+      "9396-levantar_del_suelo.jpg",
+      "314-suelo.jpg"
+    ]
+  },
+  {
+    "oracion": "abrir los regalos",
+    "tokens": [
+      "abrir",
+      "los",
+      "regalos"
+    ],
+    "elecciones": [
+      "5805-abrir.jpg",
+      "3058-los.jpg",
+      "9287-tienda_de_regalos.jpg"
+    ],
+    "secuencia_final": [
+      "5805-abrir.jpg",
+      "3058-los.jpg",
+      "9287-tienda_de_regalos.jpg"
+    ]
+  },
+  {
+    "oracion": "comer carbón dulce",
+    "tokens": [
+      "comer",
+      "carbón",
+      "dulce"
+    ],
+    "elecciones": [
+      "2031-comer.jpg",
+      "1770-carbón.jpg",
+      "3673-dulce.jpg"
+    ],
+    "secuencia_final": [
+      "2031-comer.jpg",
+      "1770-carbón.jpg",
+      "3673-dulce.jpg"
+    ]
+  },
+  {
+    "oracion": "celebrar la nochevieja",
+    "tokens": [
+      "celebrar",
+      "la",
+      "nochevieja"
+    ],
+    "elecciones": [
+      "4843-celebrar.jpg",
+      "3057-la.jpg",
+      "2955-nochevieja.jpg"
+    ],
+    "secuencia_final": [
+      "4843-celebrar.jpg",
+      "3057-la.jpg",
+      "2955-nochevieja.jpg"
+    ]
+  },
+  {
+    "oracion": "comer las doce uvas",
+    "tokens": [
+      "comer",
+      "las",
+      "doce",
+      "uvas"
+    ],
+    "elecciones": [
+      "7100-comer.jpg",
+      null,
+      "13241-doce.jpg",
+      "941-uvas.jpg"
+    ],
+    "secuencia_final": [
+      "7100-comer.jpg",
+      null,
+      "13241-doce.jpg",
+      "941-uvas.jpg"
+    ]
+  },
+  {
+    "oracion": "brindar por año nuevo",
+    "tokens": [
+      "brindar",
+      "por",
+      "año",
+      "nuevo"
+    ],
+    "elecciones": [
+      "5417-brindar.jpg",
+      "2557-por.jpg",
+      "1437-año_nuevo.jpg",
+      null
+    ],
+    "secuencia_final": [
+      "5417-brindar.jpg",
+      "2557-por.jpg",
+      "1437-año_nuevo.jpg",
+      null
+    ]
+  },
+  {
+    "oracion": "llevar ropa interior roja",
+    "tokens": [
+      "llevar",
+      "ropa",
+      "interior",
+      "roja"
+    ],
+    "elecciones": [
+      "1900-llevar.jpg",
+      "6099-ropa_interior.jpg",
+      null,
+      "1416-semáforo_rojo.jpg"
+    ],
+    "secuencia_final": [
+      "1900-llevar.jpg",
+      "6099-ropa_interior.jpg",
+      null,
+      "1416-semáforo_rojo.jpg"
+    ]
+  },
+  {
+    "oracion": "celebrar el carnaval",
+    "tokens": [
+      "celebrar",
+      "el",
+      "carnaval"
+    ],
+    "elecciones": [
+      "4843-celebrar.jpg",
+      null,
+      "785-carnaval.jpg"
+    ],
+    "secuencia_final": [
+      "4843-celebrar.jpg",
+      null,
+      "785-carnaval.jpg"
+    ]
+  },
+  {
+    "oracion": "poner el disfraz",
+    "tokens": [
+      "poner",
+      "el",
+      "disfraz"
+    ],
+    "elecciones": [
+      "8987-poner.jpg",
+      null,
+      "1820-disfraz.jpg"
+    ],
+    "secuencia_final": [
+      "8987-poner.jpg",
+      null,
+      "1820-disfraz.jpg"
+    ]
+  },
+  {
+    "oracion": "poner la máscara",
+    "tokens": [
+      "poner",
+      "la",
+      "máscara"
+    ],
+    "elecciones": [
+      "8987-poner.jpg",
+      "3057-la.jpg",
+      "6834-máscara.jpg"
+    ],
+    "secuencia_final": [
+      "8987-poner.jpg",
+      "3057-la.jpg",
+      "6834-máscara.jpg"
+    ]
+  },
+  {
+    "oracion": "pintar la cara",
+    "tokens": [
+      "pintar",
+      "la",
+      "cara"
+    ],
+    "elecciones": [
+      "5992-pintar.jpg",
+      "3057-la.jpg",
+      "9596-lavar_la_cara.jpg"
+    ],
+    "secuencia_final": [
+      "5992-pintar.jpg",
+      "3057-la.jpg",
+      "9596-lavar_la_cara.jpg"
+    ]
+  },
+  {
+    "oracion": "ver el desfile de carnaval",
+    "tokens": [
+      "ver",
+      "el",
+      "desfile",
+      "de",
+      "carnaval"
+    ],
+    "elecciones": [
+      "2132-ver.jpg",
+      null,
+      null,
+      "2424-de.jpg",
+      "10693-rúa_de_carnaval.jpg"
+    ],
+    "secuencia_final": [
+      "2132-ver.jpg",
+      null,
+      null,
+      "2424-de.jpg",
+      "10693-rúa_de_carnaval.jpg"
+    ]
+  },
+  {
+    "oracion": "enterrar la sardina",
+    "tokens": [
+      "enterrar",
+      "la",
+      "sardina"
+    ],
+    "elecciones": [
+      null,
+      "3057-la.jpg",
+      "6770-entierro_de_la_sardina.jpg"
+    ],
+    "secuencia_final": [
+      null,
+      "3057-la.jpg",
+      "6770-entierro_de_la_sardina.jpg"
+    ]
+  },
+  {
+    "oracion": "ver la semana santa",
+    "tokens": [
+      "ver",
+      "la",
+      "semana",
+      "santa"
+    ],
+    "elecciones": [
+      "7299-ver_la_televisión.jpg",
+      "3057-la.jpg",
+      "857-semana_santa.jpg",
+      "5622-santa.jpg"
+    ],
+    "secuencia_final": [
+      "7299-ver_la_televisión.jpg",
+      "3057-la.jpg",
+      "857-semana_santa.jpg",
+      "5622-santa.jpg"
+    ]
+  },
+  {
+    "oracion": "ver la procesión",
+    "tokens": [
+      "ver",
+      "la",
+      "procesión"
+    ],
+    "elecciones": [
+      "2635-ver_la_televisión.jpg",
+      "3057-la.jpg",
+      "3075-procesión.jpg"
+    ],
+    "secuencia_final": [
+      "2635-ver_la_televisión.jpg",
+      "3057-la.jpg",
+      "3075-procesión.jpg"
+    ]
+  },
+  {
+    "oracion": "ver el paso",
+    "tokens": [
+      "ver",
+      "el",
+      "paso"
+    ],
+    "elecciones": [
+      "226-ver.jpg",
+      null,
+      "2320-ceda_el_paso.jpg"
+    ],
+    "secuencia_final": [
+      "226-ver.jpg",
+      null,
+      "2320-ceda_el_paso.jpg"
+    ]
+  },
+  {
+    "oracion": "escuchar la saeta",
+    "tokens": [
+      "escuchar",
+      "la",
+      "saeta"
+    ],
+    "elecciones": [
+      "10071-escuchar_música.jpg",
+      "3057-la.jpg",
+      null
+    ],
+    "secuencia_final": [
+      "10071-escuchar_música.jpg",
+      "3057-la.jpg",
+      null
+    ]
+  },
+  {
+    "oracion": "tocar el tambor",
+    "tokens": [
+      "tocar",
+      "el",
+      "tambor"
+    ],
+    "elecciones": [
+      "10509-tocar_el_tambor.jpg",
+      null,
+      null
+    ],
+    "secuencia_final": [
+      "10509-tocar_el_tambor.jpg",
+      null,
+      null
+    ]
+  },
+  {
+    "oracion": "tocar el bombo",
+    "tokens": [
+      "tocar",
+      "el",
+      "bombo"
+    ],
+    "elecciones": [
+      "5346-tocar_el_claxon.jpg",
+      null,
+      "9237-bombo.jpg"
+    ],
+    "secuencia_final": [
+      "5346-tocar_el_claxon.jpg",
+      null,
+      "9237-bombo.jpg"
+    ]
+  },
+  {
+    "oracion": "vestir de nazareno",
+    "tokens": [
+      "vestir",
+      "de",
+      "nazareno"
+    ],
+    "elecciones": [
+      "8664-vestir.jpg",
+      "2424-de.jpg",
+      "9942-nazareno.jpg"
+    ],
+    "secuencia_final": [
+      "8664-vestir.jpg",
+      "2424-de.jpg",
+      "9942-nazareno.jpg"
+    ]
+  },
+  {
+    "oracion": "llevar la palma",
+    "tokens": [
+      "llevar",
+      "la",
+      "palma"
+    ],
+    "elecciones": [
+      "1900-llevar.jpg",
+      "3057-la.jpg",
+      "4490-la_palma.jpg"
+    ],
+    "secuencia_final": [
+      "1900-llevar.jpg",
+      "3057-la.jpg",
+      "4490-la_palma.jpg"
+    ]
+  },
+  {
+    "oracion": "comer torrijas de leche",
+    "tokens": [
+      "comer",
+      "torrijas",
+      "de",
+      "leche"
+    ],
+    "elecciones": [
+      "7100-comer.jpg",
+      "13439-torrija.jpg",
+      "2424-de.jpg",
+      "12493-alfajor_de_dulce_de_leche.jpg"
+    ],
+    "secuencia_final": [
+      "7100-comer.jpg",
+      "13439-torrija.jpg",
+      "2424-de.jpg",
+      "12493-alfajor_de_dulce_de_leche.jpg"
+    ]
+  },
+  {
+    "oracion": "comer mona de pascua",
+    "tokens": [
+      "comer",
+      "mona",
+      "de",
+      "pascua"
+    ],
+    "elecciones": [
+      "2031-comer.jpg",
+      "8837-mona_de_pascua.jpg",
+      null,
+      null
+    ],
+    "secuencia_final": [
+      "2031-comer.jpg",
+      "8837-mona_de_pascua.jpg",
+      null,
+      null
+    ]
+  },
+  {
+    "oracion": "celebrar la pascua",
+    "tokens": [
+      "celebrar",
+      "la",
+      "pascua"
+    ],
+    "elecciones": [
+      "2313-celebrar.jpg",
+      "3057-la.jpg",
+      "11454-figuras_de_pascua.jpg"
+    ],
+    "secuencia_final": [
+      "2313-celebrar.jpg",
+      "3057-la.jpg",
+      "11454-figuras_de_pascua.jpg"
+    ]
+  },
+  {
+    "oracion": "ir a la romería",
+    "tokens": [
+      "ir",
+      "a",
+      "la",
+      "romería"
+    ],
+    "elecciones": [
+      "183-ir.jpg",
+      "10811-á.jpg",
+      "3057-la.jpg",
+      null
+    ],
+    "secuencia_final": [
+      "183-ir.jpg",
+      "10811-á.jpg",
+      "3057-la.jpg",
+      null
+    ]
+  },
+  {
+    "oracion": "vestir traje de flamenco",
+    "tokens": [
+      "vestir",
+      "traje",
+      "de",
+      "flamenco"
+    ],
+    "elecciones": [
+      "8664-vestir.jpg",
+      "10505-traje_de_flamenca.jpg",
+      "2424-de.jpg",
+      "5520-flamenco.jpg"
+    ],
+    "secuencia_final": [
+      "8664-vestir.jpg",
+      "10505-traje_de_flamenca.jpg",
+      "2424-de.jpg",
+      "5520-flamenco.jpg"
+    ]
+  },
+  {
+    "oracion": "vestir traje de flamenca",
+    "tokens": [
+      "vestir",
+      "traje",
+      "de",
+      "flamenca"
+    ],
+    "elecciones": [
+      "8664-vestir.jpg",
+      "10505-traje_de_flamenca.jpg",
+      null,
+      null
+    ],
+    "secuencia_final": [
+      "8664-vestir.jpg",
+      "10505-traje_de_flamenca.jpg",
+      null,
+      null
+    ]
+  },
+  {
+    "oracion": "bailar sevillanas",
+    "tokens": [
+      "bailar",
+      "sevillanas"
+    ],
+    "elecciones": [
+      "1882-bailar.jpg",
+      null
+    ],
+    "secuencia_final": [
+      "1882-bailar.jpg",
+      null
+    ]
+  },
+  {
+    "oracion": "tocar las castañuelas",
+    "tokens": [
+      "tocar",
+      "las",
+      "castañuelas"
+    ],
+    "elecciones": [
+      "998-tocar.jpg",
+      null,
+      "75-castañuelas.jpg"
+    ],
+    "secuencia_final": [
+      "998-tocar.jpg",
+      null,
+      "75-castañuelas.jpg"
+    ]
+  },
+  {
+    "oracion": "montar en la carreta",
+    "tokens": [
+      "montar",
+      "en",
+      "la",
+      "carreta"
+    ],
+    "elecciones": [
+      "13046-montar_en_pony.jpg",
+      "12386-esperar_en_la_fila.jpg",
+      "3057-la.jpg",
+      "1779-careta.jpg"
+    ],
+    "secuencia_final": [
+      "13046-montar_en_pony.jpg",
+      "12386-esperar_en_la_fila.jpg",
+      "3057-la.jpg",
+      "1779-careta.jpg"
+    ]
+  },
+  {
+    "oracion": "ver los caballos",
+    "tokens": [
+      "ver",
+      "los",
+      "caballos"
+    ],
+    "elecciones": [
+      "7331-ver_los_fuegos_artificiales.jpg",
+      "3058-los.jpg",
+      "9951-pasear_al_caballo.jpg"
+    ],
+    "secuencia_final": [
+      "7331-ver_los_fuegos_artificiales.jpg",
+      "3058-los.jpg",
+      "9951-pasear_al_caballo.jpg"
+    ]
+  },
+  {
+    "oracion": "ir a la feria de abril",
+    "tokens": [
+      "ir",
+      "a",
+      "la",
+      "feria",
+      "de",
+      "abril"
+    ],
+    "elecciones": [
+      "2861-ir.jpg",
+      "754-a.jpg",
+      "3057-la.jpg",
+      "10322-feria_de_muestras.jpg",
+      "2424-de.jpg",
+      "10174-abril.jpg"
+    ],
+    "secuencia_final": [
+      "2861-ir.jpg",
+      "754-a.jpg",
+      "3057-la.jpg",
+      "10322-feria_de_muestras.jpg",
+      "2424-de.jpg",
+      "10174-abril.jpg"
+    ]
+  },
+  {
+    "oracion": "beber rebujito frío",
+    "tokens": [
+      "beber",
+      "rebujito",
+      "frío"
+    ],
+    "elecciones": [
+      "1884-beber.jpg",
+      null,
+      "1209-frío.jpg"
+    ],
+    "secuencia_final": [
+      "1884-beber.jpg",
+      null,
+      "1209-frío.jpg"
+    ]
+  },
+  {
+    "oracion": "comer pescaíto frito",
+    "tokens": [
+      "comer",
+      "pescaíto",
+      "frito"
+    ],
+    "elecciones": [
+      "2031-comer.jpg",
+      null,
+      "4590-frito.jpg"
+    ],
+    "secuencia_final": [
+      "2031-comer.jpg",
+      null,
+      "4590-frito.jpg"
+    ]
+  },
+  {
+    "oracion": "bailar en la caseta",
+    "tokens": [
+      "bailar",
+      "en",
+      "la",
+      "caseta"
+    ],
+    "elecciones": [
+      "1882-bailar.jpg",
+      "12382-esperar_en_la_fila.jpg",
+      "3057-la.jpg",
+      "12936-caseta_de_baile.jpg"
+    ],
+    "secuencia_final": [
+      "1882-bailar.jpg",
+      "12382-esperar_en_la_fila.jpg",
+      "3057-la.jpg",
+      "12936-caseta_de_baile.jpg"
+    ]
+  },
+  {
+    "oracion": "celebrar las fallas",
+    "tokens": [
+      "celebrar",
+      "las",
+      "fallas"
+    ],
+    "elecciones": [
+      "2313-celebrar.jpg",
+      null,
+      "5888-falla.jpg"
+    ],
+    "secuencia_final": [
+      "2313-celebrar.jpg",
+      null,
+      "5888-falla.jpg"
+    ]
+  },
+  {
+    "oracion": "ver la mascletá",
+    "tokens": [
+      "ver",
+      "la",
+      "mascletá"
+    ],
+    "elecciones": [
+      "4957-ver_la_televisión.jpg",
+      "3057-la.jpg",
+      "5933-mascletá.jpg"
+    ],
+    "secuencia_final": [
+      "4957-ver_la_televisión.jpg",
+      "3057-la.jpg",
+      "5933-mascletá.jpg"
+    ]
+  },
+  {
+    "oracion": "ver la falla",
+    "tokens": [
+      "ver",
+      "la",
+      "falla"
+    ],
+    "elecciones": [
+      "4957-ver_la_televisión.jpg",
+      "3057-la.jpg",
+      "5888-falla.jpg"
+    ],
+    "secuencia_final": [
+      "4957-ver_la_televisión.jpg",
+      "3057-la.jpg",
+      "5888-falla.jpg"
+    ]
+  },
+  {
+    "oracion": "tirar petardos",
+    "tokens": [
+      "tirar",
+      "petardos"
+    ],
+    "elecciones": [
+      "2114-tirar.jpg",
+      "4934-petardo.jpg"
+    ],
+    "secuencia_final": [
+      "2114-tirar.jpg",
+      "4934-petardo.jpg"
+    ]
+  },
+  {
+    "oracion": "ver la cremá",
+    "tokens": [
+      "ver",
+      "la",
+      "cremá"
+    ],
+    "elecciones": [
+      "2635-ver_la_televisión.jpg",
+      "3057-la.jpg",
+      "10021-crema.jpg"
+    ],
+    "secuencia_final": [
+      "2635-ver_la_televisión.jpg",
+      "3057-la.jpg",
+      "10021-crema.jpg"
+    ]
+  },
+  {
+    "oracion": "vestir de fallera",
+    "tokens": [
+      "vestir",
+      "de",
+      "fallera"
+    ],
+    "elecciones": [
+      "510-vestir.jpg",
+      "2424-de.jpg",
+      "5889-fallera.jpg"
+    ],
+    "secuencia_final": [
+      "510-vestir.jpg",
+      "2424-de.jpg",
+      "5889-fallera.jpg"
+    ]
+  },
+  {
+    "oracion": "llevar flores a la virgen",
+    "tokens": [
+      "llevar",
+      "flores",
+      "a",
+      "la",
+      "virgen"
+    ],
+    "elecciones": [
+      "1900-llevar.jpg",
+      "2450-flores.jpg",
+      "754-a.jpg",
+      "3057-la.jpg",
+      "2639-virgen_maría.jpg"
+    ],
+    "secuencia_final": [
+      "1900-llevar.jpg",
+      "2450-flores.jpg",
+      "754-a.jpg",
+      "3057-la.jpg",
+      "2639-virgen_maría.jpg"
+    ]
+  },
+  {
+    "oracion": "celebrar san fermín",
+    "tokens": [
+      "celebrar",
+      "san",
+      "fermín"
+    ],
+    "elecciones": [
+      "2313-celebrar.jpg",
+      "12211-san_fermín.jpg",
+      null
+    ],
+    "secuencia_final": [
+      "2313-celebrar.jpg",
+      "12211-san_fermín.jpg",
+      null
+    ]
+  },
+  {
+    "oracion": "correr el encierro",
+    "tokens": [
+      "correr",
+      "el",
+      "encierro"
+    ],
+    "elecciones": [
+      "3120-correr.jpg",
+      null,
+      "6220-encierro.jpg"
+    ],
+    "secuencia_final": [
+      "3120-correr.jpg",
+      null,
+      "6220-encierro.jpg"
+    ]
+  },
+  {
+    "oracion": "ver los toros",
+    "tokens": [
+      "ver",
+      "los",
+      "toros"
+    ],
+    "elecciones": [
+      "7331-ver_los_fuegos_artificiales.jpg",
+      "3058-los.jpg",
+      "12436-toro_de_fuego.jpg"
+    ],
+    "secuencia_final": [
+      "7331-ver_los_fuegos_artificiales.jpg",
+      "3058-los.jpg",
+      "12436-toro_de_fuego.jpg"
+    ]
+  },
+  {
+    "oracion": "llevar pañuelo rojo",
+    "tokens": [
+      "llevar",
+      "pañuelo",
+      "rojo"
+    ],
+    "elecciones": [
+      "2126-llevar.jpg",
+      "1535-pañuelo.jpg",
+      "532-rojo.jpg"
+    ],
+    "secuencia_final": [
+      "2126-llevar.jpg",
+      "1535-pañuelo.jpg",
+      "532-rojo.jpg"
+    ]
+  },
+  {
+    "oracion": "cantar el pobre de mí",
+    "tokens": [
+      "cantar",
+      "el",
+      "pobre",
+      "de",
+      "mí"
+    ],
+    "elecciones": [
+      "7108-cantar.jpg",
+      null,
+      "4951-pobre.jpg",
+      "2424-de.jpg",
+      "2202-yo.jpg"
+    ],
+    "secuencia_final": [
+      "7108-cantar.jpg",
+      null,
+      "4951-pobre.jpg",
+      "2424-de.jpg",
+      "2202-yo.jpg"
+    ]
+  },
+  {
+    "oracion": "ver los gigantes",
+    "tokens": [
+      "ver",
+      "los",
+      "gigantes"
+    ],
+    "elecciones": [
+      "7331-ver_los_fuegos_artificiales.jpg",
+      "3058-los.jpg",
+      "1587-gigantes.jpg"
+    ],
+    "secuencia_final": [
+      "7331-ver_los_fuegos_artificiales.jpg",
+      "3058-los.jpg",
+      "1587-gigantes.jpg"
+    ]
+  },
+  {
+    "oracion": "ver los cabezudos",
+    "tokens": [
+      "ver",
+      "los",
+      "cabezudos"
+    ],
+    "elecciones": [
+      "7331-ver_los_fuegos_artificiales.jpg",
+      "3058-los.jpg",
+      "1542-cabezudo.jpg"
+    ],
+    "secuencia_final": [
+      "7331-ver_los_fuegos_artificiales.jpg",
+      "3058-los.jpg",
+      "1542-cabezudo.jpg"
+    ]
+  },
+  {
+    "oracion": "correr delante de cabezudos",
+    "tokens": [
+      "correr",
+      "delante",
+      "de",
+      "cabezudos"
+    ],
+    "elecciones": [
+      "2033-correr.jpg",
+      "1549-delante.jpg",
+      "2424-de.jpg",
+      "1523-cabezudo.jpg"
+    ],
+    "secuencia_final": [
+      "2033-correr.jpg",
+      "1549-delante.jpg",
+      "2424-de.jpg",
+      "1523-cabezudo.jpg"
+    ]
+  },
+  {
+    "oracion": "celebrar san juan",
+    "tokens": [
+      "celebrar",
+      "san",
+      "juan"
+    ],
+    "elecciones": [
+      "4874-celebrar.jpg",
+      "5631-san_juan.jpg",
+      null
+    ],
+    "secuencia_final": [
+      "4874-celebrar.jpg",
+      "5631-san_juan.jpg",
+      null
+    ]
+  },
+  {
+    "oracion": "hacer una hoguera",
+    "tokens": [
+      "hacer",
+      "una",
+      "hoguera"
+    ],
+    "elecciones": [
+      "4269-hacer.jpg",
+      "7445-una.jpg",
+      "1222-hoguera.jpg"
+    ],
+    "secuencia_final": [
+      "4269-hacer.jpg",
+      "7445-una.jpg",
+      "1222-hoguera.jpg"
+    ]
+  },
+  {
+    "oracion": "saltar la hoguera",
+    "tokens": [
+      "saltar",
+      "la",
+      "hoguera"
+    ],
+    "elecciones": [
+      "12986-saltar.jpg",
+      "3057-la.jpg",
+      "1222-hoguera.jpg"
+    ],
+    "secuencia_final": [
+      "12986-saltar.jpg",
+      "3057-la.jpg",
+      "1222-hoguera.jpg"
+    ]
+  },
+  {
+    "oracion": "quemar lo viejo",
+    "tokens": [
+      "quemar",
+      "lo",
+      "viejo"
+    ],
+    "elecciones": [
+      "1962-quemar.jpg",
+      "4205-lo_siento.jpg",
+      "4130-viejo.jpg"
+    ],
+    "secuencia_final": [
+      "1962-quemar.jpg",
+      "4205-lo_siento.jpg",
+      "4130-viejo.jpg"
+    ]
+  },
+  {
+    "oracion": "pedir un deseo",
+    "tokens": [
+      "pedir",
+      "un",
+      "deseo"
+    ],
+    "elecciones": [
+      "7321-pedir_un_taxi.jpg",
+      null,
+      null
+    ],
+    "secuencia_final": [
+      "7321-pedir_un_taxi.jpg",
+      null,
+      null
+    ]
+  },
+  {
+    "oracion": "bañar en el mar de noche",
+    "tokens": [
+      "bañar",
+      "en",
+      "el",
+      "mar",
+      "de",
+      "noche"
+    ],
+    "elecciones": [
+      "6145-bañar.jpg",
+      "11127-sentar_en_el_asiento_de_seguridad.jpg",
+      null,
+      "634-mar.jpg",
+      "2424-de.jpg",
+      "2524-noche.jpg"
+    ],
+    "secuencia_final": [
+      "6145-bañar.jpg",
+      "11127-sentar_en_el_asiento_de_seguridad.jpg",
+      null,
+      "634-mar.jpg",
+      "2424-de.jpg",
+      "2524-noche.jpg"
+    ]
+  },
+  {
+    "oracion": "comer coca de san juan",
+    "tokens": [
+      "comer",
+      "coca",
+      "de",
+      "san",
+      "juan"
+    ],
+    "elecciones": [
+      "2031-comer.jpg",
+      "4311-coca.jpg",
+      "2424-de.jpg",
+      "5631-san_juan.jpg",
+      null
+    ],
+    "secuencia_final": [
+      "2031-comer.jpg",
+      "4311-coca.jpg",
+      "2424-de.jpg",
+      "5631-san_juan.jpg",
+      null
+    ]
+  },
+  {
+    "oracion": "celebrar el pilar",
+    "tokens": [
+      "celebrar",
+      "el",
+      "pilar"
+    ],
+    "elecciones": [
+      "2313-celebrar.jpg",
+      null,
+      "1705-virgen_del_pilar.jpg"
+    ],
+    "secuencia_final": [
+      "2313-celebrar.jpg",
+      null,
+      "1705-virgen_del_pilar.jpg"
+    ]
+  },
+  {
+    "oracion": "ver la ofrenda de flores",
+    "tokens": [
+      "ver",
+      "la",
+      "ofrenda",
+      "de",
+      "flores"
+    ],
+    "elecciones": [
+      "4957-ver_la_televisión.jpg",
+      "3057-la.jpg",
+      "1634-ofrenda_de_flores.jpg",
+      "2424-de.jpg",
+      "2450-flores.jpg"
+    ],
+    "secuencia_final": [
+      "4957-ver_la_televisión.jpg",
+      "3057-la.jpg",
+      "1634-ofrenda_de_flores.jpg",
+      "2424-de.jpg",
+      "2450-flores.jpg"
+    ]
+  },
+  {
+    "oracion": "vestir de baturro",
+    "tokens": [
+      "vestir",
+      "de",
+      "baturro"
+    ],
+    "elecciones": [
+      "510-vestir.jpg",
+      "2424-de.jpg",
+      "1518-baturro.jpg"
+    ],
+    "secuencia_final": [
+      "510-vestir.jpg",
+      "2424-de.jpg",
+      "1518-baturro.jpg"
+    ]
+  },
+  {
+    "oracion": "vestir de baturra",
+    "tokens": [
+      "vestir",
+      "de",
+      "baturra"
+    ],
+    "elecciones": [
+      "8664-vestir.jpg",
+      "2424-de.jpg",
+      "1513-baturra.jpg"
+    ],
+    "secuencia_final": [
+      "8664-vestir.jpg",
+      "2424-de.jpg",
+      "1513-baturra.jpg"
+    ]
+  },
+  {
+    "oracion": "bailar jota aragonesa",
+    "tokens": [
+      "bailar",
+      "jota",
+      "aragonesa"
+    ],
+    "elecciones": [
+      "8404-bailar.jpg",
+      "1603-jota.jpg",
+      null
+    ],
+    "secuencia_final": [
+      "8404-bailar.jpg",
+      "1603-jota.jpg",
+      null
+    ]
+  },
+  {
+    "oracion": "escuchar la rondalla",
+    "tokens": [
+      "escuchar",
+      "la",
+      "rondalla"
+    ],
+    "elecciones": [
+      "7604-escuchar_música.jpg",
+      "3057-la.jpg",
+      null
+    ],
+    "secuencia_final": [
+      "7604-escuchar_música.jpg",
+      "3057-la.jpg",
+      null
+    ]
+  },
+  {
+    "oracion": "celebrar sant jordi",
+    "tokens": [
+      "celebrar",
+      "sant",
+      "jordi"
+    ],
+    "elecciones": [
+      "2313-celebrar.jpg",
+      null,
+      null
+    ],
+    "secuencia_final": [
+      "2313-celebrar.jpg",
+      null,
+      null
+    ]
+  },
+  {
+    "oracion": "regalar una rosa",
+    "tokens": [
+      "regalar",
+      "una",
+      "rosa"
+    ],
+    "elecciones": [
+      "4975-regalar.jpg",
+      "503-uña.jpg",
+      "855-rosa.jpg"
+    ],
+    "secuencia_final": [
+      "4975-regalar.jpg",
+      "503-uña.jpg",
+      "855-rosa.jpg"
+    ]
+  },
+  {
+    "oracion": "regalar un libro",
+    "tokens": [
+      "regalar",
+      "un",
+      "libro"
+    ],
+    "elecciones": [
+      "4964-regalar.jpg",
+      null,
+      "12576-coger_un_libro.jpg"
+    ],
+    "secuencia_final": [
+      "4964-regalar.jpg",
+      null,
+      "12576-coger_un_libro.jpg"
+    ]
+  },
+  {
+    "oracion": "ver la castanyada",
+    "tokens": [
+      "ver",
+      "la",
+      "castanyada"
+    ],
+    "elecciones": [
+      "501-ver_la_televisión.jpg",
+      "3057-la.jpg",
+      "4620-castañada.jpg"
+    ],
+    "secuencia_final": [
+      "501-ver_la_televisión.jpg",
+      "3057-la.jpg",
+      "4620-castañada.jpg"
+    ]
+  },
+  {
+    "oracion": "comer castañas asadas",
+    "tokens": [
+      "comer",
+      "castañas",
+      "asadas"
+    ],
+    "elecciones": [
+      "7100-comer.jpg",
+      "886-castañas.jpg",
+      null
+    ],
+    "secuencia_final": [
+      "7100-comer.jpg",
+      "886-castañas.jpg",
+      null
+    ]
+  },
+  {
+    "oracion": "comer panellets de piñones",
+    "tokens": [
+      "comer",
+      "panellets",
+      "de",
+      "piñones"
+    ],
+    "elecciones": [
+      "7118-comer.jpg",
+      "4318-panellets.jpg",
+      "2424-de.jpg",
+      "3240-piñones.jpg"
+    ],
+    "secuencia_final": [
+      "7118-comer.jpg",
+      "4318-panellets.jpg",
+      "2424-de.jpg",
+      "3240-piñones.jpg"
+    ]
+  },
+  {
+    "oracion": "comer boniatos asados",
+    "tokens": [
+      "comer",
+      "boniatos",
+      "asados"
+    ],
+    "elecciones": [
+      "2031-comer.jpg",
+      "10390-boniato.jpg",
+      "1503-asado.jpg"
+    ],
+    "secuencia_final": [
+      "2031-comer.jpg",
+      "10390-boniato.jpg",
+      "1503-asado.jpg"
+    ]
+  },
+  {
+    "oracion": "celebrar todos los santos",
+    "tokens": [
+      "celebrar",
+      "todos",
+      "los",
+      "santos"
+    ],
+    "elecciones": [
+      "4874-celebrar.jpg",
+      "10242-todos.jpg",
+      "3058-los.jpg",
+      "8829-día_de_todos_los_santos.jpg"
+    ],
+    "secuencia_final": [
+      "4874-celebrar.jpg",
+      "10242-todos.jpg",
+      "3058-los.jpg",
+      "8829-día_de_todos_los_santos.jpg"
+    ]
+  },
+  {
+    "oracion": "llevar flores al cementerio",
+    "tokens": [
+      "llevar",
+      "flores",
+      "al",
+      "cementerio"
+    ],
+    "elecciones": [
+      "2126-llevar.jpg",
+      "2450-flores.jpg",
+      "4250-al.jpg",
+      "1152-cementerio.jpg"
+    ],
+    "secuencia_final": [
+      "2126-llevar.jpg",
+      "2450-flores.jpg",
+      "4250-al.jpg",
+      "1152-cementerio.jpg"
+    ]
+  },
+  {
+    "oracion": "comer huesos de santo",
+    "tokens": [
+      "comer",
+      "huesos",
+      "de",
+      "santo"
+    ],
+    "elecciones": [
+      "123-comer.jpg",
+      "690-hueso.jpg",
+      "2424-de.jpg",
+      "13144-santo.jpg"
+    ],
+    "secuencia_final": [
+      "123-comer.jpg",
+      "690-hueso.jpg",
+      "2424-de.jpg",
+      "13144-santo.jpg"
+    ]
+  },
+  {
+    "oracion": "comer buñuelos de viento",
+    "tokens": [
+      "comer",
+      "buñuelos",
+      "de",
+      "viento"
+    ],
+    "elecciones": [
+      "7100-comer.jpg",
+      "12001-buñuelos_de_bacalao.jpg",
+      "2424-de.jpg",
+      "13077-campanas_de_viento.jpg"
+    ],
+    "secuencia_final": [
+      "7100-comer.jpg",
+      "12001-buñuelos_de_bacalao.jpg",
+      "2424-de.jpg",
+      "13077-campanas_de_viento.jpg"
+    ]
+  },
+  {
+    "oracion": "bailar sardana en la plaza",
+    "tokens": [
+      "bailar",
+      "sardana",
+      "en",
+      "la",
+      "plaza"
+    ],
+    "elecciones": [
+      "8405-bailar.jpg",
+      "12505-sardana.jpg",
+      "12382-esperar_en_la_fila.jpg",
+      "3057-la.jpg",
+      "1945-plaza.jpg"
+    ],
+    "secuencia_final": [
+      "8405-bailar.jpg",
+      "12505-sardana.jpg",
+      "12382-esperar_en_la_fila.jpg",
+      "3057-la.jpg",
+      "1945-plaza.jpg"
+    ]
+  },
+  {
+    "oracion": "bailar muñeira gallega",
+    "tokens": [
+      "bailar",
+      "muñeira",
+      "gallega"
+    ],
+    "elecciones": [
+      "8404-bailar.jpg",
+      null,
+      "9609-clase_de_gallego.jpg"
+    ],
+    "secuencia_final": [
+      "8404-bailar.jpg",
+      null,
+      "9609-clase_de_gallego.jpg"
+    ]
+  },
+  {
+    "oracion": "tocar la gaita gallega",
+    "tokens": [
+      "tocar",
+      "la",
+      "gaita",
+      "gallega"
+    ],
+    "elecciones": [
+      "11339-tocar_la_flauta.jpg",
+      "3057-la.jpg",
+      "1584-gaita_de_boto.jpg",
+      "10921-centro_gallego_de_arte_contemporáneo.jpg"
+    ],
+    "secuencia_final": [
+      "11339-tocar_la_flauta.jpg",
+      "3057-la.jpg",
+      "1584-gaita_de_boto.jpg",
+      "10921-centro_gallego_de_arte_contemporáneo.jpg"
+    ]
+  },
+  {
+    "oracion": "bailar aurresku",
+    "tokens": [
+      "bailar",
+      "aurresku"
+    ],
+    "elecciones": [
+      "8404-bailar.jpg",
+      null
+    ],
+    "secuencia_final": [
+      "8404-bailar.jpg",
+      null
+    ]
+  },
+  {
+    "oracion": "levantar piedras",
+    "tokens": [
+      "levantar",
+      "piedras"
+    ],
+    "elecciones": [
+      "2116-levantar.jpg",
+      "7074-piedras.jpg"
+    ],
+    "secuencia_final": [
+      "2116-levantar.jpg",
+      "7074-piedras.jpg"
+    ]
+  },
+  {
+    "oracion": "cortar troncos",
+    "tokens": [
+      "cortar",
+      "troncos"
+    ],
+    "elecciones": [
+      "13343-cortar.jpg",
+      "2716-tronco.jpg"
+    ],
+    "secuencia_final": [
+      "13343-cortar.jpg",
+      "2716-tronco.jpg"
+    ]
+  },
+  {
+    "oracion": "jugar a la pelota vasca",
+    "tokens": [
+      "jugar",
+      "a",
+      "la",
+      "pelota",
+      "vasca"
+    ],
+    "elecciones": [
+      "189-jugar.jpg",
+      "10811-á.jpg",
+      "8544-jugar_a_la_pelota.jpg",
+      "7319-pelota_vasca.jpg",
+      "3162-país_vasco.jpg"
+    ],
+    "secuencia_final": [
+      "189-jugar.jpg",
+      "10811-á.jpg",
+      "8544-jugar_a_la_pelota.jpg",
+      "7319-pelota_vasca.jpg",
+      "3162-país_vasco.jpg"
+    ]
+  },
+  {
+    "oracion": "bailar chotis en madrid",
+    "tokens": [
+      "bailar",
+      "chotis",
+      "en",
+      "madrid"
+    ],
+    "elecciones": [
+      "8404-bailar.jpg",
+      "11887-chotis.jpg",
+      "2376-en.jpg",
+      "4483-madrid.jpg"
+    ],
+    "secuencia_final": [
+      "8404-bailar.jpg",
+      "11887-chotis.jpg",
+      "2376-en.jpg",
+      "4483-madrid.jpg"
+    ]
+  },
+  {
+    "oracion": "vestir de chulapo",
+    "tokens": [
+      "vestir",
+      "de",
+      "chulapo"
+    ],
+    "elecciones": [
+      "8664-vestir.jpg",
+      "2424-de.jpg",
+      "11889-chulapo.jpg"
+    ],
+    "secuencia_final": [
+      "8664-vestir.jpg",
+      "2424-de.jpg",
+      "11889-chulapo.jpg"
+    ]
+  },
+  {
+    "oracion": "vestir de chulapa",
+    "tokens": [
+      "vestir",
+      "de",
+      "chulapa"
+    ],
+    "elecciones": [
+      "510-vestir.jpg",
+      "2424-de.jpg",
+      "11888-chulapa.jpg"
+    ],
+    "secuencia_final": [
+      "510-vestir.jpg",
+      "2424-de.jpg",
+      "11888-chulapa.jpg"
+    ]
+  },
+  {
+    "oracion": "comer rosquillas de san isidro",
+    "tokens": [
+      "comer",
+      "rosquillas",
+      "de",
+      "san",
+      "isidro"
+    ],
+    "elecciones": [
+      "123-comer.jpg",
+      "2912-rosquilla.jpg",
+      "2424-de.jpg",
+      "7214-san_sebastián.jpg",
+      null
+    ],
+    "secuencia_final": [
+      "123-comer.jpg",
+      "2912-rosquilla.jpg",
+      "2424-de.jpg",
+      "7214-san_sebastián.jpg",
+      null
+    ]
+  },
+  {
+    "oracion": "beber agua del botijo",
+    "tokens": [
+      "beber",
+      "agua",
+      "del",
+      "botijo"
+    ],
+    "elecciones": [
+      "7590-beber.jpg",
+      "1-agua.jpg",
+      "4251-del.jpg",
+      "2285-botijo.jpg"
+    ],
+    "secuencia_final": [
+      "7590-beber.jpg",
+      "1-agua.jpg",
+      "4251-del.jpg",
+      "2285-botijo.jpg"
+    ]
+  },
+  {
+    "oracion": "hacer el camino de santiago",
+    "tokens": [
+      "hacer",
+      "el",
+      "camino",
+      "de",
+      "santiago"
+    ],
+    "elecciones": [
+      "4269-hacer.jpg",
+      null,
+      "10118-camino_de_santiago.jpg",
+      null,
+      null
+    ],
+    "secuencia_final": [
+      "4269-hacer.jpg",
+      null,
+      "10118-camino_de_santiago.jpg",
+      null,
+      null
+    ]
+  },
+  {
+    "oracion": "ser peregrino",
+    "tokens": [
+      "ser",
+      "peregrino"
+    ],
+    "elecciones": [
+      "1715-ser.jpg",
+      "5307-peregrino.jpg"
+    ],
+    "secuencia_final": [
+      "1715-ser.jpg",
+      "5307-peregrino.jpg"
+    ]
+  },
+  {
+    "oracion": "ir al colegio",
+    "tokens": [
+      "ir",
+      "al",
+      "colegio"
+    ],
+    "elecciones": [
+      "2861-ir.jpg",
+      "11059-llevar_al_colegio.jpg",
+      "786-colegio.jpg"
+    ],
+    "secuencia_final": [
+      "2861-ir.jpg",
+      "11059-llevar_al_colegio.jpg",
+      "786-colegio.jpg"
+    ]
+  },
+  {
+    "oracion": "llegar puntual a clase",
+    "tokens": [
+      "llegar",
+      "puntual",
+      "a",
+      "clase"
+    ],
+    "elecciones": [
+      "4949-llegar.jpg",
+      null,
+      "10811-á.jpg",
+      "10525-dormir_en_clase.jpg"
+    ],
+    "secuencia_final": [
+      "4949-llegar.jpg",
+      null,
+      "10811-á.jpg",
+      "10525-dormir_en_clase.jpg"
+    ]
+  },
+  {
+    "oracion": "saludar a la maestra",
+    "tokens": [
+      "saludar",
+      "a",
+      "la",
+      "maestra"
+    ],
+    "elecciones": [
+      null,
+      "754-a.jpg",
+      "3057-la.jpg",
+      "2118-maestra.jpg"
+    ],
+    "secuencia_final": [
+      null,
+      "754-a.jpg",
+      "3057-la.jpg",
+      "2118-maestra.jpg"
+    ]
+  },
+  {
+    "oracion": "colgar la mochila",
+    "tokens": [
+      "colgar",
+      "la",
+      "mochila"
+    ],
+    "elecciones": [
+      "11891-colgar.jpg",
+      "3057-la.jpg",
+      "12654-cerrar_la_mochila.jpg"
+    ],
+    "secuencia_final": [
+      "11891-colgar.jpg",
+      "3057-la.jpg",
+      "12654-cerrar_la_mochila.jpg"
+    ]
+  },
+  {
+    "oracion": "colgar el abrigo",
+    "tokens": [
+      "colgar",
+      "el",
+      "abrigo"
+    ],
+    "elecciones": [
+      "2356-colgar.jpg",
+      null,
+      "6528-quitar_el_abrigo.jpg"
+    ],
+    "secuencia_final": [
+      "2356-colgar.jpg",
+      null,
+      "6528-quitar_el_abrigo.jpg"
+    ]
+  },
+  {
+    "oracion": "sentar en la silla",
+    "tokens": [
+      "sentar",
+      "en",
+      "la",
+      "silla"
+    ],
+    "elecciones": [
+      "515-sentar_en_la_silla.jpg",
+      "4103-sentar_en_el_banco.jpg",
+      "6597-sentar_en_el_borde.jpg",
+      "863-silla.jpg"
+    ],
+    "secuencia_final": [
+      "515-sentar_en_la_silla.jpg",
+      "4103-sentar_en_el_banco.jpg",
+      "6597-sentar_en_el_borde.jpg",
+      "863-silla.jpg"
+    ]
+  },
+  {
+    "oracion": "sacar el estuche",
+    "tokens": [
+      "sacar",
+      "el",
+      "estuche"
+    ],
+    "elecciones": [
+      "10621-sacar_el_peine.jpg",
+      null,
+      "3160-estuche.jpg"
+    ],
+    "secuencia_final": [
+      "10621-sacar_el_peine.jpg",
+      null,
+      "3160-estuche.jpg"
+    ]
+  },
+  {
+    "oracion": "sacar el libro",
+    "tokens": [
+      "sacar",
+      "el",
+      "libro"
+    ],
+    "elecciones": [
+      "10475-sacar_el_almuerzo.jpg",
+      null,
+      "2228-abrir_el_libro.jpg"
+    ],
+    "secuencia_final": [
+      "10475-sacar_el_almuerzo.jpg",
+      null,
+      "2228-abrir_el_libro.jpg"
+    ]
+  },
+  {
+    "oracion": "sacar el cuaderno",
+    "tokens": [
+      "sacar",
+      "el",
+      "cuaderno"
+    ],
+    "elecciones": [
+      "10477-sacar_el_cuaderno_de_comunicación.jpg",
+      null,
+      "11210-guardar_el_cuaderno_de_comunicación.jpg"
+    ],
+    "secuencia_final": [
+      "10477-sacar_el_cuaderno_de_comunicación.jpg",
+      null,
+      "11210-guardar_el_cuaderno_de_comunicación.jpg"
+    ]
+  },
+  {
+    "oracion": "escribir con lápiz",
+    "tokens": [
+      "escribir",
+      "con",
+      "lápiz"
+    ],
+    "elecciones": [
+      "5236-escribir.jpg",
+      "2409-con.jpg",
+      "192-lápiz.jpg"
+    ],
+    "secuencia_final": [
+      "5236-escribir.jpg",
+      "2409-con.jpg",
+      "192-lápiz.jpg"
+    ]
+  },
+  {
+    "oracion": "borrar con goma",
+    "tokens": [
+      "borrar",
+      "con",
+      "goma"
+    ],
+    "elecciones": [
+      "3926-borrar.jpg",
+      "2409-con.jpg",
+      "159-goma.jpg"
+    ],
+    "secuencia_final": [
+      "3926-borrar.jpg",
+      "2409-con.jpg",
+      "159-goma.jpg"
+    ]
+  },
+  {
+    "oracion": "sacar punta al lápiz",
+    "tokens": [
+      "sacar",
+      "punta",
+      "al",
+      "lápiz"
+    ],
+    "elecciones": [
+      "3271-sacar_punta.jpg",
+      null,
+      "4250-al.jpg",
+      "192-lápiz.jpg"
+    ],
+    "secuencia_final": [
+      "3271-sacar_punta.jpg",
+      null,
+      "4250-al.jpg",
+      "192-lápiz.jpg"
+    ]
+  },
+  {
+    "oracion": "pintar con colores",
+    "tokens": [
+      "pintar",
+      "con",
+      "colores"
+    ],
+    "elecciones": [
+      "6850-pintar_con_brocha.jpg",
+      "2409-con.jpg",
+      "1797-colores.jpg"
+    ],
+    "secuencia_final": [
+      "6850-pintar_con_brocha.jpg",
+      "2409-con.jpg",
+      "1797-colores.jpg"
+    ]
+  },
+  {
+    "oracion": "pintar con rotuladores",
+    "tokens": [
+      "pintar",
+      "con",
+      "rotuladores"
+    ],
+    "elecciones": [
+      "6850-pintar_con_brocha.jpg",
+      "2409-con.jpg",
+      "13033-rotuladores.jpg"
+    ],
+    "secuencia_final": [
+      "6850-pintar_con_brocha.jpg",
+      "2409-con.jpg",
+      "13033-rotuladores.jpg"
+    ]
+  },
+  {
+    "oracion": "pintar con ceras",
+    "tokens": [
+      "pintar",
+      "con",
+      "ceras"
+    ],
+    "elecciones": [
+      "6850-pintar_con_brocha.jpg",
+      "2409-con.jpg",
+      "1423-pinturas_de_cera.jpg"
+    ],
+    "secuencia_final": [
+      "6850-pintar_con_brocha.jpg",
+      "2409-con.jpg",
+      "1423-pinturas_de_cera.jpg"
+    ]
+  },
+  {
+    "oracion": "recortar con tijeras",
+    "tokens": [
+      "recortar",
+      "con",
+      "tijeras"
+    ],
+    "elecciones": [
+      "5978-recortar.jpg",
+      "2409-con.jpg",
+      "333-tijeras.jpg"
+    ],
+    "secuencia_final": [
+      "5978-recortar.jpg",
+      "2409-con.jpg",
+      "333-tijeras.jpg"
+    ]
+  },
+  {
+    "oracion": "pegar con pegamento",
+    "tokens": [
+      "pegar",
+      "con",
+      "pegamento"
+    ],
+    "elecciones": [
+      "8496-pegar.jpg",
+      "2409-con.jpg",
+      "254-pegamento.jpg"
+    ],
+    "secuencia_final": [
+      "8496-pegar.jpg",
+      "2409-con.jpg",
+      "254-pegamento.jpg"
+    ]
+  },
+  {
+    "oracion": "hacer una ficha",
+    "tokens": [
+      "hacer",
+      "una",
+      "ficha"
+    ],
+    "elecciones": [
+      "8976-hacer.jpg",
+      "503-uña.jpg",
+      "3780-ficha.jpg"
+    ],
+    "secuencia_final": [
+      "8976-hacer.jpg",
+      "503-uña.jpg",
+      "3780-ficha.jpg"
+    ]
+  },
+  {
+    "oracion": "leer un cuento",
+    "tokens": [
+      "leer",
+      "un",
+      "cuento"
+    ],
+    "elecciones": [
+      "8443-leer.jpg",
+      null,
+      "2035-cuento.jpg"
+    ],
+    "secuencia_final": [
+      "8443-leer.jpg",
+      null,
+      "2035-cuento.jpg"
+    ]
+  },
+  {
+    "oracion": "escuchar el cuento",
+    "tokens": [
+      "escuchar",
+      "el",
+      "cuento"
+    ],
+    "elecciones": [
+      "11488-escuchar_música.jpg",
+      null,
+      "119-cuento.jpg"
+    ],
+    "secuencia_final": [
+      "11488-escuchar_música.jpg",
+      null,
+      "119-cuento.jpg"
+    ]
+  },
+  {
+    "oracion": "mirar la pizarra",
+    "tokens": [
+      "mirar",
+      "la",
+      "pizarra"
+    ],
+    "elecciones": [
+      "11124-mirar_a_ambos_lados.jpg",
+      "3057-la.jpg",
+      "269-pizarra.jpg"
+    ],
+    "secuencia_final": [
+      "11124-mirar_a_ambos_lados.jpg",
+      "3057-la.jpg",
+      "269-pizarra.jpg"
+    ]
+  },
+  {
+    "oracion": "levantar la mano",
+    "tokens": [
+      "levantar",
+      "la",
+      "mano"
+    ],
+    "elecciones": [
+      "10237-levantar.jpg",
+      "3057-la.jpg",
+      "7021-levantar_la_mano.jpg"
+    ],
+    "secuencia_final": [
+      "10237-levantar.jpg",
+      "3057-la.jpg",
+      "7021-levantar_la_mano.jpg"
+    ]
+  },
+  {
+    "oracion": "preguntar la duda",
+    "tokens": [
+      "preguntar",
+      "la",
+      "duda"
+    ],
+    "elecciones": [
+      "10279-preguntar.jpg",
+      "3057-la.jpg",
+      "4233-duda.jpg"
+    ],
+    "secuencia_final": [
+      "10279-preguntar.jpg",
+      "3057-la.jpg",
+      "4233-duda.jpg"
+    ]
+  },
+  {
+    "oracion": "pedir permiso para ir al baño",
+    "tokens": [
+      "pedir",
+      "permiso",
+      "para",
+      "ir",
+      "al",
+      "baño"
+    ],
+    "elecciones": [
+      "11820-pedir.jpg",
+      "9561-solicitar_permiso.jpg",
+      "2543-para.jpg",
+      "2861-ir.jpg",
+      "8754-permitido_ir_al_baño.jpg",
+      "13050-baño.jpg"
+    ],
+    "secuencia_final": [
+      "11820-pedir.jpg",
+      "9561-solicitar_permiso.jpg",
+      "2543-para.jpg",
+      "2861-ir.jpg",
+      "8754-permitido_ir_al_baño.jpg",
+      "13050-baño.jpg"
+    ]
+  },
+  {
+    "oracion": "ir al servicio",
+    "tokens": [
+      "ir",
+      "al",
+      "servicio"
+    ],
+    "elecciones": [
+      "2861-ir.jpg",
+      "8729-permitido_ir_al_baño.jpg",
+      "6711-servicio.jpg"
+    ],
+    "secuencia_final": [
+      "2861-ir.jpg",
+      "8729-permitido_ir_al_baño.jpg",
+      "6711-servicio.jpg"
+    ]
+  },
+  {
+    "oracion": "lavar las manos",
+    "tokens": [
+      "lavar",
+      "las",
+      "manos"
+    ],
+    "elecciones": [
+      "3325-lavar_las_manos.jpg",
+      null,
+      "3560-manos.jpg"
+    ],
+    "secuencia_final": [
+      "3325-lavar_las_manos.jpg",
+      null,
+      "3560-manos.jpg"
+    ]
+  },
+  {
+    "oracion": "salir al recreo",
+    "tokens": [
+      "salir",
+      "al",
+      "recreo"
+    ],
+    "elecciones": [
+      "530-salir.jpg",
+      "4250-al.jpg",
+      "9134-recreo.jpg"
+    ],
+    "secuencia_final": [
+      "530-salir.jpg",
+      "4250-al.jpg",
+      "9134-recreo.jpg"
+    ]
+  },
+  {
+    "oracion": "comer el almuerzo",
+    "tokens": [
+      "comer",
+      "el",
+      "almuerzo"
+    ],
+    "elecciones": [
+      "2031-comer.jpg",
+      null,
+      "10475-sacar_el_almuerzo.jpg"
+    ],
+    "secuencia_final": [
+      "2031-comer.jpg",
+      null,
+      "10475-sacar_el_almuerzo.jpg"
+    ]
+  },
+  {
+    "oracion": "beber agua de la fuente",
+    "tokens": [
+      "beber",
+      "agua",
+      "de",
+      "la",
+      "fuente"
+    ],
+    "elecciones": [
+      "7590-beber.jpg",
+      "2234-agua.jpg",
+      "2424-de.jpg",
+      "3057-la.jpg",
+      "11088-fuente.jpg"
+    ],
+    "secuencia_final": [
+      "7590-beber.jpg",
+      "2234-agua.jpg",
+      "2424-de.jpg",
+      "3057-la.jpg",
+      "11088-fuente.jpg"
+    ]
+  },
+  {
+    "oracion": "jugar con los amigos",
+    "tokens": [
+      "jugar",
+      "con",
+      "los",
+      "amigos"
+    ],
+    "elecciones": [
+      "11946-jugar.jpg",
+      "11852-jugar_con_la_comida.jpg",
+      "4925-jugar_con_el_agua.jpg",
+      "8-amigos.jpg"
+    ],
+    "secuencia_final": [
+      "11946-jugar.jpg",
+      "11852-jugar_con_la_comida.jpg",
+      "4925-jugar_con_el_agua.jpg",
+      "8-amigos.jpg"
+    ]
+  },
+  {
+    "oracion": "jugar al fútbol",
+    "tokens": [
+      "jugar",
+      "al",
+      "fútbol"
+    ],
+    "elecciones": [
+      "10907-jugar.jpg",
+      null,
+      null
+    ],
+    "secuencia_final": [
+      "10907-jugar.jpg",
+      null,
+      null
+    ]
+  },
+  {
+    "oracion": "jugar al baloncesto",
+    "tokens": [
+      "jugar",
+      "al",
+      "baloncesto"
+    ],
+    "elecciones": [
+      "189-jugar.jpg",
+      null,
+      null
+    ],
+    "secuencia_final": [
+      "189-jugar.jpg",
+      null,
+      null
+    ]
+  },
+  {
+    "oracion": "jugar al pilla pilla",
+    "tokens": [
+      "jugar",
+      "al",
+      "pilla",
+      "pilla"
+    ],
+    "elecciones": [
+      "2113-jugar.jpg",
+      "4903-jugar_al_corro.jpg",
+      "7695-juego_del_pilla_pilla.jpg",
+      null
+    ],
+    "secuencia_final": [
+      "2113-jugar.jpg",
+      "4903-jugar_al_corro.jpg",
+      "7695-juego_del_pilla_pilla.jpg",
+      null
+    ]
+  },
+  {
+    "oracion": "jugar al escondite",
+    "tokens": [
+      "jugar",
+      "al",
+      "escondite"
+    ],
+    "elecciones": [
+      "10907-jugar.jpg",
+      "4903-jugar_al_corro.jpg",
+      "5233-escondite.jpg"
+    ],
+    "secuencia_final": [
+      "10907-jugar.jpg",
+      "4903-jugar_al_corro.jpg",
+      "5233-escondite.jpg"
+    ]
+  },
+  {
+    "oracion": "saltar a la comba",
+    "tokens": [
+      "saltar",
+      "a",
+      "la",
+      "comba"
+    ],
+    "elecciones": [
+      "2169-saltar_a_la_comba.jpg",
+      "754-a.jpg",
+      "4085-saltar_a_la_pata_coja.jpg",
+      "961-comba.jpg"
+    ],
+    "secuencia_final": [
+      "2169-saltar_a_la_comba.jpg",
+      "754-a.jpg",
+      "4085-saltar_a_la_pata_coja.jpg",
+      "961-comba.jpg"
+    ]
+  },
+  {
+    "oracion": "jugar a las canicas",
+    "tokens": [
+      "jugar",
+      "a",
+      "las",
+      "canicas"
+    ],
+    "elecciones": [
+      "189-jugar.jpg",
+      "727-a.jpg",
+      null,
+      "7692-juego_de_las_canicas.jpg"
+    ],
+    "secuencia_final": [
+      "189-jugar.jpg",
+      "727-a.jpg",
+      null,
+      "7692-juego_de_las_canicas.jpg"
+    ]
+  },
+  {
+    "oracion": "jugar a la peonza",
+    "tokens": [
+      "jugar",
+      "a",
+      "la",
+      "peonza"
+    ],
+    "elecciones": [
+      "11946-jugar.jpg",
+      "10770-á.jpg",
+      "8544-jugar_a_la_pelota.jpg",
+      "7697-juego_de_la_peonza.jpg"
+    ],
+    "secuencia_final": [
+      "11946-jugar.jpg",
+      "10770-á.jpg",
+      "8544-jugar_a_la_pelota.jpg",
+      "7697-juego_de_la_peonza.jpg"
+    ]
+  },
+  {
+    "oracion": "jugar con la pelota",
+    "tokens": [
+      "jugar",
+      "con",
+      "la",
+      "pelota"
+    ],
+    "elecciones": [
+      "11091-jugar.jpg",
+      "4925-jugar_con_el_agua.jpg",
+      "8544-jugar_a_la_pelota.jpg",
+      "940-pelota.jpg"
+    ],
+    "secuencia_final": [
+      "11091-jugar.jpg",
+      "4925-jugar_con_el_agua.jpg",
+      "8544-jugar_a_la_pelota.jpg",
+      "940-pelota.jpg"
+    ]
+  },
+  {
+    "oracion": "compartir los juguetes",
+    "tokens": [
+      "compartir",
+      "los",
+      "juguetes"
+    ],
+    "elecciones": [
+      "4857-compartir.jpg",
+      "3058-los.jpg",
+      "8883-juguetes.jpg"
+    ],
+    "secuencia_final": [
+      "4857-compartir.jpg",
+      "3058-los.jpg",
+      "8883-juguetes.jpg"
+    ]
+  },
+  {
+    "oracion": "no pegar a los compañeros",
+    "tokens": [
+      "no",
+      "pegar",
+      "a",
+      "los",
+      "compañeros"
+    ],
+    "elecciones": [
+      "13074-no.jpg",
+      "5768-pegar.jpg",
+      "2388-a.jpg",
+      "3058-los.jpg",
+      "11657-compañeros.jpg"
+    ],
+    "secuencia_final": [
+      "13074-no.jpg",
+      "5768-pegar.jpg",
+      "2388-a.jpg",
+      "3058-los.jpg",
+      "11657-compañeros.jpg"
+    ]
+  },
+  {
+    "oracion": "hacer fila",
+    "tokens": [
+      "hacer",
+      "fila"
+    ],
+    "elecciones": [
+      "8976-hacer.jpg",
+      "9775-fila.jpg"
+    ],
+    "secuencia_final": [
+      "8976-hacer.jpg",
+      "9775-fila.jpg"
+    ]
+  },
+  {
+    "oracion": "entrar en clase",
+    "tokens": [
+      "entrar",
+      "en",
+      "clase"
+    ],
+    "elecciones": [
+      "11260-entrar_en_el_túnel.jpg",
+      "10525-dormir_en_clase.jpg",
+      "9924-clase_de_música.jpg"
+    ],
+    "secuencia_final": [
+      "11260-entrar_en_el_túnel.jpg",
+      "10525-dormir_en_clase.jpg",
+      "9924-clase_de_música.jpg"
+    ]
+  },
+  {
+    "oracion": "escuchar música",
+    "tokens": [
+      "escuchar",
+      "música"
+    ],
+    "elecciones": [
+      "7610-escuchar_música.jpg",
+      null
+    ],
+    "secuencia_final": [
+      "7610-escuchar_música.jpg",
+      null
+    ]
+  },
+  {
+    "oracion": "tocar la flauta",
+    "tokens": [
+      "tocar",
+      "la",
+      "flauta"
+    ],
+    "elecciones": [
+      "11339-tocar_la_flauta.jpg",
+      "3057-la.jpg",
+      "151-flauta.jpg"
+    ],
+    "secuencia_final": [
+      "11339-tocar_la_flauta.jpg",
+      "3057-la.jpg",
+      "151-flauta.jpg"
+    ]
+  },
+  {
+    "oracion": "cantar una canción",
+    "tokens": [
+      "cantar",
+      "una",
+      "canción"
+    ],
+    "elecciones": [
+      "2307-cantar.jpg",
+      "7445-una.jpg",
+      null
+    ],
+    "secuencia_final": [
+      "2307-cantar.jpg",
+      "7445-una.jpg",
+      null
+    ]
+  },
+  {
+    "oracion": "hacer gimnasia",
+    "tokens": [
+      "hacer",
+      "gimnasia"
+    ],
+    "elecciones": [
+      "4269-hacer.jpg",
+      "1408-pica_de_gimnasia.jpg"
+    ],
+    "secuencia_final": [
+      "4269-hacer.jpg",
+      "1408-pica_de_gimnasia.jpg"
+    ]
+  },
+  {
+    "oracion": "correr en el patio",
+    "tokens": [
+      "correr",
+      "en",
+      "el",
+      "patio"
+    ],
+    "elecciones": [
+      "3120-correr.jpg",
+      "11288-soplar_en_el_agua.jpg",
+      null,
+      "13449-patio_interior.jpg"
+    ],
+    "secuencia_final": [
+      "3120-correr.jpg",
+      "11288-soplar_en_el_agua.jpg",
+      null,
+      "13449-patio_interior.jpg"
+    ]
+  },
+  {
+    "oracion": "aprender los números",
+    "tokens": [
+      "aprender",
+      "los",
+      "números"
+    ],
+    "elecciones": [
+      "11774-aprender.jpg",
+      "3058-los.jpg",
+      "596-números.jpg"
+    ],
+    "secuencia_final": [
+      "11774-aprender.jpg",
+      "3058-los.jpg",
+      "596-números.jpg"
+    ]
+  },
+  {
+    "oracion": "aprender las letras",
+    "tokens": [
+      "aprender",
+      "las",
+      "letras"
+    ],
+    "elecciones": [
+      "6384-aprender.jpg",
+      null,
+      "9410-letras.jpg"
+    ],
+    "secuencia_final": [
+      "6384-aprender.jpg",
+      null,
+      "9410-letras.jpg"
+    ]
+  },
+  {
+    "oracion": "sumar y restar",
+    "tokens": [
+      "sumar",
+      "y",
+      "restar"
+    ],
+    "elecciones": [
+      "11332-sumar.jpg",
+      "4121-y.jpg",
+      "11334-restar.jpg"
+    ],
+    "secuencia_final": [
+      "11332-sumar.jpg",
+      "4121-y.jpg",
+      "11334-restar.jpg"
+    ]
+  },
+  {
+    "oracion": "hacer un dibujo",
+    "tokens": [
+      "hacer",
+      "un",
+      "dibujo"
+    ],
+    "elecciones": [
+      "8976-hacer.jpg",
+      null,
+      "3957-dibujo.jpg"
+    ],
+    "secuencia_final": [
+      "8976-hacer.jpg",
+      null,
+      "3957-dibujo.jpg"
+    ]
+  },
+  {
+    "oracion": "hacer un regalo para mamá",
+    "tokens": [
+      "hacer",
+      "un",
+      "regalo",
+      "para",
+      "mamá"
+    ],
+    "elecciones": [
+      "4269-hacer.jpg",
+      null,
+      "11233-abrir_un_regalo.jpg",
+      "2543-para.jpg",
+      "206-mamá.jpg"
+    ],
+    "secuencia_final": [
+      "4269-hacer.jpg",
+      null,
+      "11233-abrir_un_regalo.jpg",
+      "2543-para.jpg",
+      "206-mamá.jpg"
+    ]
+  },
+  {
+    "oracion": "hacer un regalo para papá",
+    "tokens": [
+      "hacer",
+      "un",
+      "regalo",
+      "para",
+      "papá"
+    ],
+    "elecciones": [
+      "4269-hacer.jpg",
+      null,
+      "11233-abrir_un_regalo.jpg",
+      "2543-para.jpg",
+      "8264-papá.jpg"
+    ],
+    "secuencia_final": [
+      "4269-hacer.jpg",
+      null,
+      "11233-abrir_un_regalo.jpg",
+      "2543-para.jpg",
+      "8264-papá.jpg"
+    ]
+  },
+  {
+    "oracion": "celebrar el día de la paz",
+    "tokens": [
+      "celebrar",
+      "el",
+      "día",
+      "de",
+      "la",
+      "paz"
+    ],
+    "elecciones": [
+      "2313-celebrar.jpg",
+      null,
+      "8829-día_de_todos_los_santos.jpg",
+      "2424-de.jpg",
+      "3057-la.jpg",
+      "2882-paz.jpg"
+    ],
+    "secuencia_final": [
+      "2313-celebrar.jpg",
+      null,
+      "8829-día_de_todos_los_santos.jpg",
+      "2424-de.jpg",
+      "3057-la.jpg",
+      "2882-paz.jpg"
+    ]
+  },
+  {
+    "oracion": "celebrar el carnaval en el cole",
+    "tokens": [
+      "celebrar",
+      "el",
+      "carnaval",
+      "en",
+      "el",
+      "cole"
+    ],
+    "elecciones": [
+      "4843-celebrar.jpg",
+      null,
+      "6164-carnaval.jpg",
+      "11260-entrar_en_el_túnel.jpg",
+      null,
+      null
+    ],
+    "secuencia_final": [
+      "4843-celebrar.jpg",
+      null,
+      "6164-carnaval.jpg",
+      "11260-entrar_en_el_túnel.jpg",
+      null,
+      null
+    ]
+  },
+  {
+    "oracion": "ir de excursión",
+    "tokens": [
+      "ir",
+      "de",
+      "excursión"
+    ],
+    "elecciones": [
+      "8488-ir.jpg",
+      "2424-de.jpg",
+      "1232-excursión.jpg"
+    ],
+    "secuencia_final": [
+      "8488-ir.jpg",
+      "2424-de.jpg",
+      "1232-excursión.jpg"
+    ]
+  },
+  {
+    "oracion": "montar en autobús",
+    "tokens": [
+      "montar",
+      "en",
+      "autobús"
+    ],
+    "elecciones": [
+      "11266-montar_en_patinete.jpg",
+      "10985-viajar_en_autobús.jpg",
+      "21-autobús.jpg"
+    ],
+    "secuencia_final": [
+      "11266-montar_en_patinete.jpg",
+      "10985-viajar_en_autobús.jpg",
+      "21-autobús.jpg"
+    ]
+  },
+  {
+    "oracion": "visitar la granja",
+    "tokens": [
+      "visitar",
+      "la",
+      "granja"
+    ],
+    "elecciones": [
+      "6366-visitar_la_tumba.jpg",
+      "3057-la.jpg",
+      "1029-granja.jpg"
+    ],
+    "secuencia_final": [
+      "6366-visitar_la_tumba.jpg",
+      "3057-la.jpg",
+      "1029-granja.jpg"
+    ]
+  },
+  {
+    "oracion": "ver los animales",
+    "tokens": [
+      "ver",
+      "los",
+      "animales"
+    ],
+    "elecciones": [
+      "7331-ver_los_fuegos_artificiales.jpg",
+      "3058-los.jpg",
+      "2247-animales.jpg"
+    ],
+    "secuencia_final": [
+      "7331-ver_los_fuegos_artificiales.jpg",
+      "3058-los.jpg",
+      "2247-animales.jpg"
+    ]
+  },
+  {
+    "oracion": "volver al colegio",
+    "tokens": [
+      "volver",
+      "al",
+      "colegio"
+    ],
+    "elecciones": [
+      "2013-volver.jpg",
+      "11059-llevar_al_colegio.jpg",
+      "786-colegio.jpg"
+    ],
+    "secuencia_final": [
+      "2013-volver.jpg",
+      "11059-llevar_al_colegio.jpg",
+      "786-colegio.jpg"
+    ]
+  },
+  {
+    "oracion": "recoger la mesa",
+    "tokens": [
+      "recoger",
+      "la",
+      "mesa"
+    ],
+    "elecciones": [
+      "8948-recoger.jpg",
+      "3057-la.jpg",
+      "2129-mesa.jpg"
+    ],
+    "secuencia_final": [
+      "8948-recoger.jpg",
+      "3057-la.jpg",
+      "2129-mesa.jpg"
+    ]
+  },
+  {
+    "oracion": "guardar los materiales",
+    "tokens": [
+      "guardar",
+      "los",
+      "materiales"
+    ],
+    "elecciones": [
+      "1619-guardar.jpg",
+      "3058-los.jpg",
+      "9297-material_escolar.jpg"
+    ],
+    "secuencia_final": [
+      "1619-guardar.jpg",
+      "3058-los.jpg",
+      "9297-material_escolar.jpg"
+    ]
+  },
+  {
+    "oracion": "limpiar la clase",
+    "tokens": [
+      "limpiar",
+      "la",
+      "clase"
+    ],
+    "elecciones": [
+      "4919-limpiar.jpg",
+      "3057-la.jpg",
+      "10525-dormir_en_clase.jpg"
+    ],
+    "secuencia_final": [
+      "4919-limpiar.jpg",
+      "3057-la.jpg",
+      "10525-dormir_en_clase.jpg"
+    ]
+  },
+  {
+    "oracion": "poner la silla bien",
+    "tokens": [
+      "poner",
+      "la",
+      "silla",
+      "bien"
+    ],
+    "elecciones": [
+      "8987-poner.jpg",
+      "3057-la.jpg",
+      "863-silla.jpg",
+      "1522-bien.jpg"
+    ],
+    "secuencia_final": [
+      "8987-poner.jpg",
+      "3057-la.jpg",
+      "863-silla.jpg",
+      "1522-bien.jpg"
+    ]
+  },
+  {
+    "oracion": "decir adiós",
+    "tokens": [
+      "decir",
+      "adiós"
+    ],
+    "elecciones": [
+      "3539-decir.jpg",
+      "9454-adiós.jpg"
+    ],
+    "secuencia_final": [
+      "3539-decir.jpg",
+      "9454-adiós.jpg"
+    ]
+  },
+  {
+    "oracion": "salir del colegio",
+    "tokens": [
+      "salir",
+      "del",
+      "colegio"
+    ],
+    "elecciones": [
+      "11272-salir_del_túnel.jpg",
+      "11070-recoger_del_colegio.jpg",
+      "786-colegio.jpg"
+    ],
+    "secuencia_final": [
+      "11272-salir_del_túnel.jpg",
+      "11070-recoger_del_colegio.jpg",
+      "786-colegio.jpg"
+    ]
+  },
+  {
+    "oracion": "ver a mamá y papá",
+    "tokens": [
+      "ver",
+      "a",
+      "mamá",
+      "y",
+      "papá"
+    ],
+    "elecciones": [
+      "226-ver.jpg",
+      "10811-á.jpg",
+      "206-mamá.jpg",
+      "758-y.jpg",
+      "8264-papá.jpg"
+    ],
+    "secuencia_final": [
+      "226-ver.jpg",
+      "10811-á.jpg",
+      "206-mamá.jpg",
+      "758-y.jpg",
+      "8264-papá.jpg"
+    ]
+  },
+  {
+    "oracion": "ir a casa",
+    "tokens": [
+      "ir",
+      "a",
+      "casa"
+    ],
+    "elecciones": [
+      "9753-ir.jpg",
+      "10770-á.jpg",
+      "9075-vámonos_a_casa.jpg"
+    ],
+    "secuencia_final": [
+      "9753-ir.jpg",
+      "10770-á.jpg",
+      "9075-vámonos_a_casa.jpg"
+    ]
+  },
+  {
+    "oracion": "merendar en casa",
+    "tokens": [
+      "merendar",
+      "en",
+      "casa"
+    ],
+    "elecciones": [
+      "7179-merendar.jpg",
+      "2376-en.jpg",
+      "74-casa.jpg"
+    ],
+    "secuencia_final": [
+      "7179-merendar.jpg",
+      "2376-en.jpg",
+      "74-casa.jpg"
+    ]
+  },
+  {
+    "oracion": "hacer los deberes",
+    "tokens": [
+      "hacer",
+      "los",
+      "deberes"
+    ],
+    "elecciones": [
+      "4269-hacer.jpg",
+      "3058-los.jpg",
+      "3949-deberes.jpg"
+    ],
+    "secuencia_final": [
+      "4269-hacer.jpg",
+      "3058-los.jpg",
+      "3949-deberes.jpg"
+    ]
+  },
+  {
+    "oracion": "estudiar para el examen",
+    "tokens": [
+      "estudiar",
+      "para",
+      "el",
+      "examen"
+    ],
+    "elecciones": [
+      "10192-estudiar.jpg",
+      "2543-para.jpg",
+      null,
+      "12434-examen.jpg"
+    ],
+    "secuencia_final": [
+      "10192-estudiar.jpg",
+      "2543-para.jpg",
+      null,
+      "12434-examen.jpg"
+    ]
+  },
+  {
+    "oracion": "leer un libro en casa",
+    "tokens": [
+      "leer",
+      "un",
+      "libro",
+      "en",
+      "casa"
+    ],
+    "elecciones": [
+      "8443-leer.jpg",
+      null,
+      "2042-devolver_un_libro.jpg",
+      "2376-en.jpg",
+      "74-casa.jpg"
+    ],
+    "secuencia_final": [
+      "8443-leer.jpg",
+      null,
+      "2042-devolver_un_libro.jpg",
+      "2376-en.jpg",
+      "74-casa.jpg"
+    ]
+  },
+  {
+    "oracion": "ver la televisión",
+    "tokens": [
+      "ver",
+      "la",
+      "televisión"
+    ],
+    "elecciones": [
+      "501-ver_la_televisión.jpg",
+      "3057-la.jpg",
+      "7302-ver_la_televisión.jpg"
+    ],
+    "secuencia_final": [
+      "501-ver_la_televisión.jpg",
+      "3057-la.jpg",
+      "7302-ver_la_televisión.jpg"
+    ]
+  },
+  {
+    "oracion": "jugar con la consola",
+    "tokens": [
+      "jugar",
+      "con",
+      "la",
+      "consola"
+    ],
+    "elecciones": [
+      "5421-jugar.jpg",
+      "11852-jugar_con_la_comida.jpg",
+      "3057-la.jpg",
+      "11468-mando_de_la_consola.jpg"
+    ],
+    "secuencia_final": [
+      "5421-jugar.jpg",
+      "11852-jugar_con_la_comida.jpg",
+      "3057-la.jpg",
+      "11468-mando_de_la_consola.jpg"
+    ]
+  },
+  {
+    "oracion": "jugar con la tableta",
+    "tokens": [
+      "jugar",
+      "con",
+      "la",
+      "tableta"
+    ],
+    "elecciones": [
+      "5421-jugar.jpg",
+      "7311-jugar_con_el_ordenador.jpg",
+      "3057-la.jpg",
+      "7316-jugar_con_el_tablet.jpg"
+    ],
+    "secuencia_final": [
+      "5421-jugar.jpg",
+      "7311-jugar_con_el_ordenador.jpg",
+      "3057-la.jpg",
+      "7316-jugar_con_el_tablet.jpg"
+    ]
+  },
+  {
+    "oracion": "jugar con los muñecos",
+    "tokens": [
+      "jugar",
+      "con",
+      "los",
+      "muñecos"
+    ],
+    "elecciones": [
+      "10907-jugar.jpg",
+      "4925-jugar_con_el_agua.jpg",
+      "3058-los.jpg",
+      "3302-muñeco.jpg"
+    ],
+    "secuencia_final": [
+      "10907-jugar.jpg",
+      "4925-jugar_con_el_agua.jpg",
+      "3058-los.jpg",
+      "3302-muñeco.jpg"
+    ]
+  },
+  {
+    "oracion": "jugar con los coches",
+    "tokens": [
+      "jugar",
+      "con",
+      "los",
+      "coches"
+    ],
+    "elecciones": [
+      "10112-jugar.jpg",
+      "11852-jugar_con_la_comida.jpg",
+      "4925-jugar_con_el_agua.jpg",
+      "2328-coche.jpg"
+    ],
+    "secuencia_final": [
+      "10112-jugar.jpg",
+      "11852-jugar_con_la_comida.jpg",
+      "4925-jugar_con_el_agua.jpg",
+      "2328-coche.jpg"
+    ]
+  },
+  {
+    "oracion": "hacer un puzzle",
+    "tokens": [
+      "hacer",
+      "un",
+      "puzzle"
+    ],
+    "elecciones": [
+      "8976-hacer.jpg",
+      null,
+      "282-puzzle.jpg"
+    ],
+    "secuencia_final": [
+      "8976-hacer.jpg",
+      null,
+      "282-puzzle.jpg"
+    ]
+  },
+  {
+    "oracion": "jugar a juegos de mesa",
+    "tokens": [
+      "jugar",
+      "a",
+      "juegos",
+      "de",
+      "mesa"
+    ],
+    "elecciones": [
+      "11946-jugar.jpg",
+      "10770-á.jpg",
+      "8886-juegos_de_mesa.jpg",
+      null,
+      null
+    ],
+    "secuencia_final": [
+      "11946-jugar.jpg",
+      "10770-á.jpg",
+      "8886-juegos_de_mesa.jpg",
+      null,
+      null
+    ]
+  },
+  {
+    "oracion": "jugar al parchís",
+    "tokens": [
+      "jugar",
+      "al",
+      "parchís"
+    ],
+    "elecciones": [
+      "11091-jugar.jpg",
+      "4903-jugar_al_corro.jpg",
+      "251-parchís.jpg"
+    ],
+    "secuencia_final": [
+      "11091-jugar.jpg",
+      "4903-jugar_al_corro.jpg",
+      "251-parchís.jpg"
+    ]
+  },
+  {
+    "oracion": "jugar a la oca",
+    "tokens": [
+      "jugar",
+      "a",
+      "la",
+      "oca"
+    ],
+    "elecciones": [
+      "10907-jugar.jpg",
+      "727-a.jpg",
+      "8544-jugar_a_la_pelota.jpg",
+      "1106-juego_de_la_oca.jpg"
+    ],
+    "secuencia_final": [
+      "10907-jugar.jpg",
+      "727-a.jpg",
+      "8544-jugar_a_la_pelota.jpg",
+      "1106-juego_de_la_oca.jpg"
+    ]
+  },
+  {
+    "oracion": "jugar al dominó",
+    "tokens": [
+      "jugar",
+      "al",
+      "dominó"
+    ],
+    "elecciones": [
+      "11946-jugar.jpg",
+      "4903-jugar_al_corro.jpg",
+      "802-dominó.jpg"
+    ],
+    "secuencia_final": [
+      "11946-jugar.jpg",
+      "4903-jugar_al_corro.jpg",
+      "802-dominó.jpg"
+    ]
+  },
+  {
+    "oracion": "jugar a las cartas",
+    "tokens": [
+      "jugar",
+      "a",
+      "las",
+      "cartas"
+    ],
+    "elecciones": [
+      "11946-jugar.jpg",
+      "10811-á.jpg",
+      null,
+      "882-cartas.jpg"
+    ],
+    "secuencia_final": [
+      "11946-jugar.jpg",
+      "10811-á.jpg",
+      null,
+      "882-cartas.jpg"
+    ]
+  },
+  {
+    "oracion": "ayudar en casa",
+    "tokens": [
+      "ayudar",
+      "en",
+      "casa"
+    ],
+    "elecciones": [
+      "1134-ayudar.jpg",
+      "2376-en.jpg",
+      "74-casa.jpg"
+    ],
+    "secuencia_final": [
+      "1134-ayudar.jpg",
+      "2376-en.jpg",
+      "74-casa.jpg"
+    ]
+  },
+  {
+    "oracion": "hacer la cama",
+    "tokens": [
+      "hacer",
+      "la",
+      "cama"
+    ],
+    "elecciones": [
+      "8976-hacer.jpg",
+      "3057-la.jpg",
+      "58-cama.jpg"
+    ],
+    "secuencia_final": [
+      "8976-hacer.jpg",
+      "3057-la.jpg",
+      "58-cama.jpg"
+    ]
+  },
+  {
+    "oracion": "ordenar la habitación",
+    "tokens": [
+      "ordenar",
+      "la",
+      "habitación"
+    ],
+    "elecciones": [
+      "588-ordenar.jpg",
+      "3057-la.jpg",
+      "11281-ventilar_la_habitación.jpg"
+    ],
+    "secuencia_final": [
+      "588-ordenar.jpg",
+      "3057-la.jpg",
+      "11281-ventilar_la_habitación.jpg"
+    ]
+  },
+  {
+    "oracion": "poner la ropa sucia",
+    "tokens": [
+      "poner",
+      "la",
+      "ropa",
+      "sucia"
+    ],
+    "elecciones": [
+      "8987-poner.jpg",
+      "3057-la.jpg",
+      "2571-ropa.jpg",
+      "10126-pañal_sucio.jpg"
+    ],
+    "secuencia_final": [
+      "8987-poner.jpg",
+      "3057-la.jpg",
+      "2571-ropa.jpg",
+      "10126-pañal_sucio.jpg"
+    ]
+  },
+  {
+    "oracion": "doblar la ropa limpia",
+    "tokens": [
+      "doblar",
+      "la",
+      "ropa",
+      "limpia"
+    ],
+    "elecciones": [
+      null,
+      "3057-la.jpg",
+      "2571-ropa.jpg",
+      "1237-limpio.jpg"
+    ],
+    "secuencia_final": [
+      null,
+      "3057-la.jpg",
+      "2571-ropa.jpg",
+      "1237-limpio.jpg"
+    ]
+  },
+  {
+    "oracion": "preparar la mochila",
+    "tokens": [
+      "preparar",
+      "la",
+      "mochila"
+    ],
+    "elecciones": [
+      "1973-preparar.jpg",
+      "3057-la.jpg",
+      "12654-cerrar_la_mochila.jpg"
+    ],
+    "secuencia_final": [
+      "1973-preparar.jpg",
+      "3057-la.jpg",
+      "12654-cerrar_la_mochila.jpg"
+    ]
+  },
+  {
+    "oracion": "cenar en familia",
+    "tokens": [
+      "cenar",
+      "en",
+      "familia"
+    ],
+    "elecciones": [
+      "1156-cenar.jpg",
+      "2376-en.jpg",
+      "4260-familia.jpg"
+    ],
+    "secuencia_final": [
+      "1156-cenar.jpg",
+      "2376-en.jpg",
+      "4260-familia.jpg"
+    ]
+  },
+  {
+    "oracion": "lavar los dientes",
+    "tokens": [
+      "lavar",
+      "los",
+      "dientes"
+    ],
+    "elecciones": [
+      "3311-lavar.jpg",
+      "3058-los.jpg",
+      "476-dientes.jpg"
+    ],
+    "secuencia_final": [
+      "3311-lavar.jpg",
+      "3058-los.jpg",
+      "476-dientes.jpg"
+    ]
+  },
+  {
+    "oracion": "leer antes de dormir",
+    "tokens": [
+      "leer",
+      "antes",
+      "de",
+      "dormir"
+    ],
+    "elecciones": [
+      "8443-leer.jpg",
+      "12252-antes_de_ayer.jpg",
+      "2424-de.jpg",
+      "1294-saco_de_dormir.jpg"
+    ],
+    "secuencia_final": [
+      "8443-leer.jpg",
+      "12252-antes_de_ayer.jpg",
+      "2424-de.jpg",
+      "1294-saco_de_dormir.jpg"
+    ]
+  },
+  {
+    "oracion": "apagar la luz",
+    "tokens": [
+      "apagar",
+      "la",
+      "luz"
+    ],
+    "elecciones": [
+      "2729-apagar_la_luz.jpg",
+      "3057-la.jpg",
+      "2809-encender_la_luz.jpg"
+    ],
+    "secuencia_final": [
+      "2729-apagar_la_luz.jpg",
+      "3057-la.jpg",
+      "2809-encender_la_luz.jpg"
+    ]
+  },
+  {
+    "oracion": "dormir y soñar",
+    "tokens": [
+      "dormir",
+      "y",
+      "soñar"
+    ],
+    "elecciones": [
+      "2045-dormir.jpg",
+      "4121-y.jpg",
+      "2596-soñar.jpg"
+    ],
+    "secuencia_final": [
+      "2045-dormir.jpg",
+      "4121-y.jpg",
+      "2596-soñar.jpg"
+    ]
+  },
+  {
+    "oracion": "descansar para mañana",
+    "tokens": [
+      "descansar",
+      "para",
+      "mañana"
+    ],
+    "elecciones": [
+      "8569-descansar.jpg",
+      "2543-para.jpg",
+      "12258-mañana.jpg"
+    ],
+    "secuencia_final": [
+      "8569-descansar.jpg",
+      "2543-para.jpg",
+      "12258-mañana.jpg"
+    ]
+  },
+  {
+    "oracion": "despertar con energía",
+    "tokens": [
+      "despertar",
+      "con",
+      "energía"
+    ],
+    "elecciones": [
+      "3326-despertar.jpg",
+      "2409-con.jpg",
+      "6221-energía.jpg"
+    ],
+    "secuencia_final": [
+      "3326-despertar.jpg",
+      "2409-con.jpg",
+      "6221-energía.jpg"
+    ]
+  },
+  {
+    "oracion": "ir contento al cole",
+    "tokens": [
+      "ir",
+      "contento",
+      "al",
+      "cole"
+    ],
+    "elecciones": [
+      "9753-ir.jpg",
+      "944-contento.jpg",
+      "4250-al.jpg",
+      null
+    ],
+    "secuencia_final": [
+      "9753-ir.jpg",
+      "944-contento.jpg",
+      "4250-al.jpg",
+      null
+    ]
+  },
+  {
+    "oracion": "aprender cosas nuevas",
+    "tokens": [
+      "aprender",
+      "cosas",
+      "nuevas"
+    ],
+    "elecciones": [
+      "11774-aprender.jpg",
+      null,
+      "8835-¡feliz_año_nuevo!.jpg"
+    ],
+    "secuencia_final": [
+      "11774-aprender.jpg",
+      null,
+      "8835-¡feliz_año_nuevo!.jpg"
+    ]
+  },
+  {
+    "oracion": "tener buenos amigos",
+    "tokens": [
+      "tener",
+      "buenos",
+      "amigos"
+    ],
+    "elecciones": [
+      "2617-tener.jpg",
+      "4206-¡buen_provecho!.jpg",
+      "8-amigos.jpg"
+    ],
+    "secuencia_final": [
+      "2617-tener.jpg",
+      "4206-¡buen_provecho!.jpg",
+      "8-amigos.jpg"
+    ]
+  },
+  {
+    "oracion": "respetar a los profesores",
+    "tokens": [
+      "respetar",
+      "a",
+      "los",
+      "profesores"
+    ],
+    "elecciones": [
+      "10750-respetar.jpg",
+      "727-a.jpg",
+      "3058-los.jpg",
+      "9079-profesor_de_pedagogía_terapéutica.jpg"
+    ],
+    "secuencia_final": [
+      "10750-respetar.jpg",
+      "727-a.jpg",
+      "3058-los.jpg",
+      "9079-profesor_de_pedagogía_terapéutica.jpg"
+    ]
+  },
+  {
+    "oracion": "despertar por la mañana",
+    "tokens": [
+      "despertar",
+      "por",
+      "la",
+      "mañana"
+    ],
+    "elecciones": [
+      "3326-despertar.jpg",
+      "2557-por.jpg",
+      "3057-la.jpg",
+      "6090-mañana.jpg"
+    ],
+    "secuencia_final": [
+      "3326-despertar.jpg",
+      "2557-por.jpg",
+      "3057-la.jpg",
+      "6090-mañana.jpg"
+    ]
+  },
+  {
+    "oracion": "levantar de la cama",
+    "tokens": [
+      "levantar",
+      "de",
+      "la",
+      "cama"
+    ],
+    "elecciones": [
+      "2115-levantar.jpg",
+      "2424-de.jpg",
+      "7754-levantar_de_la_silla.jpg",
+      "58-cama.jpg"
+    ],
+    "secuencia_final": [
+      "2115-levantar.jpg",
+      "2424-de.jpg",
+      "7754-levantar_de_la_silla.jpg",
+      "58-cama.jpg"
+    ]
+  },
+  {
+    "oracion": "ir al baño",
+    "tokens": [
+      "ir",
+      "al",
+      "baño"
+    ],
+    "elecciones": [
+      "183-ir.jpg",
+      "8754-permitido_ir_al_baño.jpg",
+      "4699-baño.jpg"
+    ],
+    "secuencia_final": [
+      "183-ir.jpg",
+      "8754-permitido_ir_al_baño.jpg",
+      "4699-baño.jpg"
+    ]
+  },
+  {
+    "oracion": "hacer pis en el váter",
+    "tokens": [
+      "hacer",
+      "pis",
+      "en",
+      "el",
+      "váter"
+    ],
+    "elecciones": [
+      "10670-hacer_pis.jpg",
+      null,
+      "4953-sentar_en_el_váter.jpg",
+      null,
+      "4698-váter.jpg"
+    ],
+    "secuencia_final": [
+      "10670-hacer_pis.jpg",
+      null,
+      "4953-sentar_en_el_váter.jpg",
+      null,
+      "4698-váter.jpg"
+    ]
+  },
+  {
+    "oracion": "lavar la cara",
+    "tokens": [
+      "lavar",
+      "la",
+      "cara"
+    ],
+    "elecciones": [
+      "9516-lavar_la_cara.jpg",
+      "3057-la.jpg",
+      "8562-cara.jpg"
+    ],
+    "secuencia_final": [
+      "9516-lavar_la_cara.jpg",
+      "3057-la.jpg",
+      "8562-cara.jpg"
+    ]
+  },
+  {
+    "oracion": "lavar las manos con jabón",
+    "tokens": [
+      "lavar",
+      "las",
+      "manos",
+      "con",
+      "jabón"
+    ],
+    "elecciones": [
+      "3311-lavar.jpg",
+      null,
+      "3560-manos.jpg",
+      "2409-con.jpg",
+      "2796-jabón.jpg"
+    ],
+    "secuencia_final": [
+      "3311-lavar.jpg",
+      null,
+      "3560-manos.jpg",
+      "2409-con.jpg",
+      "2796-jabón.jpg"
+    ]
+  },
+  {
+    "oracion": "secar con la toalla",
+    "tokens": [
+      "secar",
+      "con",
+      "la",
+      "toalla"
+    ],
+    "elecciones": [
+      "7067-secar.jpg",
+      "11852-jugar_con_la_comida.jpg",
+      "3057-la.jpg",
+      "4267-poner_la_toalla.jpg"
+    ],
+    "secuencia_final": [
+      "7067-secar.jpg",
+      "11852-jugar_con_la_comida.jpg",
+      "3057-la.jpg",
+      "4267-poner_la_toalla.jpg"
+    ]
+  },
+  {
+    "oracion": "peinar el pelo",
+    "tokens": [
+      "peinar",
+      "el",
+      "pelo"
+    ],
+    "elecciones": [
+      "5301-peinar.jpg",
+      null,
+      "573-pelo.jpg"
+    ],
+    "secuencia_final": [
+      "5301-peinar.jpg",
+      null,
+      "573-pelo.jpg"
+    ]
+  },
+  {
+    "oracion": "quitar el pijama",
+    "tokens": [
+      "quitar",
+      "el",
+      "pijama"
+    ],
+    "elecciones": [
+      "4602-quitar.jpg",
+      null,
+      "264-pijama.jpg"
+    ],
+    "secuencia_final": [
+      "4602-quitar.jpg",
+      null,
+      "264-pijama.jpg"
+    ]
+  },
+  {
+    "oracion": "poner la ropa interior",
+    "tokens": [
+      "poner",
+      "la",
+      "ropa",
+      "interior"
+    ],
+    "elecciones": [
+      "8987-poner.jpg",
+      "3057-la.jpg",
+      "6099-ropa_interior.jpg",
+      null
+    ],
+    "secuencia_final": [
+      "8987-poner.jpg",
+      "3057-la.jpg",
+      "6099-ropa_interior.jpg",
+      null
+    ]
+  },
+  {
+    "oracion": "poner los calcetines",
+    "tokens": [
+      "poner",
+      "los",
+      "calcetines"
+    ],
+    "elecciones": [
+      "2362-poner.jpg",
+      null,
+      null
+    ],
+    "secuencia_final": [
+      "2362-poner.jpg",
+      null,
+      null
+    ]
+  },
+  {
+    "oracion": "poner el pantalón",
+    "tokens": [
+      "poner",
+      "el",
+      "pantalón"
+    ],
+    "elecciones": [
+      "2362-poner.jpg",
+      null,
+      "8433-subir_el_pantalón.jpg"
+    ],
+    "secuencia_final": [
+      "2362-poner.jpg",
+      null,
+      "8433-subir_el_pantalón.jpg"
+    ]
+  },
+  {
+    "oracion": "poner la camiseta",
+    "tokens": [
+      "poner",
+      "la",
+      "camiseta"
+    ],
+    "elecciones": [
+      "8987-poner.jpg",
+      "11816-subirse_la_camiseta.jpg",
+      "12024-estirar_de_la_camiseta.jpg"
+    ],
+    "secuencia_final": [
+      "8987-poner.jpg",
+      "11816-subirse_la_camiseta.jpg",
+      "12024-estirar_de_la_camiseta.jpg"
+    ]
+  },
+  {
+    "oracion": "poner el jersey",
+    "tokens": [
+      "poner",
+      "el",
+      "jersey"
+    ],
+    "elecciones": [
+      "8987-poner.jpg",
+      null,
+      "187-jersey.jpg"
+    ],
+    "secuencia_final": [
+      "8987-poner.jpg",
+      null,
+      "187-jersey.jpg"
+    ]
+  },
+  {
+    "oracion": "poner los zapatos",
+    "tokens": [
+      "poner",
+      "los",
+      "zapatos"
+    ],
+    "elecciones": [
+      "2362-poner.jpg",
+      "3058-los.jpg",
+      "360-zapatos.jpg"
+    ],
+    "secuencia_final": [
+      "2362-poner.jpg",
+      "3058-los.jpg",
+      "360-zapatos.jpg"
+    ]
+  },
+  {
+    "oracion": "atar los cordones",
+    "tokens": [
+      "atar",
+      "los",
+      "cordones"
+    ],
+    "elecciones": [
+      "13134-atar.jpg",
+      "3058-los.jpg",
+      "4548-cordón.jpg"
+    ],
+    "secuencia_final": [
+      "13134-atar.jpg",
+      "3058-los.jpg",
+      "4548-cordón.jpg"
+    ]
+  },
+  {
+    "oracion": "poner el abrigo",
+    "tokens": [
+      "poner",
+      "el",
+      "abrigo"
+    ],
+    "elecciones": [
+      "9462-poner_el_abrigo.jpg",
+      null,
+      null
+    ],
+    "secuencia_final": [
+      "9462-poner_el_abrigo.jpg",
+      null,
+      null
+    ]
+  },
+  {
+    "oracion": "coger la mochila",
+    "tokens": [
+      "coger",
+      "la",
+      "mochila"
+    ],
+    "elecciones": [
+      "4997-coger.jpg",
+      "3057-la.jpg",
+      "12658-abrir_la_mochila.jpg"
+    ],
+    "secuencia_final": [
+      "4997-coger.jpg",
+      "3057-la.jpg",
+      "12658-abrir_la_mochila.jpg"
+    ]
+  },
+  {
+    "oracion": "salir de casa",
+    "tokens": [
+      "salir",
+      "de",
+      "casa"
+    ],
+    "elecciones": [
+      "13313-salir_de_la_bañera.jpg",
+      "13379-botón_de_salir_de_pantalla_completa.jpg",
+      "10498-tienda_de_ropa_de_casa.jpg"
+    ],
+    "secuencia_final": [
+      "13313-salir_de_la_bañera.jpg",
+      "13379-botón_de_salir_de_pantalla_completa.jpg",
+      "10498-tienda_de_ropa_de_casa.jpg"
+    ]
+  },
+  {
+    "oracion": "cerrar la puerta con llave",
+    "tokens": [
+      "cerrar",
+      "la",
+      "puerta",
+      "con",
+      "llave"
+    ],
+    "elecciones": [
+      "11220-cerrar_con_llave.jpg",
+      "3057-la.jpg",
+      "12708-puerta.jpg",
+      "2409-con.jpg",
+      "2851-llave.jpg"
+    ],
+    "secuencia_final": [
+      "11220-cerrar_con_llave.jpg",
+      "3057-la.jpg",
+      "12708-puerta.jpg",
+      "2409-con.jpg",
+      "2851-llave.jpg"
+    ]
+  },
+  {
+    "oracion": "llamar al ascensor",
+    "tokens": [
+      "llamar",
+      "al",
+      "ascensor"
+    ],
+    "elecciones": [
+      "10365-llamar.jpg",
+      "4250-al.jpg",
+      "13-ascensor.jpg"
+    ],
+    "secuencia_final": [
+      "10365-llamar.jpg",
+      "4250-al.jpg",
+      "13-ascensor.jpg"
+    ]
+  },
+  {
+    "oracion": "bajar las escaleras",
+    "tokens": [
+      "bajar",
+      "las",
+      "escaleras"
+    ],
+    "elecciones": [
+      "395-bajar_las_escaleras.jpg",
+      null,
+      "5228-escalera_mecánica.jpg"
+    ],
+    "secuencia_final": [
+      "395-bajar_las_escaleras.jpg",
+      null,
+      "5228-escalera_mecánica.jpg"
+    ]
+  },
+  {
+    "oracion": "caminar por la acera",
+    "tokens": [
+      "caminar",
+      "por",
+      "la",
+      "acera"
+    ],
+    "elecciones": [
+      "957-caminar.jpg",
+      "2557-por.jpg",
+      "3057-la.jpg",
+      "0-acera.jpg"
+    ],
+    "secuencia_final": [
+      "957-caminar.jpg",
+      "2557-por.jpg",
+      "3057-la.jpg",
+      "0-acera.jpg"
+    ]
+  },
+  {
+    "oracion": "cruzar por el paso de cebra",
+    "tokens": [
+      "cruzar",
+      "por",
+      "el",
+      "paso",
+      "de",
+      "cebra"
+    ],
+    "elecciones": [
+      "2034-cruzar.jpg",
+      "2557-por.jpg",
+      null,
+      "2546-paso_de_cebra.jpg",
+      null,
+      null
+    ],
+    "secuencia_final": [
+      "2034-cruzar.jpg",
+      "2557-por.jpg",
+      null,
+      "2546-paso_de_cebra.jpg",
+      null,
+      null
+    ]
+  },
+  {
+    "oracion": "mirar el semáforo",
+    "tokens": [
+      "mirar",
+      "el",
+      "semáforo"
+    ],
+    "elecciones": [
+      "10368-mirar_a_los_ojos.jpg",
+      null,
+      "307-semáforo.jpg"
+    ],
+    "secuencia_final": [
+      "10368-mirar_a_los_ojos.jpg",
+      null,
+      "307-semáforo.jpg"
+    ]
+  },
+  {
+    "oracion": "esperar al autobús",
+    "tokens": [
+      "esperar",
+      "al",
+      "autobús"
+    ],
+    "elecciones": [
+      "6705-esperar.jpg",
+      "10625-subir_al_autobús.jpg",
+      "22-autobús.jpg"
+    ],
+    "secuencia_final": [
+      "6705-esperar.jpg",
+      "10625-subir_al_autobús.jpg",
+      "22-autobús.jpg"
+    ]
+  },
+  {
+    "oracion": "subir al coche",
+    "tokens": [
+      "subir",
+      "al",
+      "coche"
+    ],
+    "elecciones": [
+      "10992-subir_al_coche.jpg",
+      null,
+      null
+    ],
+    "secuencia_final": [
+      "10992-subir_al_coche.jpg",
+      null,
+      null
+    ]
+  },
+  {
+    "oracion": "poner el cinturón",
+    "tokens": [
+      "poner",
+      "el",
+      "cinturón"
+    ],
+    "elecciones": [
+      "8987-poner.jpg",
+      null,
+      "9557-abrochar_el_cinturón.jpg"
+    ],
+    "secuencia_final": [
+      "8987-poner.jpg",
+      null,
+      "9557-abrochar_el_cinturón.jpg"
+    ]
+  },
+  {
+    "oracion": "ir al supermercado",
+    "tokens": [
+      "ir",
+      "al",
+      "supermercado"
+    ],
+    "elecciones": [
+      "2861-ir.jpg",
+      "8754-permitido_ir_al_baño.jpg",
+      "1078-supermercado.jpg"
+    ],
+    "secuencia_final": [
+      "2861-ir.jpg",
+      "8754-permitido_ir_al_baño.jpg",
+      "1078-supermercado.jpg"
+    ]
+  },
+  {
+    "oracion": "coger el carrito",
+    "tokens": [
+      "coger",
+      "el",
+      "carrito"
+    ],
+    "elecciones": [
+      "8989-coger.jpg",
+      null,
+      "1774-carrito_de_la_compra.jpg"
+    ],
+    "secuencia_final": [
+      "8989-coger.jpg",
+      null,
+      "1774-carrito_de_la_compra.jpg"
+    ]
+  },
+  {
+    "oracion": "comprar pan",
+    "tokens": [
+      "comprar",
+      "pan"
+    ],
+    "elecciones": [
+      "3321-comprar.jpg",
+      "12690-pan.jpg"
+    ],
+    "secuencia_final": [
+      "3321-comprar.jpg",
+      "12690-pan.jpg"
+    ]
+  },
+  {
+    "oracion": "comprar leche",
+    "tokens": [
+      "comprar",
+      "leche"
+    ],
+    "elecciones": [
+      "2037-comprar.jpg",
+      "197-leche.jpg"
+    ],
+    "secuencia_final": [
+      "2037-comprar.jpg",
+      "197-leche.jpg"
+    ]
+  },
+  {
+    "oracion": "comprar fruta",
+    "tokens": [
+      "comprar",
+      "fruta"
+    ],
+    "elecciones": [
+      "3322-comprar.jpg",
+      "6979-fruta.jpg"
+    ],
+    "secuencia_final": [
+      "3322-comprar.jpg",
+      "6979-fruta.jpg"
+    ]
+  },
+  {
+    "oracion": "comprar carne",
+    "tokens": [
+      "comprar",
+      "carne"
+    ],
+    "elecciones": [
+      "3321-comprar.jpg",
+      "69-carne.jpg"
+    ],
+    "secuencia_final": [
+      "3321-comprar.jpg",
+      "69-carne.jpg"
+    ]
+  },
+  {
+    "oracion": "comprar pescado",
+    "tokens": [
+      "comprar",
+      "pescado"
+    ],
+    "elecciones": [
+      "7114-comprar.jpg",
+      "10042-pescado.jpg"
+    ],
+    "secuencia_final": [
+      "7114-comprar.jpg",
+      "10042-pescado.jpg"
+    ]
+  },
+  {
+    "oracion": "pagar en la caja",
+    "tokens": [
+      "pagar",
+      "en",
+      "la",
+      "caja"
+    ],
+    "elecciones": [
+      "7292-pagar.jpg",
+      "12386-esperar_en_la_fila.jpg",
+      "3057-la.jpg",
+      "385-abrir_la_caja.jpg"
+    ],
+    "secuencia_final": [
+      "7292-pagar.jpg",
+      "12386-esperar_en_la_fila.jpg",
+      "3057-la.jpg",
+      "385-abrir_la_caja.jpg"
+    ]
+  },
+  {
+    "oracion": "guardar la compra",
+    "tokens": [
+      "guardar",
+      "la",
+      "compra"
+    ],
+    "elecciones": [
+      "1619-guardar.jpg",
+      "3057-la.jpg",
+      "4717-compra.jpg"
+    ],
+    "secuencia_final": [
+      "1619-guardar.jpg",
+      "3057-la.jpg",
+      "4717-compra.jpg"
+    ]
+  },
+  {
+    "oracion": "ir a la farmacia",
+    "tokens": [
+      "ir",
+      "a",
+      "la",
+      "farmacia"
+    ],
+    "elecciones": [
+      "183-ir.jpg",
+      "727-a.jpg",
+      "3057-la.jpg",
+      "1007-farmacia.jpg"
+    ],
+    "secuencia_final": [
+      "183-ir.jpg",
+      "727-a.jpg",
+      "3057-la.jpg",
+      "1007-farmacia.jpg"
+    ]
+  },
+  {
+    "oracion": "comprar medicinas",
+    "tokens": [
+      "comprar",
+      "medicinas"
+    ],
+    "elecciones": [
+      "7114-comprar.jpg",
+      "2866-medicinas.jpg"
+    ],
+    "secuencia_final": [
+      "7114-comprar.jpg",
+      "2866-medicinas.jpg"
+    ]
+  },
+  {
+    "oracion": "ir al médico",
+    "tokens": [
+      "ir",
+      "al",
+      "médico"
+    ],
+    "elecciones": [
+      "8488-ir.jpg",
+      "8729-permitido_ir_al_baño.jpg",
+      "215-médico.jpg"
+    ],
+    "secuencia_final": [
+      "8488-ir.jpg",
+      "8729-permitido_ir_al_baño.jpg",
+      "215-médico.jpg"
+    ]
+  },
+  {
+    "oracion": "esperar en la sala",
+    "tokens": [
+      "esperar",
+      "en",
+      "la",
+      "sala"
+    ],
+    "elecciones": [
+      "6705-esperar.jpg",
+      "11215-esperar_en_la_parada.jpg",
+      "12382-esperar_en_la_fila.jpg",
+      "6682-sala_de_exposiciones.jpg"
+    ],
+    "secuencia_final": [
+      "6705-esperar.jpg",
+      "11215-esperar_en_la_parada.jpg",
+      "12382-esperar_en_la_fila.jpg",
+      "6682-sala_de_exposiciones.jpg"
+    ]
+  },
+  {
+    "oracion": "entrar en la consulta",
+    "tokens": [
+      "entrar",
+      "en",
+      "la",
+      "consulta"
+    ],
+    "elecciones": [
+      "13314-entrar_en_la_bañera.jpg",
+      "11215-esperar_en_la_parada.jpg",
+      "3057-la.jpg",
+      "12825-consulta.jpg"
+    ],
+    "secuencia_final": [
+      "13314-entrar_en_la_bañera.jpg",
+      "11215-esperar_en_la_parada.jpg",
+      "3057-la.jpg",
+      "12825-consulta.jpg"
+    ]
+  },
+  {
+    "oracion": "hablar con el doctor",
+    "tokens": [
+      "hablar",
+      "con",
+      "el",
+      "doctor"
+    ],
+    "elecciones": [
+      "10577-hablar.jpg",
+      "7311-jugar_con_el_ordenador.jpg",
+      null,
+      "12809-médico.jpg"
+    ],
+    "secuencia_final": [
+      "10577-hablar.jpg",
+      "7311-jugar_con_el_ordenador.jpg",
+      null,
+      "12809-médico.jpg"
+    ]
+  },
+  {
+    "oracion": "ir al parque",
+    "tokens": [
+      "ir",
+      "al",
+      "parque"
+    ],
+    "elecciones": [
+      "9753-ir.jpg",
+      "8729-permitido_ir_al_baño.jpg",
+      "574-parque.jpg"
+    ],
+    "secuencia_final": [
+      "9753-ir.jpg",
+      "8729-permitido_ir_al_baño.jpg",
+      "574-parque.jpg"
+    ]
+  },
+  {
+    "oracion": "pasear al perro",
+    "tokens": [
+      "pasear",
+      "al",
+      "perro"
+    ],
+    "elecciones": [
+      "11355-pasear.jpg",
+      null,
+      null
+    ],
+    "secuencia_final": [
+      "11355-pasear.jpg",
+      null,
+      null
+    ]
+  },
+  {
+    "oracion": "recoger la caca del perro",
+    "tokens": [
+      "recoger",
+      "la",
+      "caca",
+      "del",
+      "perro"
+    ],
+    "elecciones": [
+      "8948-recoger.jpg",
+      "3057-la.jpg",
+      "2752-caca.jpg",
+      "4251-del.jpg",
+      "12906-perro.jpg"
+    ],
+    "secuencia_final": [
+      "8948-recoger.jpg",
+      "3057-la.jpg",
+      "2752-caca.jpg",
+      "4251-del.jpg",
+      "12906-perro.jpg"
+    ]
+  },
+  {
+    "oracion": "tirar la basura al contenedor",
+    "tokens": [
+      "tirar",
+      "la",
+      "basura",
+      "al",
+      "contenedor"
+    ],
+    "elecciones": [
+      "11535-tirar.jpg",
+      "3057-la.jpg",
+      "12212-tirar_a_la_basura.jpg",
+      "12112-tirar_basura_al_suelo.jpg",
+      "4691-contenedor.jpg"
+    ],
+    "secuencia_final": [
+      "11535-tirar.jpg",
+      "3057-la.jpg",
+      "12212-tirar_a_la_basura.jpg",
+      "12112-tirar_basura_al_suelo.jpg",
+      "4691-contenedor.jpg"
+    ]
+  },
+  {
+    "oracion": "reciclar plástico y papel",
+    "tokens": [
+      "reciclar",
+      "plástico",
+      "y",
+      "papel"
+    ],
+    "elecciones": [
+      "6583-reciclar.jpg",
+      "3768-plástico.jpg",
+      "3784-lápiz_y_papel.jpg",
+      "5739-pluma_y_papel.jpg"
+    ],
+    "secuencia_final": [
+      "6583-reciclar.jpg",
+      "3768-plástico.jpg",
+      "3784-lápiz_y_papel.jpg",
+      "5739-pluma_y_papel.jpg"
+    ]
+  },
+  {
+    "oracion": "reciclar vidrio en iglú",
+    "tokens": [
+      "reciclar",
+      "vidrio",
+      "en",
+      "iglú"
+    ],
+    "elecciones": [
+      "6581-reciclar.jpg",
+      null,
+      "2376-en.jpg",
+      "2838-iglú.jpg"
+    ],
+    "secuencia_final": [
+      "6581-reciclar.jpg",
+      null,
+      "2376-en.jpg",
+      "2838-iglú.jpg"
+    ]
+  },
+  {
+    "oracion": "saludar al vecino",
+    "tokens": [
+      "saludar",
+      "al",
+      "vecino"
+    ],
+    "elecciones": [
+      null,
+      "4250-al.jpg",
+      "11243-vecino.jpg"
+    ],
+    "secuencia_final": [
+      null,
+      "4250-al.jpg",
+      "11243-vecino.jpg"
+    ]
+  },
+  {
+    "oracion": "hablar con amigos",
+    "tokens": [
+      "hablar",
+      "con",
+      "amigos"
+    ],
+    "elecciones": [
+      "1120-hablar.jpg",
+      "2409-con.jpg",
+      "6149-amigos.jpg"
+    ],
+    "secuencia_final": [
+      "1120-hablar.jpg",
+      "2409-con.jpg",
+      "6149-amigos.jpg"
+    ]
+  },
+  {
+    "oracion": "ir a la biblioteca",
+    "tokens": [
+      "ir",
+      "a",
+      "la",
+      "biblioteca"
+    ],
+    "elecciones": [
+      "9753-ir.jpg",
+      "754-a.jpg",
+      "3057-la.jpg",
+      "776-biblioteca.jpg"
+    ],
+    "secuencia_final": [
+      "9753-ir.jpg",
+      "754-a.jpg",
+      "3057-la.jpg",
+      "776-biblioteca.jpg"
+    ]
+  },
+  {
+    "oracion": "pedir un libro prestado",
+    "tokens": [
+      "pedir",
+      "un",
+      "libro",
+      "prestado"
+    ],
+    "elecciones": [
+      "7321-pedir_un_taxi.jpg",
+      null,
+      "2042-devolver_un_libro.jpg",
+      null
+    ],
+    "secuencia_final": [
+      "7321-pedir_un_taxi.jpg",
+      null,
+      "2042-devolver_un_libro.jpg",
+      null
+    ]
+  },
+  {
+    "oracion": "leer en silencio",
+    "tokens": [
+      "leer",
+      "en",
+      "silencio"
+    ],
+    "elecciones": [
+      "7113-leer.jpg",
+      "2376-en.jpg",
+      "1821-silencio.jpg"
+    ],
+    "secuencia_final": [
+      "7113-leer.jpg",
+      "2376-en.jpg",
+      "1821-silencio.jpg"
+    ]
+  },
+  {
+    "oracion": "devolver el libro",
+    "tokens": [
+      "devolver",
+      "el",
+      "libro"
+    ],
+    "elecciones": [
+      "2042-devolver_un_libro.jpg",
+      null,
+      "2228-abrir_el_libro.jpg"
+    ],
+    "secuencia_final": [
+      "2042-devolver_un_libro.jpg",
+      null,
+      "2228-abrir_el_libro.jpg"
+    ]
+  },
+  {
+    "oracion": "ir al cine",
+    "tokens": [
+      "ir",
+      "al",
+      "cine"
+    ],
+    "elecciones": [
+      "183-ir.jpg",
+      "8754-permitido_ir_al_baño.jpg",
+      "1165-cine.jpg"
+    ],
+    "secuencia_final": [
+      "183-ir.jpg",
+      "8754-permitido_ir_al_baño.jpg",
+      "1165-cine.jpg"
+    ]
+  },
+  {
+    "oracion": "comprar la entrada",
+    "tokens": [
+      "comprar",
+      "la",
+      "entrada"
+    ],
+    "elecciones": [
+      "3322-comprar.jpg",
+      "3057-la.jpg",
+      "9717-entrada.jpg"
+    ],
+    "secuencia_final": [
+      "3322-comprar.jpg",
+      "3057-la.jpg",
+      "9717-entrada.jpg"
+    ]
+  },
+  {
+    "oracion": "comprar palomitas y refresco",
+    "tokens": [
+      "comprar",
+      "palomitas",
+      "y",
+      "refresco"
+    ],
+    "elecciones": [
+      "3321-comprar.jpg",
+      "1640-palomitas.jpg",
+      "4121-y.jpg",
+      "1291-refresco.jpg"
+    ],
+    "secuencia_final": [
+      "3321-comprar.jpg",
+      "1640-palomitas.jpg",
+      "4121-y.jpg",
+      "1291-refresco.jpg"
+    ]
+  },
+  {
+    "oracion": "ver la película",
+    "tokens": [
+      "ver",
+      "la",
+      "película"
+    ],
+    "elecciones": [
+      "7302-ver_la_televisión.jpg",
+      "3057-la.jpg",
+      "9377-película.jpg"
+    ],
+    "secuencia_final": [
+      "7302-ver_la_televisión.jpg",
+      "3057-la.jpg",
+      "9377-película.jpg"
+    ]
+  },
+  {
+    "oracion": "ir al teatro",
+    "tokens": [
+      "ir",
+      "al",
+      "teatro"
+    ],
+    "elecciones": [
+      "183-ir.jpg",
+      "8754-permitido_ir_al_baño.jpg",
+      "3756-teatro.jpg"
+    ],
+    "secuencia_final": [
+      "183-ir.jpg",
+      "8754-permitido_ir_al_baño.jpg",
+      "3756-teatro.jpg"
+    ]
+  },
+  {
+    "oracion": "ver una obra de teatro",
+    "tokens": [
+      "ver",
+      "una",
+      "obra",
+      "de",
+      "teatro"
+    ],
+    "elecciones": [
+      "9374-ver_una_película.jpg",
+      "13213-una.jpg",
+      "4050-obra_de_teatro.jpg",
+      null,
+      null
+    ],
+    "secuencia_final": [
+      "9374-ver_una_película.jpg",
+      "13213-una.jpg",
+      "4050-obra_de_teatro.jpg",
+      null,
+      null
+    ]
+  },
+  {
+    "oracion": "aplaudir a los actores",
+    "tokens": [
+      "aplaudir",
+      "a",
+      "los",
+      "actores"
+    ],
+    "elecciones": [
+      "1141-aplaudir.jpg",
+      "10770-á.jpg",
+      "3058-los.jpg",
+      "1130-actor.jpg"
+    ],
+    "secuencia_final": [
+      "1141-aplaudir.jpg",
+      "10770-á.jpg",
+      "3058-los.jpg",
+      "1130-actor.jpg"
+    ]
+  },
+  {
+    "oracion": "ir al museo",
+    "tokens": [
+      "ir",
+      "al",
+      "museo"
+    ],
+    "elecciones": [
+      "2861-ir.jpg",
+      "8729-permitido_ir_al_baño.jpg",
+      "849-museo.jpg"
+    ],
+    "secuencia_final": [
+      "2861-ir.jpg",
+      "8729-permitido_ir_al_baño.jpg",
+      "849-museo.jpg"
+    ]
+  },
+  {
+    "oracion": "ver cuadros y esculturas",
+    "tokens": [
+      "ver",
+      "cuadros",
+      "y",
+      "esculturas"
+    ],
+    "elecciones": [
+      "226-ver.jpg",
+      "7714-tienda_de_cuadros.jpg",
+      "4121-y.jpg",
+      "3151-escultura.jpg"
+    ],
+    "secuencia_final": [
+      "226-ver.jpg",
+      "7714-tienda_de_cuadros.jpg",
+      "4121-y.jpg",
+      "3151-escultura.jpg"
+    ]
+  },
+  {
+    "oracion": "ir a la piscina",
+    "tokens": [
+      "ir",
+      "a",
+      "la",
+      "piscina"
+    ],
+    "elecciones": [
+      "8488-ir.jpg",
+      "10811-á.jpg",
+      "3057-la.jpg",
+      "850-piscina.jpg"
+    ],
+    "secuencia_final": [
+      "8488-ir.jpg",
+      "10811-á.jpg",
+      "3057-la.jpg",
+      "850-piscina.jpg"
+    ]
+  },
+  {
+    "oracion": "poner el bañador",
+    "tokens": [
+      "poner",
+      "el",
+      "bañador"
+    ],
+    "elecciones": [
+      "10604-poner_el_bañador.jpg",
+      null,
+      null
+    ],
+    "secuencia_final": [
+      "10604-poner_el_bañador.jpg",
+      null,
+      null
+    ]
+  },
+  {
+    "oracion": "poner el gorro",
+    "tokens": [
+      "poner",
+      "el",
+      "gorro"
+    ],
+    "elecciones": [
+      "8987-poner.jpg",
+      null,
+      "13311-gorro.jpg"
+    ],
+    "secuencia_final": [
+      "8987-poner.jpg",
+      null,
+      "13311-gorro.jpg"
+    ]
+  },
+  {
+    "oracion": "nadar en el agua",
+    "tokens": [
+      "nadar",
+      "en",
+      "el",
+      "agua"
+    ],
+    "elecciones": [
+      "2138-nadar.jpg",
+      "11310-flotar_en_el_agua.jpg",
+      null,
+      "8836-agua.jpg"
+    ],
+    "secuencia_final": [
+      "2138-nadar.jpg",
+      "11310-flotar_en_el_agua.jpg",
+      null,
+      "8836-agua.jpg"
+    ]
+  },
+  {
+    "oracion": "duchar en el vestuario",
+    "tokens": [
+      "duchar",
+      "en",
+      "el",
+      "vestuario"
+    ],
+    "elecciones": [
+      "6775-duchar.jpg",
+      "10935-esperar_en_el_autobús.jpg",
+      null,
+      "6706-vestuario.jpg"
+    ],
+    "secuencia_final": [
+      "6775-duchar.jpg",
+      "10935-esperar_en_el_autobús.jpg",
+      null,
+      "6706-vestuario.jpg"
+    ]
+  },
+  {
+    "oracion": "secar el pelo",
+    "tokens": [
+      "secar",
+      "el",
+      "pelo"
+    ],
+    "elecciones": [
+      "6675-secar.jpg",
+      null,
+      "573-pelo.jpg"
+    ],
+    "secuencia_final": [
+      "6675-secar.jpg",
+      null,
+      "573-pelo.jpg"
+    ]
+  },
+  {
+    "oracion": "volver a casa",
+    "tokens": [
+      "volver",
+      "a",
+      "casa"
+    ],
+    "elecciones": [
+      "2197-volver.jpg",
+      "727-a.jpg",
+      "9075-vámonos_a_casa.jpg"
+    ],
+    "secuencia_final": [
+      "2197-volver.jpg",
+      "727-a.jpg",
+      "9075-vámonos_a_casa.jpg"
+    ]
+  },
+  {
+    "oracion": "abrir el buzón",
+    "tokens": [
+      "abrir",
+      "el",
+      "buzón"
+    ],
+    "elecciones": [
+      "5805-abrir.jpg",
+      null,
+      "10265-buzón.jpg"
+    ],
+    "secuencia_final": [
+      "5805-abrir.jpg",
+      null,
+      "10265-buzón.jpg"
+    ]
+  },
+  {
+    "oracion": "coger las cartas",
+    "tokens": [
+      "coger",
+      "las",
+      "cartas"
+    ],
+    "elecciones": [
+      "8989-coger.jpg",
+      null,
+      "882-cartas.jpg"
+    ],
+    "secuencia_final": [
+      "8989-coger.jpg",
+      null,
+      "882-cartas.jpg"
+    ]
+  },
+  {
+    "oracion": "abrir la puerta",
+    "tokens": [
+      "abrir",
+      "la",
+      "puerta"
+    ],
+    "elecciones": [
+      "2221-abrir_la_puerta.jpg",
+      "3057-la.jpg",
+      "12708-puerta.jpg"
+    ],
+    "secuencia_final": [
+      "2221-abrir_la_puerta.jpg",
+      "3057-la.jpg",
+      "12708-puerta.jpg"
+    ]
+  },
+  {
+    "oracion": "quitar el abrigo",
+    "tokens": [
+      "quitar",
+      "el",
+      "abrigo"
+    ],
+    "elecciones": [
+      "11426-quitar_el_abrigo.jpg",
+      null,
+      null
+    ],
+    "secuencia_final": [
+      "11426-quitar_el_abrigo.jpg",
+      null,
+      null
+    ]
+  },
+  {
+    "oracion": "quitar los zapatos",
+    "tokens": [
+      "quitar",
+      "los",
+      "zapatos"
+    ],
+    "elecciones": [
+      "4273-quitar.jpg",
+      "3058-los.jpg",
+      "360-zapatos.jpg"
+    ],
+    "secuencia_final": [
+      "4273-quitar.jpg",
+      "3058-los.jpg",
+      "360-zapatos.jpg"
+    ]
+  },
+  {
+    "oracion": "poner las zapatillas",
+    "tokens": [
+      "poner",
+      "las",
+      "zapatillas"
+    ],
+    "elecciones": [
+      "2362-poner.jpg",
+      null,
+      "361-zapatillas.jpg"
+    ],
+    "secuencia_final": [
+      "2362-poner.jpg",
+      null,
+      "361-zapatillas.jpg"
+    ]
+  },
+  {
+    "oracion": "lavar las manos",
+    "tokens": [
+      "lavar",
+      "las",
+      "manos"
+    ],
+    "elecciones": [
+      "3325-lavar_las_manos.jpg",
+      null,
+      "3560-manos.jpg"
+    ],
+    "secuencia_final": [
+      "3325-lavar_las_manos.jpg",
+      null,
+      "3560-manos.jpg"
+    ]
+  },
+  {
+    "oracion": "ayudar a cocinar",
+    "tokens": [
+      "ayudar",
+      "a",
+      "cocinar"
+    ],
+    "elecciones": [
+      "8924-ayudar.jpg",
+      "10770-á.jpg",
+      "2333-cocinar.jpg"
+    ],
+    "secuencia_final": [
+      "8924-ayudar.jpg",
+      "10770-á.jpg",
+      "2333-cocinar.jpg"
+    ]
+  },
+  {
+    "oracion": "poner la mesa",
+    "tokens": [
+      "poner",
+      "la",
+      "mesa"
+    ],
+    "elecciones": [
+      "8987-poner.jpg",
+      "3057-la.jpg",
+      "830-mesa.jpg"
+    ],
+    "secuencia_final": [
+      "8987-poner.jpg",
+      "3057-la.jpg",
+      "830-mesa.jpg"
+    ]
+  },
+  {
+    "oracion": "comer con la familia",
+    "tokens": [
+      "comer",
+      "con",
+      "la",
+      "familia"
+    ],
+    "elecciones": [
+      "7118-comer.jpg",
+      "11852-jugar_con_la_comida.jpg",
+      "3057-la.jpg",
+      "8418-familia.jpg"
+    ],
+    "secuencia_final": [
+      "7118-comer.jpg",
+      "11852-jugar_con_la_comida.jpg",
+      "3057-la.jpg",
+      "8418-familia.jpg"
+    ]
+  },
+  {
+    "oracion": "hablar del día",
+    "tokens": [
+      "hablar",
+      "del",
+      "día"
+    ],
+    "elecciones": [
+      "10577-hablar.jpg",
+      "4251-del.jpg",
+      "11729-día.jpg"
+    ],
+    "secuencia_final": [
+      "10577-hablar.jpg",
+      "4251-del.jpg",
+      "11729-día.jpg"
+    ]
+  },
+  {
+    "oracion": "recoger la mesa",
+    "tokens": [
+      "recoger",
+      "la",
+      "mesa"
+    ],
+    "elecciones": [
+      "8948-recoger.jpg",
+      "3057-la.jpg",
+      "2129-mesa.jpg"
+    ],
+    "secuencia_final": [
+      "8948-recoger.jpg",
+      "3057-la.jpg",
+      "2129-mesa.jpg"
+    ]
+  },
+  {
+    "oracion": "poner el lavavajillas",
+    "tokens": [
+      "poner",
+      "el",
+      "lavavajillas"
+    ],
+    "elecciones": [
+      "8987-poner.jpg",
+      null,
+      "199-lavavajillas.jpg"
+    ],
+    "secuencia_final": [
+      "8987-poner.jpg",
+      null,
+      "199-lavavajillas.jpg"
+    ]
+  },
+  {
+    "oracion": "ver la tele en el sofá",
+    "tokens": [
+      "ver",
+      "la",
+      "tele",
+      "en",
+      "el",
+      "sofá"
+    ],
+    "elecciones": [
+      "501-ver_la_televisión.jpg",
+      "6597-sentar_en_el_borde.jpg",
+      "6022-tele.jpg",
+      "10935-esperar_en_el_autobús.jpg",
+      null,
+      "6009-sofá.jpg"
+    ],
+    "secuencia_final": [
+      "501-ver_la_televisión.jpg",
+      "6597-sentar_en_el_borde.jpg",
+      "6022-tele.jpg",
+      "10935-esperar_en_el_autobús.jpg",
+      null,
+      "6009-sofá.jpg"
+    ]
+  },
+  {
+    "oracion": "escuchar música",
+    "tokens": [
+      "escuchar",
+      "música"
+    ],
+    "elecciones": [
+      "7610-escuchar_música.jpg",
+      null
+    ],
+    "secuencia_final": [
+      "7610-escuchar_música.jpg",
+      null
+    ]
+  },
+  {
+    "oracion": "bailar en el salón",
+    "tokens": [
+      "bailar",
+      "en",
+      "el",
+      "salón"
+    ],
+    "elecciones": [
+      "8404-bailar.jpg",
+      "10935-esperar_en_el_autobús.jpg",
+      null,
+      "1981-salón.jpg"
+    ],
+    "secuencia_final": [
+      "8404-bailar.jpg",
+      "10935-esperar_en_el_autobús.jpg",
+      null,
+      "1981-salón.jpg"
+    ]
+  },
+  {
+    "oracion": "hablar por teléfono",
+    "tokens": [
+      "hablar",
+      "por",
+      "teléfono"
+    ],
+    "elecciones": [
+      "9416-hablar_por_teléfono.jpg",
+      null,
+      null
+    ],
+    "secuencia_final": [
+      "9416-hablar_por_teléfono.jpg",
+      null,
+      null
+    ]
+  },
+  {
+    "oracion": "llamar a los abuelos",
+    "tokens": [
+      "llamar",
+      "a",
+      "los",
+      "abuelos"
+    ],
+    "elecciones": [
+      "3646-llamar.jpg",
+      "727-a.jpg",
+      "3058-los.jpg",
+      "7952-abuelos.jpg"
+    ],
+    "secuencia_final": [
+      "3646-llamar.jpg",
+      "727-a.jpg",
+      "3058-los.jpg",
+      "7952-abuelos.jpg"
+    ]
+  },
+  {
+    "oracion": "escribir un mensaje",
+    "tokens": [
+      "escribir",
+      "un",
+      "mensaje"
+    ],
+    "elecciones": [
+      "2812-escribir.jpg",
+      null,
+      null
+    ],
+    "secuencia_final": [
+      "2812-escribir.jpg",
+      null,
+      null
+    ]
+  },
+  {
+    "oracion": "jugar con el gato",
+    "tokens": [
+      "jugar",
+      "con",
+      "el",
+      "gato"
+    ],
+    "elecciones": [
+      "11946-jugar.jpg",
+      "4925-jugar_con_el_agua.jpg",
+      null,
+      "3591-gato.jpg"
+    ],
+    "secuencia_final": [
+      "11946-jugar.jpg",
+      "4925-jugar_con_el_agua.jpg",
+      null,
+      "3591-gato.jpg"
+    ]
+  },
+  {
+    "oracion": "regar las plantas",
+    "tokens": [
+      "regar",
+      "las",
+      "plantas"
+    ],
+    "elecciones": [
+      "5319-regar.jpg",
+      null,
+      "4180-plantas.jpg"
+    ],
+    "secuencia_final": [
+      "5319-regar.jpg",
+      null,
+      "4180-plantas.jpg"
+    ]
+  },
+  {
+    "oracion": "limpiar el polvo",
+    "tokens": [
+      "limpiar",
+      "el",
+      "polvo"
+    ],
+    "elecciones": [
+      "1359-limpiar_el_polvo.jpg",
+      null,
+      null
+    ],
+    "secuencia_final": [
+      "1359-limpiar_el_polvo.jpg",
+      null,
+      null
+    ]
+  },
+  {
+    "oracion": "barrer el suelo",
+    "tokens": [
+      "barrer",
+      "el",
+      "suelo"
+    ],
+    "elecciones": [
+      "397-barrer.jpg",
+      null,
+      "9731-sentar_en_el_suelo.jpg"
+    ],
+    "secuencia_final": [
+      "397-barrer.jpg",
+      null,
+      "9731-sentar_en_el_suelo.jpg"
+    ]
+  },
+  {
+    "oracion": "fregar el suelo",
+    "tokens": [
+      "fregar",
+      "el",
+      "suelo"
+    ],
+    "elecciones": [
+      "1020-fregar.jpg",
+      null,
+      "4088-sentar_en_el_suelo.jpg"
+    ],
+    "secuencia_final": [
+      "1020-fregar.jpg",
+      null,
+      "4088-sentar_en_el_suelo.jpg"
+    ]
+  },
+  {
+    "oracion": "hacer la cama",
+    "tokens": [
+      "hacer",
+      "la",
+      "cama"
+    ],
+    "elecciones": [
+      "8976-hacer.jpg",
+      "3057-la.jpg",
+      "58-cama.jpg"
+    ],
+    "secuencia_final": [
+      "8976-hacer.jpg",
+      "3057-la.jpg",
+      "58-cama.jpg"
+    ]
+  },
+  {
+    "oracion": "preparar la ropa",
+    "tokens": [
+      "preparar",
+      "la",
+      "ropa"
+    ],
+    "elecciones": [
+      "1973-preparar.jpg",
+      "3057-la.jpg",
+      "2571-ropa.jpg"
+    ],
+    "secuencia_final": [
+      "1973-preparar.jpg",
+      "3057-la.jpg",
+      "2571-ropa.jpg"
+    ]
+  },
+  {
+    "oracion": "dar un beso de buenas noches",
+    "tokens": [
+      "dar",
+      "un",
+      "beso",
+      "de",
+      "buenas",
+      "noches"
+    ],
+    "elecciones": [
+      "4994-dar.jpg",
+      null,
+      "5163-beso.jpg",
+      "2424-de.jpg",
+      "3670-buena.jpg",
+      "6512-noche.jpg"
+    ],
+    "secuencia_final": [
+      "4994-dar.jpg",
+      null,
+      "5163-beso.jpg",
+      "2424-de.jpg",
+      "3670-buena.jpg",
+      "6512-noche.jpg"
+    ]
+  },
+  {
+    "oracion": "apagar la luz",
+    "tokens": [
+      "apagar",
+      "la",
+      "luz"
+    ],
+    "elecciones": [
+      "2729-apagar_la_luz.jpg",
+      "3057-la.jpg",
+      "2809-encender_la_luz.jpg"
+    ],
+    "secuencia_final": [
+      "2729-apagar_la_luz.jpg",
+      "3057-la.jpg",
+      "2809-encender_la_luz.jpg"
+    ]
+  },
+  {
+    "oracion": "dormir tranquilo",
+    "tokens": [
+      "dormir",
+      "tranquilo"
+    ],
+    "elecciones": [
+      "126-dormir.jpg",
+      "8344-tranquilo.jpg"
+    ],
+    "secuencia_final": [
+      "126-dormir.jpg",
+      "8344-tranquilo.jpg"
+    ]
+  },
+  {
+    "oracion": "visitar la catedral de santiago",
+    "tokens": [
+      "visitar",
+      "la",
+      "catedral",
+      "de",
+      "santiago"
+    ],
+    "elecciones": [
+      "6366-visitar_la_tumba.jpg",
+      "3057-la.jpg",
+      "10429-catedral_de_santiago.jpg",
+      null,
+      null
+    ],
+    "secuencia_final": [
+      "6366-visitar_la_tumba.jpg",
+      "3057-la.jpg",
+      "10429-catedral_de_santiago.jpg",
+      null,
+      null
+    ]
+  },
+  {
+    "oracion": "ver el botafumeiro",
+    "tokens": [
+      "ver",
+      "el",
+      "botafumeiro"
+    ],
+    "elecciones": [
+      "7116-ver.jpg",
+      null,
+      "10137-botafumeiro.jpg"
+    ],
+    "secuencia_final": [
+      "7116-ver.jpg",
+      null,
+      "10137-botafumeiro.jpg"
+    ]
+  },
+  {
+    "oracion": "abrazar al apóstol",
+    "tokens": [
+      "abrazar",
+      "al",
+      "apóstol"
+    ],
+    "elecciones": [
+      "1848-abrazar.jpg",
+      "4250-al.jpg",
+      "5433-apóstol.jpg"
+    ],
+    "secuencia_final": [
+      "1848-abrazar.jpg",
+      "4250-al.jpg",
+      "5433-apóstol.jpg"
+    ]
+  },
+  {
+    "oracion": "ser peregrino del camino",
+    "tokens": [
+      "ser",
+      "peregrino",
+      "del",
+      "camino"
+    ],
+    "elecciones": [
+      "1681-ser.jpg",
+      "5307-peregrino.jpg",
+      "4251-del.jpg",
+      "2303-camino.jpg"
+    ],
+    "secuencia_final": [
+      "1681-ser.jpg",
+      "5307-peregrino.jpg",
+      "4251-del.jpg",
+      "2303-camino.jpg"
+    ]
+  },
+  {
+    "oracion": "llevar la concha",
+    "tokens": [
+      "llevar",
+      "la",
+      "concha"
+    ],
+    "elecciones": [
+      "11238-llevar.jpg",
+      "3057-la.jpg",
+      "9526-concha.jpg"
+    ],
+    "secuencia_final": [
+      "11238-llevar.jpg",
+      "3057-la.jpg",
+      "9526-concha.jpg"
+    ]
+  },
+  {
+    "oracion": "sellar la credencial",
+    "tokens": [
+      "sellar",
+      "la",
+      "credencial"
+    ],
+    "elecciones": [
+      "2586-sellar.jpg",
+      "3057-la.jpg",
+      null
+    ],
+    "secuencia_final": [
+      "2586-sellar.jpg",
+      "3057-la.jpg",
+      null
+    ]
+  },
+  {
+    "oracion": "llegar a la plaza del obradoiro",
+    "tokens": [
+      "llegar",
+      "a",
+      "la",
+      "plaza",
+      "del",
+      "obradoiro"
+    ],
+    "elecciones": [
+      "4949-llegar.jpg",
+      "10770-á.jpg",
+      "3057-la.jpg",
+      "1668-plaza_del_torico.jpg",
+      "4251-del.jpg",
+      null
+    ],
+    "secuencia_final": [
+      "4949-llegar.jpg",
+      "10770-á.jpg",
+      "3057-la.jpg",
+      "1668-plaza_del_torico.jpg",
+      "4251-del.jpg",
+      null
+    ]
+  },
+  {
+    "oracion": "comer tarta de santiago",
+    "tokens": [
+      "comer",
+      "tarta",
+      "de",
+      "santiago"
+    ],
+    "elecciones": [
+      "2031-comer.jpg",
+      "12470-tarta_de_queso.jpg",
+      "2424-de.jpg",
+      "10429-catedral_de_santiago.jpg"
+    ],
+    "secuencia_final": [
+      "2031-comer.jpg",
+      "12470-tarta_de_queso.jpg",
+      "2424-de.jpg",
+      "10429-catedral_de_santiago.jpg"
+    ]
+  },
+  {
+    "oracion": "beber vino ribeiro",
+    "tokens": [
+      "beber",
+      "vino",
+      "ribeiro"
+    ],
+    "elecciones": [
+      "29-beber.jpg",
+      "356-vino.jpg",
+      null
+    ],
+    "secuencia_final": [
+      "29-beber.jpg",
+      "356-vino.jpg",
+      null
+    ]
+  },
+  {
+    "oracion": "comer pimientos de padrón",
+    "tokens": [
+      "comer",
+      "pimientos",
+      "de",
+      "padrón"
+    ],
+    "elecciones": [
+      "7118-comer.jpg",
+      "7349-bacalao_con_pimientos.jpg",
+      "2424-de.jpg",
+      "4781-padrón_municipal.jpg"
+    ],
+    "secuencia_final": [
+      "7118-comer.jpg",
+      "7349-bacalao_con_pimientos.jpg",
+      "2424-de.jpg",
+      "4781-padrón_municipal.jpg"
+    ]
+  },
+  {
+    "oracion": "ver la torre de hércules",
+    "tokens": [
+      "ver",
+      "la",
+      "torre",
+      "de",
+      "hércules"
+    ],
+    "elecciones": [
+      "4957-ver_la_televisión.jpg",
+      "3057-la.jpg",
+      "8381-torre_de_san_salvador.jpg",
+      "2424-de.jpg",
+      "11329-hércules.jpg"
+    ],
+    "secuencia_final": [
+      "4957-ver_la_televisión.jpg",
+      "3057-la.jpg",
+      "8381-torre_de_san_salvador.jpg",
+      "2424-de.jpg",
+      "11329-hércules.jpg"
+    ]
+  },
+  {
+    "oracion": "visitar el museo guggenheim",
+    "tokens": [
+      "visitar",
+      "el",
+      "museo",
+      "guggenheim"
+    ],
+    "elecciones": [
+      "6557-visitar.jpg",
+      null,
+      "849-museo.jpg",
+      null
+    ],
+    "secuencia_final": [
+      "6557-visitar.jpg",
+      null,
+      "849-museo.jpg",
+      null
+    ]
+  },
+  {
+    "oracion": "ver al cachorro de flores",
+    "tokens": [
+      "ver",
+      "al",
+      "cachorro",
+      "de",
+      "flores"
+    ],
+    "elecciones": [
+      "2132-ver.jpg",
+      "4250-al.jpg",
+      "9241-cachorro.jpg",
+      "2424-de.jpg",
+      "2450-flores.jpg"
+    ],
+    "secuencia_final": [
+      "2132-ver.jpg",
+      "4250-al.jpg",
+      "9241-cachorro.jpg",
+      "2424-de.jpg",
+      "2450-flores.jpg"
+    ]
+  },
+  {
+    "oracion": "comer pintxos en la parte vieja",
+    "tokens": [
+      "comer",
+      "pintxos",
+      "en",
+      "la",
+      "parte",
+      "vieja"
+    ],
+    "elecciones": [
+      "123-comer.jpg",
+      null,
+      "12382-esperar_en_la_fila.jpg",
+      "3057-la.jpg",
+      "4156-estados_parte.jpg",
+      "4130-viejo.jpg"
+    ],
+    "secuencia_final": [
+      "123-comer.jpg",
+      null,
+      "12382-esperar_en_la_fila.jpg",
+      "3057-la.jpg",
+      "4156-estados_parte.jpg",
+      "4130-viejo.jpg"
+    ]
+  },
+  {
+    "oracion": "beber txakoli fresco",
+    "tokens": [
+      "beber",
+      "txakoli",
+      "fresco"
+    ],
+    "elecciones": [
+      "1884-beber.jpg",
+      null,
+      "12037-queso_fresco.jpg"
+    ],
+    "secuencia_final": [
+      "1884-beber.jpg",
+      null,
+      "12037-queso_fresco.jpg"
+    ]
+  },
+  {
+    "oracion": "ir a una sidrería",
+    "tokens": [
+      "ir",
+      "a",
+      "una",
+      "sidrería"
+    ],
+    "elecciones": [
+      "2861-ir.jpg",
+      "754-a.jpg",
+      "503-uña.jpg",
+      "7218-sidrería.jpg"
+    ],
+    "secuencia_final": [
+      "2861-ir.jpg",
+      "754-a.jpg",
+      "503-uña.jpg",
+      "7218-sidrería.jpg"
+    ]
+  },
+  {
+    "oracion": "beber sidra al txotx",
+    "tokens": [
+      "beber",
+      "sidra",
+      "al",
+      "txotx"
+    ],
+    "elecciones": [
+      "1884-beber.jpg",
+      "1693-sidra.jpg",
+      "4250-al.jpg",
+      null
+    ],
+    "secuencia_final": [
+      "1884-beber.jpg",
+      "1693-sidra.jpg",
+      "4250-al.jpg",
+      null
+    ]
+  },
+  {
+    "oracion": "comer chuletón de buey",
+    "tokens": [
+      "comer",
+      "chuletón",
+      "de",
+      "buey"
+    ],
+    "elecciones": [
+      "2031-comer.jpg",
+      "7313-chuletón_de_buey.jpg",
+      null,
+      null
+    ],
+    "secuencia_final": [
+      "2031-comer.jpg",
+      "7313-chuletón_de_buey.jpg",
+      null,
+      null
+    ]
+  },
+  {
+    "oracion": "ver la playa de la concha",
+    "tokens": [
+      "ver",
+      "la",
+      "playa",
+      "de",
+      "la",
+      "concha"
+    ],
+    "elecciones": [
+      "501-ver_la_televisión.jpg",
+      "3057-la.jpg",
+      "545-playa.jpg",
+      "2424-de.jpg",
+      "3189-la_rioja.jpg",
+      "9526-concha.jpg"
+    ],
+    "secuencia_final": [
+      "501-ver_la_televisión.jpg",
+      "3057-la.jpg",
+      "545-playa.jpg",
+      "2424-de.jpg",
+      "3189-la_rioja.jpg",
+      "9526-concha.jpg"
+    ]
+  },
+  {
+    "oracion": "visitar la sagrada familia",
+    "tokens": [
+      "visitar",
+      "la",
+      "sagrada",
+      "familia"
+    ],
+    "elecciones": [
+      "6366-visitar_la_tumba.jpg",
+      "3057-la.jpg",
+      null,
+      "5680-familia.jpg"
+    ],
+    "secuencia_final": [
+      "6366-visitar_la_tumba.jpg",
+      "3057-la.jpg",
+      null,
+      "5680-familia.jpg"
+    ]
+  },
+  {
+    "oracion": "pasear por las ramblas",
+    "tokens": [
+      "pasear",
+      "por",
+      "las",
+      "ramblas"
+    ],
+    "elecciones": [
+      "8519-pasear.jpg",
+      "2557-por.jpg",
+      null,
+      null
+    ],
+    "secuencia_final": [
+      "8519-pasear.jpg",
+      "2557-por.jpg",
+      null,
+      null
+    ]
+  },
+  {
+    "oracion": "comprar flores en las ramblas",
+    "tokens": [
+      "comprar",
+      "flores",
+      "en",
+      "las",
+      "ramblas"
+    ],
+    "elecciones": [
+      "3321-comprar.jpg",
+      "2450-flores.jpg",
+      "2376-en.jpg",
+      null,
+      null
+    ],
+    "secuencia_final": [
+      "3321-comprar.jpg",
+      "2450-flores.jpg",
+      "2376-en.jpg",
+      null,
+      null
+    ]
+  },
+  {
+    "oracion": "ver la estatua de colón",
+    "tokens": [
+      "ver",
+      "la",
+      "estatua",
+      "de",
+      "colón"
+    ],
+    "elecciones": [
+      "501-ver_la_televisión.jpg",
+      "3057-la.jpg",
+      "5238-estatua_de_la_libertad.jpg",
+      "2424-de.jpg",
+      "11926-cristobal_colón.jpg"
+    ],
+    "secuencia_final": [
+      "501-ver_la_televisión.jpg",
+      "3057-la.jpg",
+      "5238-estatua_de_la_libertad.jpg",
+      "2424-de.jpg",
+      "11926-cristobal_colón.jpg"
+    ]
+  },
+  {
+    "oracion": "comer crema catalana",
+    "tokens": [
+      "comer",
+      "crema",
+      "catalana"
+    ],
+    "elecciones": [
+      "123-comer.jpg",
+      "10021-crema.jpg",
+      null
+    ],
+    "secuencia_final": [
+      "123-comer.jpg",
+      "10021-crema.jpg",
+      null
+    ]
+  },
+  {
+    "oracion": "comer butifarra con mongetes",
+    "tokens": [
+      "comer",
+      "butifarra",
+      "con",
+      "mongetes"
+    ],
+    "elecciones": [
+      "2031-comer.jpg",
+      "6156-butifarra.jpg",
+      "2409-con.jpg",
+      null
+    ],
+    "secuencia_final": [
+      "2031-comer.jpg",
+      "6156-butifarra.jpg",
+      "2409-con.jpg",
+      null
+    ]
+  },
+  {
+    "oracion": "beber cava catalán",
+    "tokens": [
+      "beber",
+      "cava",
+      "catalán"
+    ],
+    "elecciones": [
+      "1884-beber.jpg",
+      null,
+      null
+    ],
+    "secuencia_final": [
+      "1884-beber.jpg",
+      null,
+      null
+    ]
+  },
+  {
+    "oracion": "bailar sardana en la catedral",
+    "tokens": [
+      "bailar",
+      "sardana",
+      "en",
+      "la",
+      "catedral"
+    ],
+    "elecciones": [
+      "1882-bailar.jpg",
+      "12505-sardana.jpg",
+      "11299-orinar_en_la_botella.jpg",
+      "3057-la.jpg",
+      "10920-catedral_de_burgos.jpg"
+    ],
+    "secuencia_final": [
+      "1882-bailar.jpg",
+      "12505-sardana.jpg",
+      "11299-orinar_en_la_botella.jpg",
+      "3057-la.jpg",
+      "10920-catedral_de_burgos.jpg"
+    ]
+  },
+  {
+    "oracion": "ver los castellers",
+    "tokens": [
+      "ver",
+      "los",
+      "castellers"
+    ],
+    "elecciones": [
+      "7331-ver_los_fuegos_artificiales.jpg",
+      "3058-los.jpg",
+      null
+    ],
+    "secuencia_final": [
+      "7331-ver_los_fuegos_artificiales.jpg",
+      "3058-los.jpg",
+      null
+    ]
+  },
+  {
+    "oracion": "hacer un castillo humano",
+    "tokens": [
+      "hacer",
+      "un",
+      "castillo",
+      "humano"
+    ],
+    "elecciones": [
+      "8976-hacer.jpg",
+      null,
+      "1773-castillo.jpg",
+      null
+    ],
+    "secuencia_final": [
+      "8976-hacer.jpg",
+      null,
+      "1773-castillo.jpg",
+      null
+    ]
+  },
+  {
+    "oracion": "ver al enxaneta subir",
+    "tokens": [
+      "ver",
+      "al",
+      "enxaneta",
+      "subir"
+    ],
+    "elecciones": [
+      "7116-ver.jpg",
+      "4250-al.jpg",
+      null,
+      "5752-subir.jpg"
+    ],
+    "secuencia_final": [
+      "7116-ver.jpg",
+      "4250-al.jpg",
+      null,
+      "5752-subir.jpg"
+    ]
+  },
+  {
+    "oracion": "visitar la ciudad de las artes",
+    "tokens": [
+      "visitar",
+      "la",
+      "ciudad",
+      "de",
+      "las",
+      "artes"
+    ],
+    "elecciones": [
+      "6366-visitar_la_tumba.jpg",
+      "3057-la.jpg",
+      "1790-ciudad.jpg",
+      "2424-de.jpg",
+      null,
+      null
+    ],
+    "secuencia_final": [
+      "6366-visitar_la_tumba.jpg",
+      "3057-la.jpg",
+      "1790-ciudad.jpg",
+      "2424-de.jpg",
+      null,
+      null
+    ]
+  },
+  {
+    "oracion": "ver el oceanográfico",
+    "tokens": [
+      "ver",
+      "el",
+      "oceanográfico"
+    ],
+    "elecciones": [
+      "2132-ver.jpg",
+      null,
+      null
+    ],
+    "secuencia_final": [
+      "2132-ver.jpg",
+      null,
+      null
+    ]
+  },
+  {
+    "oracion": "comer paella valenciana",
+    "tokens": [
+      "comer",
+      "paella",
+      "valenciana"
+    ],
+    "elecciones": [
+      "2031-comer.jpg",
+      "6864-paella.jpg",
+      null
+    ],
+    "secuencia_final": [
+      "2031-comer.jpg",
+      "6864-paella.jpg",
+      null
+    ]
+  },
+  {
+    "oracion": "beber agua de valencia",
+    "tokens": [
+      "beber",
+      "agua",
+      "de",
+      "valencia"
+    ],
+    "elecciones": [
+      "1884-beber.jpg",
+      "1-agua.jpg",
+      "2424-de.jpg",
+      "4463-valencia.jpg"
+    ],
+    "secuencia_final": [
+      "1884-beber.jpg",
+      "1-agua.jpg",
+      "2424-de.jpg",
+      "4463-valencia.jpg"
+    ]
+  },
+  {
+    "oracion": "tirar petardos en fallas",
+    "tokens": [
+      "tirar",
+      "petardos",
+      "en",
+      "fallas"
+    ],
+    "elecciones": [
+      "11535-tirar.jpg",
+      "4934-petardo.jpg",
+      "2376-en.jpg",
+      "5888-falla.jpg"
+    ],
+    "secuencia_final": [
+      "11535-tirar.jpg",
+      "4934-petardo.jpg",
+      "2376-en.jpg",
+      "5888-falla.jpg"
+    ]
+  },
+  {
+    "oracion": "ver la nit del foc",
+    "tokens": [
+      "ver",
+      "la",
+      "nit",
+      "del",
+      "foc"
+    ],
+    "elecciones": [
+      "4957-ver_la_televisión.jpg",
+      "3057-la.jpg",
+      null,
+      "4251-del.jpg",
+      null
+    ],
+    "secuencia_final": [
+      "4957-ver_la_televisión.jpg",
+      "3057-la.jpg",
+      null,
+      "4251-del.jpg",
+      null
+    ]
+  },
+  {
+    "oracion": "ver la ofrenda a la virgen",
+    "tokens": [
+      "ver",
+      "la",
+      "ofrenda",
+      "a",
+      "la",
+      "virgen"
+    ],
+    "elecciones": [
+      "4957-ver_la_televisión.jpg",
+      "3057-la.jpg",
+      "1634-ofrenda_de_flores.jpg",
+      "10770-á.jpg",
+      "3189-la_rioja.jpg",
+      "1705-virgen_del_pilar.jpg"
+    ],
+    "secuencia_final": [
+      "4957-ver_la_televisión.jpg",
+      "3057-la.jpg",
+      "1634-ofrenda_de_flores.jpg",
+      "10770-á.jpg",
+      "3189-la_rioja.jpg",
+      "1705-virgen_del_pilar.jpg"
+    ]
+  },
+  {
+    "oracion": "visitar la alhambra de granada",
+    "tokens": [
+      "visitar",
+      "la",
+      "alhambra",
+      "de",
+      "granada"
+    ],
+    "elecciones": [
+      "6366-visitar_la_tumba.jpg",
+      "3057-la.jpg",
+      "8225-alhambra.jpg",
+      "2424-de.jpg",
+      "4439-granada.jpg"
+    ],
+    "secuencia_final": [
+      "6366-visitar_la_tumba.jpg",
+      "3057-la.jpg",
+      "8225-alhambra.jpg",
+      "2424-de.jpg",
+      "4439-granada.jpg"
+    ]
+  },
+  {
+    "oracion": "ver el patio de los leones",
+    "tokens": [
+      "ver",
+      "el",
+      "patio",
+      "de",
+      "los",
+      "leones"
+    ],
+    "elecciones": [
+      "226-ver.jpg",
+      null,
+      "13449-patio_interior.jpg",
+      "2424-de.jpg",
+      "3058-los.jpg",
+      "5929-león.jpg"
+    ],
+    "secuencia_final": [
+      "226-ver.jpg",
+      null,
+      "13449-patio_interior.jpg",
+      "2424-de.jpg",
+      "3058-los.jpg",
+      "5929-león.jpg"
+    ]
+  },
+  {
+    "oracion": "pasear por el generalife",
+    "tokens": [
+      "pasear",
+      "por",
+      "el",
+      "generalife"
+    ],
+    "elecciones": [
+      "3227-pasear.jpg",
+      "2557-por.jpg",
+      null,
+      null
+    ],
+    "secuencia_final": [
+      "3227-pasear.jpg",
+      "2557-por.jpg",
+      null,
+      null
+    ]
+  },
+  {
+    "oracion": "ver sierra nevada",
+    "tokens": [
+      "ver",
+      "sierra",
+      "nevada"
+    ],
+    "elecciones": [
+      "2132-ver.jpg",
+      "5627-sierra.jpg",
+      "602-nevada.jpg"
+    ],
+    "secuencia_final": [
+      "2132-ver.jpg",
+      "5627-sierra.jpg",
+      "602-nevada.jpg"
+    ]
+  },
+  {
+    "oracion": "comer gazpacho en verano",
+    "tokens": [
+      "comer",
+      "gazpacho",
+      "en",
+      "verano"
+    ],
+    "elecciones": [
+      "7100-comer.jpg",
+      "2827-gazpacho.jpg",
+      "2376-en.jpg",
+      "1701-verano.jpg"
+    ],
+    "secuencia_final": [
+      "7100-comer.jpg",
+      "2827-gazpacho.jpg",
+      "2376-en.jpg",
+      "1701-verano.jpg"
+    ]
+  },
+  {
+    "oracion": "beber vino fino",
+    "tokens": [
+      "beber",
+      "vino",
+      "fino"
+    ],
+    "elecciones": [
+      "1884-beber.jpg",
+      "356-vino.jpg",
+      "11087-fino.jpg"
+    ],
+    "secuencia_final": [
+      "1884-beber.jpg",
+      "356-vino.jpg",
+      "11087-fino.jpg"
+    ]
+  },
+  {
+    "oracion": "ver la mezquita de córdoba",
+    "tokens": [
+      "ver",
+      "la",
+      "mezquita",
+      "de",
+      "córdoba"
+    ],
+    "elecciones": [
+      "501-ver_la_televisión.jpg",
+      "3057-la.jpg",
+      "5568-mezquita.jpg",
+      "2424-de.jpg",
+      "4437-córdoba.jpg"
+    ],
+    "secuencia_final": [
+      "501-ver_la_televisión.jpg",
+      "3057-la.jpg",
+      "5568-mezquita.jpg",
+      "2424-de.jpg",
+      "4437-córdoba.jpg"
+    ]
+  },
+  {
+    "oracion": "pasear por el patio de los naranjos",
+    "tokens": [
+      "pasear",
+      "por",
+      "el",
+      "patio",
+      "de",
+      "los",
+      "naranjos"
+    ],
+    "elecciones": [
+      "8519-pasear.jpg",
+      "2557-por.jpg",
+      null,
+      "13449-patio_interior.jpg",
+      "2424-de.jpg",
+      "12264-pasear_por_el_campo.jpg",
+      "928-naranjo.jpg"
+    ],
+    "secuencia_final": [
+      "8519-pasear.jpg",
+      "2557-por.jpg",
+      null,
+      "13449-patio_interior.jpg",
+      "2424-de.jpg",
+      "12264-pasear_por_el_campo.jpg",
+      "928-naranjo.jpg"
+    ]
+  },
+  {
+    "oracion": "ver los patios de córdoba",
+    "tokens": [
+      "ver",
+      "los",
+      "patios",
+      "de",
+      "córdoba"
+    ],
+    "elecciones": [
+      "7331-ver_los_fuegos_artificiales.jpg",
+      "3058-los.jpg",
+      "13449-patio_interior.jpg",
+      "2424-de.jpg",
+      "4437-córdoba.jpg"
+    ],
+    "secuencia_final": [
+      "7331-ver_los_fuegos_artificiales.jpg",
+      "3058-los.jpg",
+      "13449-patio_interior.jpg",
+      "2424-de.jpg",
+      "4437-córdoba.jpg"
+    ]
+  },
+  {
+    "oracion": "comer salmorejo cordobés",
+    "tokens": [
+      "comer",
+      "salmorejo",
+      "cordobés"
+    ],
+    "elecciones": [
+      "2031-comer.jpg",
+      "11552-salmorejo.jpg",
+      null
+    ],
+    "secuencia_final": [
+      "2031-comer.jpg",
+      "11552-salmorejo.jpg",
+      null
+    ]
+  },
+  {
+    "oracion": "comer flamenquín",
+    "tokens": [
+      "comer",
+      "flamenquín"
+    ],
+    "elecciones": [
+      "123-comer.jpg",
+      null
+    ],
+    "secuencia_final": [
+      "123-comer.jpg",
+      null
+    ]
+  },
+  {
+    "oracion": "visitar la giralda de sevilla",
+    "tokens": [
+      "visitar",
+      "la",
+      "giralda",
+      "de",
+      "sevilla"
+    ],
+    "elecciones": [
+      "6366-visitar_la_tumba.jpg",
+      "3057-la.jpg",
+      null,
+      "2424-de.jpg",
+      "4442-sevilla.jpg"
+    ],
+    "secuencia_final": [
+      "6366-visitar_la_tumba.jpg",
+      "3057-la.jpg",
+      null,
+      "2424-de.jpg",
+      "4442-sevilla.jpg"
+    ]
+  },
+  {
+    "oracion": "subir a la giralda",
+    "tokens": [
+      "subir",
+      "a",
+      "la",
+      "giralda"
+    ],
+    "elecciones": [
+      "6889-subir_a_la_trona.jpg",
+      "10770-á.jpg",
+      "3057-la.jpg",
+      null
+    ],
+    "secuencia_final": [
+      "6889-subir_a_la_trona.jpg",
+      "10770-á.jpg",
+      "3057-la.jpg",
+      null
+    ]
+  },
+  {
+    "oracion": "ver la torre del oro",
+    "tokens": [
+      "ver",
+      "la",
+      "torre",
+      "del",
+      "oro"
+    ],
+    "elecciones": [
+      "501-ver_la_televisión.jpg",
+      "3057-la.jpg",
+      "5343-torre_del_agua.jpg",
+      "4251-del.jpg",
+      "1925-oro.jpg"
+    ],
+    "secuencia_final": [
+      "501-ver_la_televisión.jpg",
+      "3057-la.jpg",
+      "5343-torre_del_agua.jpg",
+      "4251-del.jpg",
+      "1925-oro.jpg"
+    ]
+  },
+  {
+    "oracion": "pasear por el parque maria luisa",
+    "tokens": [
+      "pasear",
+      "por",
+      "el",
+      "parque",
+      "maria",
+      "luisa"
+    ],
+    "elecciones": [
+      "11355-pasear.jpg",
+      "2557-por.jpg",
+      null,
+      "574-parque.jpg",
+      "2639-virgen_maría.jpg",
+      null
+    ],
+    "secuencia_final": [
+      "11355-pasear.jpg",
+      "2557-por.jpg",
+      null,
+      "574-parque.jpg",
+      "2639-virgen_maría.jpg",
+      null
+    ]
+  },
+  {
+    "oracion": "ir a la feria de abril",
+    "tokens": [
+      "ir",
+      "a",
+      "la",
+      "feria",
+      "de",
+      "abril"
+    ],
+    "elecciones": [
+      "2861-ir.jpg",
+      "754-a.jpg",
+      "3057-la.jpg",
+      "10322-feria_de_muestras.jpg",
+      "2424-de.jpg",
+      "10174-abril.jpg"
+    ],
+    "secuencia_final": [
+      "2861-ir.jpg",
+      "754-a.jpg",
+      "3057-la.jpg",
+      "10322-feria_de_muestras.jpg",
+      "2424-de.jpg",
+      "10174-abril.jpg"
+    ]
+  },
+  {
+    "oracion": "comer pescaíto frito",
+    "tokens": [
+      "comer",
+      "pescaíto",
+      "frito"
+    ],
+    "elecciones": [
+      "2031-comer.jpg",
+      null,
+      "4590-frito.jpg"
+    ],
+    "secuencia_final": [
+      "2031-comer.jpg",
+      null,
+      "4590-frito.jpg"
+    ]
+  },
+  {
+    "oracion": "beber rebujito con hielo",
+    "tokens": [
+      "beber",
+      "rebujito",
+      "con",
+      "hielo"
+    ],
+    "elecciones": [
+      "29-beber.jpg",
+      null,
+      "2409-con.jpg",
+      "12456-café_con_hielo.jpg"
+    ],
+    "secuencia_final": [
+      "29-beber.jpg",
+      null,
+      "2409-con.jpg",
+      "12456-café_con_hielo.jpg"
+    ]
+  },
+  {
+    "oracion": "visitar el teatro romano de mérida",
+    "tokens": [
+      "visitar",
+      "el",
+      "teatro",
+      "romano",
+      "de",
+      "mérida"
+    ],
+    "elecciones": [
+      "6555-visitar.jpg",
+      null,
+      "6017-teatro_romano_de_mérida.jpg",
+      null,
+      null,
+      null
+    ],
+    "secuencia_final": [
+      "6555-visitar.jpg",
+      null,
+      "6017-teatro_romano_de_mérida.jpg",
+      null,
+      null,
+      null
+    ]
+  },
+  {
+    "oracion": "ver una obra clásica",
+    "tokens": [
+      "ver",
+      "una",
+      "obra",
+      "clásica"
+    ],
+    "elecciones": [
+      "9374-ver_una_película.jpg",
+      "503-uña.jpg",
+      "5063-obra.jpg",
+      null
+    ],
+    "secuencia_final": [
+      "9374-ver_una_película.jpg",
+      "503-uña.jpg",
+      "5063-obra.jpg",
+      null
+    ]
+  },
+  {
+    "oracion": "comer jamón ibérico",
+    "tokens": [
+      "comer",
+      "jamón",
+      "ibérico"
+    ],
+    "elecciones": [
+      "2031-comer.jpg",
+      "184-jamón.jpg",
+      "11373-cerdo_ibérico.jpg"
+    ],
+    "secuencia_final": [
+      "2031-comer.jpg",
+      "184-jamón.jpg",
+      "11373-cerdo_ibérico.jpg"
+    ]
+  },
+  {
+    "oracion": "comer migas extremeñas",
+    "tokens": [
+      "comer",
+      "migas",
+      "extremeñas"
+    ],
+    "elecciones": [
+      "123-comer.jpg",
+      "2890-migas.jpg",
+      null
+    ],
+    "secuencia_final": [
+      "123-comer.jpg",
+      "2890-migas.jpg",
+      null
+    ]
+  },
+  {
+    "oracion": "comer torta del casar",
+    "tokens": [
+      "comer",
+      "torta",
+      "del",
+      "casar"
+    ],
+    "elecciones": [
+      "2031-comer.jpg",
+      "6933-torta_del_casar.jpg",
+      null,
+      null
+    ],
+    "secuencia_final": [
+      "2031-comer.jpg",
+      "6933-torta_del_casar.jpg",
+      null,
+      null
+    ]
+  },
+  {
+    "oracion": "visitar la plaza mayor de salamanca",
+    "tokens": [
+      "visitar",
+      "la",
+      "plaza",
+      "mayor",
+      "de",
+      "salamanca"
+    ],
+    "elecciones": [
+      "6366-visitar_la_tumba.jpg",
+      "3057-la.jpg",
+      "1945-plaza.jpg",
+      "4761-mayor.jpg",
+      "2424-de.jpg",
+      "4468-salamanca.jpg"
+    ],
+    "secuencia_final": [
+      "6366-visitar_la_tumba.jpg",
+      "3057-la.jpg",
+      "1945-plaza.jpg",
+      "4761-mayor.jpg",
+      "2424-de.jpg",
+      "4468-salamanca.jpg"
+    ]
+  },
+  {
+    "oracion": "ver la rana en la fachada",
+    "tokens": [
+      "ver",
+      "la",
+      "rana",
+      "en",
+      "la",
+      "fachada"
+    ],
+    "elecciones": [
+      "501-ver_la_televisión.jpg",
+      "3057-la.jpg",
+      "12282-juego_de_la_rana.jpg",
+      "11215-esperar_en_la_parada.jpg",
+      "3189-la_rioja.jpg",
+      null
+    ],
+    "secuencia_final": [
+      "501-ver_la_televisión.jpg",
+      "3057-la.jpg",
+      "12282-juego_de_la_rana.jpg",
+      "11215-esperar_en_la_parada.jpg",
+      "3189-la_rioja.jpg",
+      null
+    ]
+  },
+  {
+    "oracion": "comer hornazo de salamanca",
+    "tokens": [
+      "comer",
+      "hornazo",
+      "de",
+      "salamanca"
+    ],
+    "elecciones": [
+      "123-comer.jpg",
+      null,
+      "2424-de.jpg",
+      "4468-salamanca.jpg"
+    ],
+    "secuencia_final": [
+      "123-comer.jpg",
+      null,
+      "2424-de.jpg",
+      "4468-salamanca.jpg"
+    ]
+  },
+  {
+    "oracion": "visitar el acueducto de segovia",
+    "tokens": [
+      "visitar",
+      "el",
+      "acueducto",
+      "de",
+      "segovia"
+    ],
+    "elecciones": [
+      "6555-visitar.jpg",
+      null,
+      "5803-acueducto.jpg",
+      "2424-de.jpg",
+      "4470-segovia.jpg"
+    ],
+    "secuencia_final": [
+      "6555-visitar.jpg",
+      null,
+      "5803-acueducto.jpg",
+      "2424-de.jpg",
+      "4470-segovia.jpg"
+    ]
+  },
+  {
+    "oracion": "comer cochinillo asado",
+    "tokens": [
+      "comer",
+      "cochinillo",
+      "asado"
+    ],
+    "elecciones": [
+      "123-comer.jpg",
+      null,
+      "1503-asado.jpg"
+    ],
+    "secuencia_final": [
+      "123-comer.jpg",
+      null,
+      "1503-asado.jpg"
+    ]
+  },
+  {
+    "oracion": "visitar la muralla de ávila",
+    "tokens": [
+      "visitar",
+      "la",
+      "muralla",
+      "de",
+      "ávila"
+    ],
+    "elecciones": [
+      "6366-visitar_la_tumba.jpg",
+      "3057-la.jpg",
+      "10677-juego_de_la_muralla.jpg",
+      "2424-de.jpg",
+      "4480-ávila.jpg"
+    ],
+    "secuencia_final": [
+      "6366-visitar_la_tumba.jpg",
+      "3057-la.jpg",
+      "10677-juego_de_la_muralla.jpg",
+      "2424-de.jpg",
+      "4480-ávila.jpg"
+    ]
+  },
+  {
+    "oracion": "comer yemas de santa teresa",
+    "tokens": [
+      "comer",
+      "yemas",
+      "de",
+      "santa",
+      "teresa"
+    ],
+    "elecciones": [
+      "123-comer.jpg",
+      "2647-yema.jpg",
+      "2424-de.jpg",
+      "5622-santa.jpg",
+      null
+    ],
+    "secuencia_final": [
+      "123-comer.jpg",
+      "2647-yema.jpg",
+      "2424-de.jpg",
+      "5622-santa.jpg",
+      null
+    ]
+  },
+  {
+    "oracion": "visitar la catedral de burgos",
+    "tokens": [
+      "visitar",
+      "la",
+      "catedral",
+      "de",
+      "burgos"
+    ],
+    "elecciones": [
+      "6366-visitar_la_tumba.jpg",
+      "3057-la.jpg",
+      "10920-catedral_de_burgos.jpg",
+      "2424-de.jpg",
+      "4464-burgos.jpg"
+    ],
+    "secuencia_final": [
+      "6366-visitar_la_tumba.jpg",
+      "3057-la.jpg",
+      "10920-catedral_de_burgos.jpg",
+      "2424-de.jpg",
+      "4464-burgos.jpg"
+    ]
+  },
+  {
+    "oracion": "comer morcilla de burgos",
+    "tokens": [
+      "comer",
+      "morcilla",
+      "de",
+      "burgos"
+    ],
+    "elecciones": [
+      "123-comer.jpg",
+      "989-morcilla.jpg",
+      "2424-de.jpg",
+      "4464-burgos.jpg"
+    ],
+    "secuencia_final": [
+      "123-comer.jpg",
+      "989-morcilla.jpg",
+      "2424-de.jpg",
+      "4464-burgos.jpg"
+    ]
+  },
+  {
+    "oracion": "visitar la catedral de león",
+    "tokens": [
+      "visitar",
+      "la",
+      "catedral",
+      "de",
+      "león"
+    ],
+    "elecciones": [
+      "6366-visitar_la_tumba.jpg",
+      "3057-la.jpg",
+      "10920-catedral_de_burgos.jpg",
+      "2424-de.jpg",
+      "221-león.jpg"
+    ],
+    "secuencia_final": [
+      "6366-visitar_la_tumba.jpg",
+      "3057-la.jpg",
+      "10920-catedral_de_burgos.jpg",
+      "2424-de.jpg",
+      "221-león.jpg"
+    ]
+  },
+  {
+    "oracion": "ver las vidrieras",
+    "tokens": [
+      "ver",
+      "las",
+      "vidrieras"
+    ],
+    "elecciones": [
+      "226-ver.jpg",
+      null,
+      "10977-vidriera.jpg"
+    ],
+    "secuencia_final": [
+      "226-ver.jpg",
+      null,
+      "10977-vidriera.jpg"
+    ]
+  },
+  {
+    "oracion": "ir de tapas al barrio húmedo",
+    "tokens": [
+      "ir",
+      "de",
+      "tapas",
+      "al",
+      "barrio",
+      "húmedo"
+    ],
+    "elecciones": [
+      "9753-ir.jpg",
+      "2424-de.jpg",
+      "3615-bajar_la_tapa.jpg",
+      "4250-al.jpg",
+      "6148-barrio.jpg",
+      null
+    ],
+    "secuencia_final": [
+      "9753-ir.jpg",
+      "2424-de.jpg",
+      "3615-bajar_la_tapa.jpg",
+      "4250-al.jpg",
+      "6148-barrio.jpg",
+      null
+    ]
+  },
+  {
+    "oracion": "comer cecina de león",
+    "tokens": [
+      "comer",
+      "cecina",
+      "de",
+      "león"
+    ],
+    "elecciones": [
+      "2031-comer.jpg",
+      null,
+      "2424-de.jpg",
+      "5929-león.jpg"
+    ],
+    "secuencia_final": [
+      "2031-comer.jpg",
+      null,
+      "2424-de.jpg",
+      "5929-león.jpg"
+    ]
+  },
+  {
+    "oracion": "visitar el museo del prado",
+    "tokens": [
+      "visitar",
+      "el",
+      "museo",
+      "del",
+      "prado"
+    ],
+    "elecciones": [
+      "6555-visitar.jpg",
+      null,
+      "2133-museo.jpg",
+      "4251-del.jpg",
+      null
+    ],
+    "secuencia_final": [
+      "6555-visitar.jpg",
+      null,
+      "2133-museo.jpg",
+      "4251-del.jpg",
+      null
+    ]
+  },
+  {
+    "oracion": "ver las meninas",
+    "tokens": [
+      "ver",
+      "las",
+      "meninas"
+    ],
+    "elecciones": [
+      "226-ver.jpg",
+      null,
+      null
+    ],
+    "secuencia_final": [
+      "226-ver.jpg",
+      null,
+      null
+    ]
+  },
+  {
+    "oracion": "pasear por el retiro",
+    "tokens": [
+      "pasear",
+      "por",
+      "el",
+      "retiro"
+    ],
+    "elecciones": [
+      "8519-pasear.jpg",
+      "2557-por.jpg",
+      null,
+      null
+    ],
+    "secuencia_final": [
+      "8519-pasear.jpg",
+      "2557-por.jpg",
+      null,
+      null
+    ]
+  },
+  {
+    "oracion": "montar en barca en el retiro",
+    "tokens": [
+      "montar",
+      "en",
+      "barca",
+      "en",
+      "el",
+      "retiro"
+    ],
+    "elecciones": [
+      "11266-montar_en_patinete.jpg",
+      "11310-flotar_en_el_agua.jpg",
+      "1381-barca_de_remos.jpg",
+      "11260-entrar_en_el_túnel.jpg",
+      null,
+      null
+    ],
+    "secuencia_final": [
+      "11266-montar_en_patinete.jpg",
+      "11310-flotar_en_el_agua.jpg",
+      "1381-barca_de_remos.jpg",
+      "11260-entrar_en_el_túnel.jpg",
+      null,
+      null
+    ]
+  },
+  {
+    "oracion": "comer bocadillo de calamares",
+    "tokens": [
+      "comer",
+      "bocadillo",
+      "de",
+      "calamares"
+    ],
+    "elecciones": [
+      "7100-comer.jpg",
+      "35-bocadillo.jpg",
+      "2424-de.jpg",
+      "1552-calamar.jpg"
+    ],
+    "secuencia_final": [
+      "7100-comer.jpg",
+      "35-bocadillo.jpg",
+      "2424-de.jpg",
+      "1552-calamar.jpg"
+    ]
+  },
+  {
+    "oracion": "comer cocido madrileño",
+    "tokens": [
+      "comer",
+      "cocido",
+      "madrileño"
+    ],
+    "elecciones": [
+      "1175-comer.jpg",
+      "4543-cocido.jpg",
+      null
+    ],
+    "secuencia_final": [
+      "1175-comer.jpg",
+      "4543-cocido.jpg",
+      null
+    ]
+  },
+  {
+    "oracion": "comer callos a la madrileña",
+    "tokens": [
+      "comer",
+      "callos",
+      "a",
+      "la",
+      "madrileña"
+    ],
+    "elecciones": [
+      "123-comer.jpg",
+      null,
+      "10811-á.jpg",
+      "3057-la.jpg",
+      null
+    ],
+    "secuencia_final": [
+      "123-comer.jpg",
+      null,
+      "10811-á.jpg",
+      "3057-la.jpg",
+      null
+    ]
+  },
+  {
+    "oracion": "ir a la puerta del sol",
+    "tokens": [
+      "ir",
+      "a",
+      "la",
+      "puerta",
+      "del",
+      "sol"
+    ],
+    "elecciones": [
+      "183-ir.jpg",
+      "727-a.jpg",
+      "3057-la.jpg",
+      "12708-puerta.jpg",
+      "4251-del.jpg",
+      "521-sol.jpg"
+    ],
+    "secuencia_final": [
+      "183-ir.jpg",
+      "727-a.jpg",
+      "3057-la.jpg",
+      "12708-puerta.jpg",
+      "4251-del.jpg",
+      "521-sol.jpg"
+    ]
+  },
+  {
+    "oracion": "ver el oso y el madroño",
+    "tokens": [
+      "ver",
+      "el",
+      "oso",
+      "y",
+      "el",
+      "madroño"
+    ],
+    "elecciones": [
+      "2132-ver.jpg",
+      null,
+      "236-oso.jpg",
+      "4121-y.jpg",
+      null,
+      null
+    ],
+    "secuencia_final": [
+      "2132-ver.jpg",
+      null,
+      "236-oso.jpg",
+      "4121-y.jpg",
+      null,
+      null
+    ]
+  },
+  {
+    "oracion": "comer las uvas en sol",
+    "tokens": [
+      "comer",
+      "las",
+      "uvas",
+      "en",
+      "sol"
+    ],
+    "elecciones": [
+      "7118-comer.jpg",
+      null,
+      "941-uvas.jpg",
+      "2376-en.jpg",
+      "2589-sol.jpg"
+    ],
+    "secuencia_final": [
+      "7118-comer.jpg",
+      null,
+      "941-uvas.jpg",
+      "2376-en.jpg",
+      "2589-sol.jpg"
+    ]
+  },
+  {
+    "oracion": "visitar la basílica del pilar",
+    "tokens": [
+      "visitar",
+      "la",
+      "basílica",
+      "del",
+      "pilar"
+    ],
+    "elecciones": [
+      "6366-visitar_la_tumba.jpg",
+      "3057-la.jpg",
+      "1517-basílica.jpg",
+      "1705-virgen_del_pilar.jpg",
+      "1448-día_del_pilar.jpg"
+    ],
+    "secuencia_final": [
+      "6366-visitar_la_tumba.jpg",
+      "3057-la.jpg",
+      "1517-basílica.jpg",
+      "1705-virgen_del_pilar.jpg",
+      "1448-día_del_pilar.jpg"
+    ]
+  },
+  {
+    "oracion": "ver a la virgen del pilar",
+    "tokens": [
+      "ver",
+      "a",
+      "la",
+      "virgen",
+      "del",
+      "pilar"
+    ],
+    "elecciones": [
+      "2132-ver.jpg",
+      "10811-á.jpg",
+      "3057-la.jpg",
+      "1705-virgen_del_pilar.jpg",
+      null,
+      null
+    ],
+    "secuencia_final": [
+      "2132-ver.jpg",
+      "10811-á.jpg",
+      "3057-la.jpg",
+      "1705-virgen_del_pilar.jpg",
+      null,
+      null
+    ]
+  },
+  {
+    "oracion": "comer frutas de aragón",
+    "tokens": [
+      "comer",
+      "frutas",
+      "de",
+      "aragón"
+    ],
+    "elecciones": [
+      "1175-comer.jpg",
+      "1213-fruta.jpg",
+      "2424-de.jpg",
+      "3995-frutas_de_aragón.jpg"
+    ],
+    "secuencia_final": [
+      "1175-comer.jpg",
+      "1213-fruta.jpg",
+      "2424-de.jpg",
+      "3995-frutas_de_aragón.jpg"
+    ]
+  },
+  {
+    "oracion": "comer ternasco asado",
+    "tokens": [
+      "comer",
+      "ternasco",
+      "asado"
+    ],
+    "elecciones": [
+      "1175-comer.jpg",
+      null,
+      "1503-asado.jpg"
+    ],
+    "secuencia_final": [
+      "1175-comer.jpg",
+      null,
+      "1503-asado.jpg"
+    ]
+  },
+  {
+    "oracion": "bailar la jota",
+    "tokens": [
+      "bailar",
+      "la",
+      "jota"
+    ],
+    "elecciones": [
+      "1882-bailar.jpg",
+      "3057-la.jpg",
+      "1603-jota.jpg"
+    ],
+    "secuencia_final": [
+      "1882-bailar.jpg",
+      "3057-la.jpg",
+      "1603-jota.jpg"
+    ]
+  },
+  {
+    "oracion": "visitar los molinos de viento",
+    "tokens": [
+      "visitar",
+      "los",
+      "molinos",
+      "de",
+      "viento"
+    ],
+    "elecciones": [
+      "6557-visitar.jpg",
+      "3058-los.jpg",
+      "4380-molino.jpg",
+      "2424-de.jpg",
+      "13077-campanas_de_viento.jpg"
+    ],
+    "secuencia_final": [
+      "6557-visitar.jpg",
+      "3058-los.jpg",
+      "4380-molino.jpg",
+      "2424-de.jpg",
+      "13077-campanas_de_viento.jpg"
+    ]
+  },
+  {
+    "oracion": "leer el quijote",
+    "tokens": [
+      "leer",
+      "el",
+      "quijote"
+    ],
+    "elecciones": [
+      "7113-leer.jpg",
+      null,
+      "3831-don_quijote.jpg"
+    ],
+    "secuencia_final": [
+      "7113-leer.jpg",
+      null,
+      "3831-don_quijote.jpg"
+    ]
+  },
+  {
+    "oracion": "comer queso manchego",
+    "tokens": [
+      "comer",
+      "queso",
+      "manchego"
+    ],
+    "elecciones": [
+      "123-comer.jpg",
+      "1375-queso.jpg",
+      null
+    ],
+    "secuencia_final": [
+      "123-comer.jpg",
+      "1375-queso.jpg",
+      null
+    ]
+  },
+  {
+    "oracion": "comer pisto manchego",
+    "tokens": [
+      "comer",
+      "pisto",
+      "manchego"
+    ],
+    "elecciones": [
+      "7100-comer.jpg",
+      "10466-pisto.jpg",
+      null
+    ],
+    "secuencia_final": [
+      "7100-comer.jpg",
+      "10466-pisto.jpg",
+      null
+    ]
+  },
+  {
+    "oracion": "comer miguelitos de la roda",
+    "tokens": [
+      "comer",
+      "miguelitos",
+      "de",
+      "la",
+      "roda"
+    ],
+    "elecciones": [
+      "123-comer.jpg",
+      null,
+      "2424-de.jpg",
+      "3057-la.jpg",
+      null
+    ],
+    "secuencia_final": [
+      "123-comer.jpg",
+      null,
+      "2424-de.jpg",
+      "3057-la.jpg",
+      null
+    ]
+  },
+  {
+    "oracion": "visitar las casas colgadas",
+    "tokens": [
+      "visitar",
+      "las",
+      "casas",
+      "colgadas"
+    ],
+    "elecciones": [
+      "6555-visitar.jpg",
+      null,
+      "74-casa.jpg",
+      null
+    ],
+    "secuencia_final": [
+      "6555-visitar.jpg",
+      null,
+      "74-casa.jpg",
+      null
+    ]
+  },
+  {
+    "oracion": "visitar el teide",
+    "tokens": [
+      "visitar",
+      "el",
+      "teide"
+    ],
+    "elecciones": [
+      "6557-visitar.jpg",
+      null,
+      "3775-teide.jpg"
+    ],
+    "secuencia_final": [
+      "6557-visitar.jpg",
+      null,
+      "3775-teide.jpg"
+    ]
+  },
+  {
+    "oracion": "Mañana viene mi padre",
+    "tokens": [
+      "Mañana",
+      "viene",
+      "mi",
+      "padre"
+    ],
+    "elecciones": [
+      "2494-mañana.jpg",
+      "4249-venir.jpg",
+      "2507-mi_turno.jpg",
+      "241-padre.jpg"
+    ],
+    "secuencia_final": [
+      "2494-mañana.jpg",
+      "4249-venir.jpg",
+      "2507-mi_turno.jpg",
+      "241-padre.jpg"
+    ]
+  },
+  {
+    "oracion": "Hoy es un día largo",
+    "tokens": [
+      "Hoy",
+      "es",
+      "un",
+      "día",
+      "largo"
+    ],
+    "elecciones": [
+      "12256-hoy.jpg",
+      "4217-¡es_gracioso!.jpg",
+      null,
+      "11729-día.jpg",
+      "1235-largo.jpg"
+    ],
+    "secuencia_final": [
+      "12256-hoy.jpg",
+      "4217-¡es_gracioso!.jpg",
+      null,
+      "11729-día.jpg",
+      "1235-largo.jpg"
+    ]
+  },
+  {
+    "oracion": "subir en teleférico",
+    "tokens": [
+      "subir",
+      "en",
+      "teleférico"
+    ],
+    "elecciones": [
+      "2195-subir.jpg",
+      "2376-en.jpg",
+      null
+    ],
+    "secuencia_final": [
+      "2195-subir.jpg",
+      "2376-en.jpg",
+      null
+    ]
+  },
+  {
+    "oracion": "comer plátano de canarias",
+    "tokens": [
+      "comer",
+      "plátano",
+      "de",
+      "canarias"
+    ],
+    "elecciones": [
+      "123-comer.jpg",
+      "283-plátano.jpg",
+      "2424-de.jpg",
+      "3126-canarias.jpg"
+    ],
+    "secuencia_final": [
+      "123-comer.jpg",
+      "283-plátano.jpg",
+      "2424-de.jpg",
+      "3126-canarias.jpg"
+    ]
+  },
+  {
+    "oracion": "comer papas con mojo",
+    "tokens": [
+      "comer",
+      "papas",
+      "con",
+      "mojo"
+    ],
+    "elecciones": [
+      "2031-comer.jpg",
+      "5955-papá_noel.jpg",
+      "2409-con.jpg",
+      null
+    ],
+    "secuencia_final": [
+      "2031-comer.jpg",
+      "5955-papá_noel.jpg",
+      "2409-con.jpg",
+      null
+    ]
+  },
+  {
+    "oracion": "comer gofio escaldado",
+    "tokens": [
+      "comer",
+      "gofio",
+      "escaldado"
+    ],
+    "elecciones": [
+      "123-comer.jpg",
+      null,
+      null
+    ],
+    "secuencia_final": [
+      "123-comer.jpg",
+      null,
+      null
+    ]
+  }
+]

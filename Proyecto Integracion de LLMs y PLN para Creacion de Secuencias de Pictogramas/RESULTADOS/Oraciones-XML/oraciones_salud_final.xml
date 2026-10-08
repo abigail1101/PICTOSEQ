@@ -1,0 +1,505 @@
+<frases>
+  <frase>Yo tener dolor de cabeza</frase>
+  <frase>Yo tener dolor de estómago</frase>
+  <frase>Yo tener dolor de garganta</frase>
+  <frase>Yo tener dolor de oído</frase>
+  <frase>Yo tener dolor de muela</frase>
+  <frase>Yo tener dolor de espalda</frase>
+  <frase>Yo tener dolor de pecho</frase>
+  <frase>Yo tener dolor de pierna</frase>
+  <frase>Yo tener dolor de brazo</frase>
+  <frase>Yo tener dolor de mano</frase>
+  <frase>Yo tener dolor de pie</frase>
+  <frase>Yo tener dolor de dientes</frase>
+  <frase>Yo tener mucho frío</frase>
+  <frase>Yo tener mucho calor</frase>
+  <frase>Yo tener mucho miedo</frase>
+  <frase>Yo tener tos</frase>
+  <frase>Yo tener fiebre alta</frase>
+  <frase>Yo querer beber agua</frase>
+  <frase>Yo querer comer comida</frase>
+  <frase>Yo querer ir al baño</frase>
+  <frase>Yo querer ir a casa</frase>
+  <frase>Yo querer dormir en cama</frase>
+  <frase>Yo querer ver a mamá</frase>
+  <frase>Yo querer ver a papá</frase>
+  <frase>Yo querer hablar por teléfono</frase>
+  <frase>Yo necesitar ayuda por favor</frase>
+  <frase>Yo necesitar médico por favor</frase>
+  <frase>Yo necesitar enfermera por favor</frase>
+  <frase>Yo necesitar medicinas por favor</frase>
+  <frase>Yo necesitar pastillas por favor</frase>
+  <frase>Yo necesitar descanso ahora</frase>
+  <frase>Yo estar mareado ahora</frase>
+  <frase>Yo estar cansado ahora</frase>
+  <frase>Yo estar asustado ahora</frase>
+  <frase>Yo estar triste ahora</frase>
+  <frase>Yo estar contento ahora</frase>
+  <frase>Yo estar enfermo ahora</frase>
+  <frase>Llamar a la enfermera</frase>
+  <frase>Llamar al médico</frase>
+  <frase>Llamar a la familia</frase>
+  <frase>Llamar a mamá</frase>
+  <frase>Llamar a papá</frase>
+  <frase>Abrir la boca</frase>
+  <frase>Cerrar la boca</frase>
+  <frase>Abrir los ojos</frase>
+  <frase>Cerrar los ojos</frase>
+  <frase>Sacar la lengua</frase>
+  <frase>Mover la mano</frase>
+  <frase>Mover el pie</frase>
+  <frase>Respirar por la nariz</frase>
+  <frase>Respirar por la boca</frase>
+  <frase>Tomar la temperatura</frase>
+  <frase>Tomar la tensión</frase>
+  <frase>Poner el termómetro</frase>
+  <frase>Inyectar la medicina</frase>
+  <frase>Limpiar la herida</frase>
+  <frase>Poner una tirita</frase>
+  <frase>Poner una venda</frase>
+  <frase>Cambiar el pañal</frase>
+  <frase>Cambiar la ropa</frase>
+  <frase>Cambiar las sábanas</frase>
+  <frase>Ir a la habitación</frase>
+  <frase>Ir a la consulta</frase>
+  <frase>Ir al quirófano</frase>
+  <frase>Ir a la ambulancia</frase>
+  <frase>Esperar en la sala</frase>
+  <frase>Esperar al doctor</frase>
+  <frase>Sentar en la silla</frase>
+  <frase>Tumbar en la cama</frase>
+  <frase>Levantar de la cama</frase>
+  <frase>Ayudar a caminar</frase>
+  <frase>Ayudar a comer</frase>
+  <frase>Ayudar a beber</frase>
+  <frase>Ayudar a lavar</frase>
+  <frase>Ayudar a vestir</frase>
+  <frase>Querer lavar las manos</frase>
+  <frase>Querer lavar la cara</frase>
+  <frase>Querer lavar los dientes</frase>
+  <frase>Querer duchar ahora</frase>
+  <frase>Querer usar el váter</frase>
+  <frase>Querer papel higiénico</frase>
+  <frase>Querer una toalla</frase>
+  <frase>Querer jabón y agua</frase>
+  <frase>La comida está fría</frase>
+  <frase>La comida está caliente</frase>
+  <frase>No gustar la comida</frase>
+  <frase>Me gusta el agua</frase>
+  <frase>Yo querer postre</frase>
+  <frase>Yo querer fruta</frase>
+  <frase>Yo querer yogur</frase>
+  <frase>Yo querer zumo de piña</frase>
+  <frase>Yo querer leche</frase>
+  <frase>Yo querer café</frase>
+  <frase>Cerrar la puerta</frase>
+  <frase>Abrir la ventana</frase>
+  <frase>Apagar la luz</frase>
+  <frase>Encender la luz</frase>
+  <frase>Subir la persiana</frase>
+  <frase>Bajar la persiana</frase>
+  <frase>Poner la almohada</frase>
+  <frase>Quitar la manta</frase>
+  <frase>Gracias por la ayuda</frase>
+  <frase>Adiós y gracias</frase>
+  <frase>Yo tener dolor de tripa</frase>
+  <frase>Yo tener sangre en dedo</frase>
+  <frase>Yo tener picor en piel</frase>
+  <frase>Yo tener corazón muy rápido</frase>
+  <frase>Yo no poder respirar bien</frase>
+  <frase>Yo estar muy mareado</frase>
+  <frase>Yo estar muy cansado</frase>
+  <frase>Yo estar muy triste</frase>
+  <frase>Yo estar muy nervioso</frase>
+  <frase>Yo tener mucho sueño</frase>
+  <frase>Yo estar sediento ahora</frase>
+  <frase>Yo estar hambriento ahora</frase>
+  <frase>Yo tener frío ahora</frase>
+  <frase>Yo tener calor ahora</frase>
+  <frase>Querer ir al retrete</frase>
+  <frase>Querer hacer pis ahora</frase>
+  <frase>Querer hacer caca ahora</frase>
+  <frase>Necesito papel higiénico por favor</frase>
+  <frase>Necesito toallitas húmedas por favor</frase>
+  <frase>Necesito una compresa por favor</frase>
+  <frase>Necesito un tampón por favor</frase>
+  <frase>Necesito pañuelos por favor</frase>
+  <frase>Querer lavar el pelo</frase>
+  <frase>Querer lavar el cuerpo</frase>
+  <frase>Querer cortar la uña</frase>
+  <frase>Necesito cepillo de dientes</frase>
+  <frase>Necesito dentífrico por favor</frase>
+  <frase>Necesito colonia por favor</frase>
+  <frase>Necesito peine por favor</frase>
+  <frase>Necesito esponja por favor</frase>
+  <frase>Necesito gel por favor</frase>
+  <frase>Necesito champú por favor</frase>
+  <frase>Necesito crema por favor</frase>
+  <frase>Necesito desodorante por favor</frase>
+  <frase>Yo querer afeitar ahora</frase>
+  <frase>Abrir las cortinas por favor</frase>
+  <frase>Cerrar las cortinas por favor</frase>
+  <frase>Subir la cama por favor</frase>
+  <frase>Bajar la cama por favor</frase>
+  <frase>Querer ver la tele</frase>
+  <frase>Querer escuchar la radio</frase>
+  <frase>Querer leer el periódico</frase>
+  <frase>Querer leer una revista</frase>
+  <frase>Querer usar el ordenador</frase>
+  <frase>Querer usar la tableta</frase>
+  <frase>Yo necesitar mis gafas</frase>
+  <frase>Yo necesitar mi audífono</frase>
+  <frase>Necesito dentadura postiza ahora</frase>
+  <frase>Necesito silla de ruedas</frase>
+  <frase>Necesito el andador ahora</frase>
+  <frase>Necesito el bastón ahora</frase>
+  <frase>Enfermera venir por favor</frase>
+  <frase>Médico venir por favor</frase>
+  <frase>Celador venir por favor</frase>
+  <frase>Auxiliar venir por favor</frase>
+  <frase>Limpiadora venir por favor</frase>
+  <frase>Querer pastillas para dormir</frase>
+  <frase>Querer pastillas para dolor</frase>
+  <frase>Querer jarabe para tos</frase>
+  <frase>Cuándo viene el médico</frase>
+  <frase>Cuándo ir a casa</frase>
+  <frase>Cuándo ir a comer</frase>
+  <frase>Cuándo ir a dormir</frase>
+  <frase>Dónde está mi familia</frase>
+  <frase>Dónde está mi ropa</frase>
+  <frase>Querer beber zumo ahora</frase>
+  <frase>Querer beber leche ahora</frase>
+  <frase>Querer beber café ahora</frase>
+  <frase>Querer comer sopa ahora</frase>
+  <frase>Querer comer puré ahora</frase>
+  <frase>Querer comer pollo ahora</frase>
+  <frase>Querer comer pescado ahora</frase>
+  <frase>Querer comer ensalada ahora</frase>
+  <frase>Querer comer yogur ahora</frase>
+  <frase>Querer comer flan ahora</frase>
+  <frase>Querer comer galletas ahora</frase>
+  <frase>Querer comer pan ahora</frase>
+  <frase>La sopa está frío</frase>
+  <frase>La sopa está caliente</frase>
+  <frase>No querer comer más</frase>
+  <frase>No querer beber más</frase>
+  <frase>Estar contento con médico</frase>
+  <frase>Estar enfadado con enfermera</frase>
+  <frase>Tener miedo de aguja</frase>
+  <frase>Tener miedo de dolor</frase>
+  <frase>Querer ver a hijo</frase>
+  <frase>Querer ver a hija</frase>
+  <frase>Querer ver a hermano</frase>
+  <frase>Querer ver a hermana</frase>
+  <frase>Querer ver a abuela</frase>
+  <frase>Querer ver a abuelo</frase>
+  <frase>Querer ir al parque</frase>
+  <frase>Gracias por cuidar</frase>
+  <frase>Buenos días a todos</frase>
+  <frase>Buenas noches a todos</frase>
+  <frase>Querer lavar la cara</frase>
+  <frase>Querer secar las manos</frase>
+  <frase>Querer secar el cuerpo</frase>
+  <frase>Querer cortar el pelo</frase>
+  <frase>Querer pintar un dibujo</frase>
+  <frase>Abrir la boca grande</frase>
+  <frase>Sacar la lengua fuera</frase>
+  <frase>Cerrar los ojos fuerte</frase>
+  <frase>Mover los dedos del pie</frase>
+  <frase>Levantar el brazo derecho</frase>
+  <frase>Levantar el brazo izquierdo</frase>
+  <frase>Doblar la rodilla ahora</frase>
+  <frase>Tocar la nariz con dedo</frase>
+  <frase>Respirar hondo por favor</frase>
+  <frase>Soplar aire muy fuerte</frase>
+  <frase>Yo tener picor en ojo</frase>
+  <frase>Yo tener sangre en nariz</frase>
+  <frase>Yo tener golpe en cabeza</frase>
+  <frase>Yo tener herida en mano</frase>
+  <frase>Yo tener quemadura en piel</frase>
+  <frase>Yo tener moco en nariz</frase>
+  <frase>Yo tener tos y moco</frase>
+  <frase>Yo tener fiebre y frío</frase>
+  <frase>Yo vomitar la comida</frase>
+  <frase>Yo no poder dormir bien</frase>
+  <frase>Querer poner el pijama</frase>
+  <frase>Querer quitar el pijama</frase>
+  <frase>Querer poner los calcetines</frase>
+  <frase>Querer quitar los calcetines</frase>
+  <frase>Querer poner la bata</frase>
+  <frase>Querer quitar la bata</frase>
+  <frase>Querer otra almohada más</frase>
+  <frase>Querer otra manta más</frase>
+  <frase>La almohada está dura</frase>
+  <frase>La cama está sucia</frase>
+  <frase>Querer beber zumo de naranja</frase>
+  <frase>Querer comer puré de patata</frase>
+  <frase>Querer comer huevo frito</frase>
+  <frase>Querer comer arroz con tomate</frase>
+  <frase>Querer comer manzana y pera</frase>
+  <frase>Querer beber agua fría</frase>
+  <frase>Querer beber agua caliente</frase>
+  <frase>No querer comer carne</frase>
+  <frase>No querer comer pescado</frase>
+  <frase>Querer sal en la comida</frase>
+  <frase>Querer ir al pasillo</frase>
+  <frase>Querer ir a la ventana</frase>
+  <frase>Querer salir de la habitación</frase>
+  <frase>Querer entrar en el baño</frase>
+  <frase>Querer sentar en el sillón</frase>
+  <frase>Querer tumbar en el sofá</frase>
+  <frase>Querer volver a la cama</frase>
+  <frase>Querer pasear por pasillo</frase>
+  <frase>Querer ir a la calle</frase>
+  <frase>Dónde está el ascensor</frase>
+  <frase>Yo estar muy aburrido</frase>
+  <frase>Yo estar muy preocupado</frase>
+  <frase>Yo querer jugar a cartas</frase>
+  <frase>Yo querer ver a amigos</frase>
+  <frase>Yo querer dar un abrazo</frase>
+  <frase>Yo querer dar un beso</frase>
+  <frase>No querer estar solo</frase>
+  <frase>Querer compañía por favor</frase>
+  <frase>Estoy contento hoy</frase>
+  <frase>Estoy triste hoy</frase>
+  <frase>Mirar la herida por favor</frase>
+  <frase>Cambiar la venda sucia</frase>
+  <frase>Poner crema en espalda</frase>
+  <frase>Poner gotas en los ojos</frase>
+  <frase>Poner gotas en el oído</frase>
+  <frase>Tomar la pastilla roja</frase>
+  <frase>Tomar la pastilla blanca</frase>
+  <frase>Cuándo poner la inyección</frase>
+  <frase>Cuándo hacer una radiografía</frase>
+  <frase>Cuándo hacer el análisis</frase>
+  <frase>Hay mucho ruido aquí</frase>
+  <frase>Hay mucha luz aquí</frase>
+  <frase>Huele mal en baño</frase>
+  <frase>Huele bien la comida</frase>
+  <frase>El suelo está mojado</frase>
+  <frase>La habitación está fría</frase>
+  <frase>La habitación está caliente</frase>
+  <frase>Cerrar la puerta del baño</frase>
+  <frase>Apagar la televisión ahora</frase>
+  <frase>Encender la televisión ahora</frase>
+  <frase>Necesito lavar las manos</frase>
+  <frase>Necesito lavar la cara</frase>
+  <frase>Necesito lavar los pies</frase>
+  <frase>Necesito cortar el pelo</frase>
+  <frase>Necesito limpiar las gafas</frase>
+  <frase>Necesito cambiar el pañal</frase>
+  <frase>Necesito ir al retrete</frase>
+  <frase>Necesito papel de váter</frase>
+  <frase>Necesito toalla de baño</frase>
+  <frase>Necesito peine y cepillo</frase>
+  <frase>Llamar a la ambulancia</frase>
+  <frase>Ir a urgencias rápido</frase>
+  <frase>Ayudar a subir escalera</frase>
+  <frase>Ayudar a bajar escalera</frase>
+  <frase>Ayudar a levantar peso</frase>
+  <frase>No puedo mover la pierna</frase>
+  <frase>No puedo mover el brazo</frase>
+  <frase>No puedo abrir el ojo</frase>
+  <frase>No puedo cerrar la boca</frase>
+  <frase>Gracias por la medicina</frase>
+  <frase>Yo querer comer plátano</frase>
+  <frase>Yo querer comer manzana</frase>
+  <frase>Yo querer comer naranja</frase>
+  <frase>Yo querer comer pera</frase>
+  <frase>Yo querer comer melocotón</frase>
+  <frase>Yo querer zumo de limón</frase>
+  <frase>No quiero comer carne</frase>
+  <frase>No quiero comer pescado</frase>
+  <frase>La comida tiene sal</frase>
+  <frase>La comida no tiene sal</frase>
+  <frase>Yo tener mucha sed</frase>
+  <frase>Yo tener mucha hambre</frase>
+  <frase>Yo tener mucho sueño</frase>
+  <frase>Yo estar muy cansado</frase>
+  <frase>Yo estar muy contento</frase>
+  <frase>Yo estar muy triste</frase>
+  <frase>Yo estar muy enfadado</frase>
+  <frase>Yo estar muy asustado</frase>
+  <frase>Yo estar muy aburrido</frase>
+  <frase>Yo estar muy tranquilo</frase>
+  <frase>Yo estar muy nervioso</frase>
+  <frase>Dolor en la rodilla derecha</frase>
+  <frase>Dolor en la rodilla izquierda</frase>
+  <frase>Dolor en el pie derecho</frase>
+  <frase>Dolor en el pie izquierdo</frase>
+  <frase>Dolor en la mano derecha</frase>
+  <frase>Dolor en la mano izquierda</frase>
+  <frase>Dolor en el ojo derecho</frase>
+  <frase>Dolor en el ojo izquierdo</frase>
+  <frase>Dolor en el oído derecho</frase>
+  <frase>Dolor en el oído izquierdo</frase>
+  <frase>Tengo picor en la cabeza</frase>
+  <frase>Tengo picor en el brazo</frase>
+  <frase>Tengo picor en la pierna</frase>
+  <frase>Tengo picor en la espalda</frase>
+  <frase>La herida sangra mucho</frase>
+  <frase>La venda está sucia</frase>
+  <frase>La venda está mojada</frase>
+  <frase>Cambiar la venda limpia</frase>
+  <frase>Poner crema en la piel</frase>
+  <frase>Poner hielo en el golpe</frase>
+  <frase>Tomar el jarabe ahora</frase>
+  <frase>Tomar la medicina ahora</frase>
+  <frase>Dónde está mi padre</frase>
+  <frase>Dónde está mi madre</frase>
+  <frase>Dónde está mi hermano</frase>
+  <frase>Dónde está mi hermana</frase>
+  <frase>Dónde está mi abuelo</frase>
+  <frase>Dónde está mi abuela</frase>
+  <frase>Dónde están mis gafas</frase>
+  <frase>Dónde está mi reloj</frase>
+  <frase>Dónde está mi cartera</frase>
+  <frase>Dónde está mi teléfono</frase>
+  <frase>Quiero llamar a casa</frase>
+  <frase>Quiero ir al jardín</frase>
+  <frase>Quiero salir al pasillo</frase>
+  <frase>Quiero entrar en la sala</frase>
+  <frase>Quiero sentar en el sofá</frase>
+  <frase>Quiero tumbar en la cama</frase>
+  <frase>Levantar la pierna arriba</frase>
+  <frase>Bajar la pierna abajo</frase>
+  <frase>Doblar el brazo ahora</frase>
+  <frase>Estirar el brazo ahora</frase>
+  <frase>Mover la cabeza despacio</frase>
+  <frase>Abrir la mano grande</frase>
+  <frase>Cerrar la mano fuerte</frase>
+  <frase>Tocar el timbre ahora</frase>
+  <frase>Llamar al timbre ahora</frase>
+  <frase>Encender la luz del baño</frase>
+  <frase>Apagar la luz del baño</frase>
+  <frase>Abrir la puerta del baño</frase>
+  <frase>Cerrar la puerta del baño</frase>
+  <frase>El agua está muy fría</frase>
+  <frase>El agua está muy caliente</frase>
+  <frase>El suelo está resbaladizo</frase>
+  <frase>Cuidado con el suelo</frase>
+  <frase>Necesito ayuda para comer</frase>
+  <frase>Necesito ayuda para beber</frase>
+  <frase>Necesito ayuda para andar</frase>
+  <frase>Necesito ayuda para vestir</frase>
+  <frase>Necesito ayuda para lavar</frase>
+  <frase>Necesito ayuda para levantar</frase>
+  <frase>Necesito ayuda para sentar</frase>
+  <frase>Necesito ayuda para tumbar</frase>
+  <frase>Gracias por venir hoy</frase>
+  <frase>Gracias por escucharme</frase>
+  <frase>Gracias por curar</frase>
+  <frase>Buenos días doctor</frase>
+  <frase>Buenas tardes enfermera</frase>
+  <frase>Buenas noches a todos</frase>
+  <frase>Hasta mañana por la mañana</frase>
+  <frase>Hasta luego por la tarde</frase>
+  <frase>Quiero ver la televisión</frase>
+  <frase>Quiero escuchar la radio</frase>
+  <frase>Quiero leer un libro</frase>
+  <frase>Quiero pintar un cuadro</frase>
+  <frase>Quiero hacer un puzle</frase>
+  <frase>Quiero jugar con cartas</frase>
+  <frase>Quiero descansar un poco</frase>
+  <frase>Quiero dormir un poco</frase>
+  <frase>Tengo la boca seca</frase>
+  <frase>Tengo los labios secos</frase>
+  <frase>Me pica la piel</frase>
+  <frase>Me pica la cabeza</frase>
+  <frase>Me pica la espalda</frase>
+  <frase>Estoy sangrando por la nariz</frase>
+  <frase>Tengo ganas de vomitar</frase>
+  <frase>Tengo ganas de orinar</frase>
+  <frase>Tengo ganas de hacer caca</frase>
+  <frase>El médico es amable</frase>
+  <frase>La enfermera es amable</frase>
+  <frase>Quiero ir a la ducha</frase>
+  <frase>El agua está muy fría</frase>
+  <frase>El agua está muy caliente</frase>
+  <frase>Necesito jabón de manos</frase>
+  <frase>Necesito toalla de manos</frase>
+  <frase>Cerrar la puerta fuerte</frase>
+  <frase>Abrir la ventana un poco</frase>
+  <frase>Hace mucho calor aquí</frase>
+  <frase>Hace mucho frío aquí</frase>
+  <frase>Quiero mi pijama azul</frase>
+  <frase>Quiero mi pijama limpio</frase>
+  <frase>Dónde están mis zapatillas</frase>
+  <frase>Quiero mis zapatillas ahora</frase>
+  <frase>Ayuda con la comida</frase>
+  <frase>Cortar la carne por favor</frase>
+  <frase>Pelar la fruta por favor</frase>
+  <frase>Echar agua en el vaso</frase>
+  <frase>Limpiar la mesa por favor</frase>
+  <frase>Quitar la bandeja de comida</frase>
+  <frase>Estoy cansado de estar aquí</frase>
+  <frase>Quiero salir al jardín</frase>
+  <frase>Quiero tomar el sol</frase>
+  <frase>Quiero respirar aire</frase>
+  <frase>Estoy mejor hoy</frase>
+  <frase>Estoy peor hoy</frase>
+  <frase>Me duele todo el cuerpo</frase>
+  <frase>No puedo dormir nada</frase>
+  <frase>Tengo pesadillas por la noche</frase>
+  <frase>Quiero irme a mi casa</frase>
+  <frase>Necesito mis gafas de ver</frase>
+  <frase>Necesito mi teléfono móvil</frase>
+  <frase>Dónde está el mando</frase>
+  <frase>Cambiar de canal por favor</frase>
+  <frase>Subir el volumen de la tele</frase>
+  <frase>Bajar el volumen de la tele</frase>
+  <frase>La tele no funciona</frase>
+  <frase>El timbre no funciona</frase>
+  <frase>La luz no funciona</frase>
+  <frase>Quiero sentar en el sofá</frase>
+  <frase>Quiero sentar en la cama</frase>
+  <frase>Quiero tumbar en el sofá</frase>
+  <frase>Ayuda para andar al baño</frase>
+  <frase>Ayuda para lavar el pelo</frase>
+  <frase>El suelo resbala mucho</frase>
+  <frase>Tengo miedo de caer</frase>
+  <frase>Cuidado con mi brazo</frase>
+  <frase>Cuidado con mi pierna</frase>
+  <frase>Cuidado con la vía</frase>
+  <frase>La aguja me hace daño</frase>
+  <frase>La venda me aprieta mucho</frase>
+  <frase>Quiero cambiar de postura</frase>
+  <frase>Quiero girar a la derecha</frase>
+  <frase>Quiero girar a la izquierda</frase>
+  <frase>Poner boca arriba por favor</frase>
+  <frase>Poner boca abajo por favor</frase>
+  <frase>Poner de lado por favor</frase>
+  <frase>Subir la cabeza un poco</frase>
+  <frase>Bajar la cabeza un poco</frase>
+  <frase>Subir los pies un poco</frase>
+  <frase>Tengo los pies muy fríos</frase>
+  <frase>Tengo las manos muy frías</frase>
+  <frase>Necesito una manta más gorda</frase>
+  <frase>Necesito calcetines de lana</frase>
+  <frase>Quiero beber un zumo</frase>
+  <frase>Quiero beber un batido</frase>
+  <frase>Quiero comer un yogur</frase>
+  <frase>Quiero comer unas galletas</frase>
+  <frase>No tengo ganas de comer</frase>
+  <frase>No tengo ganas de hablar</frase>
+  <frase>Quiero estar en silencio</frase>
+  <frase>Por favor no gritar</frase>
+  <frase>Por favor hablar despacio</frase>
+  <frase>No entiendo lo que dices</frase>
+  <frase>Repetir otra vez por favor</frase>
+  <frase>Usar el tablero de comunicación</frase>
+  <frase>Señalar con el dedo</frase>
+  <frase>Escribir en el papel</frase>
+  <frase>Leer el libro tranquilo</frase>
+  <frase>Escuchar música suave</frase>
+  <frase>Ver fotos de familia</frase>
+  <frase>Estoy esperando al doctor</frase>
+  <frase>Estoy esperando a la enfermera</frase>
+  <frase>Cuánto falta para terminar</frase>
+  <frase>Cuánto falta para comer</frase>
+  <frase>Cuánto falta para ir</frase>
+  <frase>Mañana viene mi madre</frase>
+  <frase>Mañana viene mi padre</frase>
+  <frase>Hoy es un día largo</frase>
+  <frase>Gracias por ayudarme siempre</frase>
+</frases>
