@@ -1,0 +1,93 @@
+{% extends "base.html" %}
+{% block title %}Acerca de - PICTOSEQ{% endblock %}
+{% block body_class %}bg-art{% endblock %}
+{% block nav_acerca %}active{% endblock %}
+
+{% block content %}
+<section class="section">
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Acerca de</h2>
+    <p>PICTOSEQ es un esfuerzo por hacer más accesible la comunicación mediante secuencias de pictogramas asistidas por IA.</p>
+  </div>
+
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
+    <div class="row gy-4">
+      
+      <!-- Columna principal -->
+      <div class="col-lg-7">
+        <article class="card tile-card p-4 about-card">
+          
+          <div class="about-lead">
+            En entornos educativos, culturales y de salud, los pictogramas son una alternativa eficaz para mejorar la
+            accesibilidad comunicativa con personas que presentan dificultades del habla, barreras cognitivas
+            o niveles limitados de alfabetización.
+          </div>
+
+          <h3 class="h5 mt-4 mb-2">Fundamento</h3>
+          <p>
+            El proyecto se fundamenta en la necesidad de desarrollar herramientas tecnológicas que faciliten
+            la comunicación y comprensión del lenguaje a través de medios visuales.
+          </p>
+
+          <h3 class="h5 mt-4 mb-2">Problemática actual</h3>
+          <ul class="pill-list">
+            <li>Recursos visuales limitados o fragmentados.</li>
+            <li>Poca integración y escasa automatización.</li>
+            <li>Falta de contexto para formar secuencias coherentes.</li>
+          </ul>
+
+          <h3 class="h5 mt-4 mb-2">Nuestra propuesta</h3>
+          <p>
+            <em>“Integración de IA y Modelos de Lenguaje Natural para la Creación de Secuencias de Pictogramas
+            en Aplicaciones de Cultura, Educación y Salud”</em> automatiza la organización de pictogramas a partir de
+            oraciones, apoyándose en modelos de lenguaje natural multimodal.
+          </p>
+
+          <blockquote class="accent-quote mt-4" aria-label="Objetivo">
+            Desarrollar un sistema funcional que genere y muestre secuencias de pictogramas coherentes,
+            interpretables y adaptadas a los contextos educativo, cultural y de salud.
+          </blockquote>
+        </article>
+      </div>
+
+      <!-- Columna lateral (sticky) -->
+      <div class="col-lg-5">
+        <aside class="sticky-side" aria-label="Resumen">
+          <div class="card tile-card p-4 mb-3" data-aos="zoom-in" data-aos-delay="150">
+            <h3 class="h6 mb-3">¿Cómo funciona PICTOSEQ?</h3>
+            <ol class="stepper">
+              <li>Escribes una oración.</li>
+              <li>BETO sugiere candidatos de pictogramas.</li>
+              <li>“Armar con IA” (CLIP) propone la mejor secuencia.</li>
+              <li>Ajustas la secuencia y guardas.</li>
+              <li>Descargas tus pictosecuencias.</li>
+            </ol>
+          </div>
+
+          <div class="card tile-card p-4" data-aos="zoom-in" data-aos-delay="200">
+            <div class="stat-grid">
+              <div class="stat-chip">
+                <div class="stat-label">Ámbitos</div>
+                <div class="stat-value">Educación · Cultura · Salud</div>
+              </div>
+              <div class="stat-chip">
+                <div class="stat-label">Tecnología</div>
+                <div class="stat-value">IA + PLN multimodal</div>
+              </div>
+              <div class="stat-chip">
+                <div class="stat-label">Interacción</div>
+                <div class="stat-value">Asistida por IA</div>
+              </div>
+              <div class="stat-chip">
+                <div class="stat-label">Resultado</div>
+                <div class="stat-value">Secuencias de pictogramas</div>
+              </div>
+            </div>
+          </div>
+        </aside>
+      </div>
+
+    </div>
+  </div>
+</section>
+{% endblock %}

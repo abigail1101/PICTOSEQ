@@ -1,0 +1,447 @@
+{% extends "base.html" %} 
+{% block title %}{{ cat|capitalize }}{% endblock %}
+
+{% block content %}
+<section class="section">
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Secuencias — {{ cat|capitalize }}</h2>
+    <p>Carrusel automático: muestra cada oración con su secuencia actual.</p>
+  </div>
+
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
+    <div class="swiper init-swiper seq-swiper" id="swiper-{{ cat }}">
+      <script type="application/json" class="swiper-config">
+        {
+          "loop": true,
+          "speed": 700,
+          "effect": "slide",
+          "autoplay": {
+            "delay": 6000,
+            "disableOnInteraction": false,
+            "pauseOnMouseEnter": true
+          },
+          "slidesPerView": 1,
+          "spaceBetween": 24,
+          "centeredSlides": true,
+          "navigation": { "nextEl": ".swiper-button-next", "prevEl": ".swiper-button-prev" }
+        }
+      </script>
+
+      <div class="swiper-wrapper">
+        {% for s in selecciones %}
+          {% set imgs = (effective[loop.index0] if effective else (s.secuencia_final or s.elecciones or [])) %}
+          <div class="swiper-slide">
+            <div class="card shadow-sm p-3">
+              <h5 class="mb-3 text-center">{{ s.oracion }}</h5>
+              <div class="d-flex gap-2 flex-wrap align-items-center justify-content-center">
+                {% for name in imgs if name %}
+                  <img src="{{ url_for('main.pictos', filename=name) }}"
+                       class="rounded border" style="height:72px" alt="{{ name }}">
+                {% endfor %}
+              </div>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+  </div>
+</section>
+
+<section class="section pt-0">
+  <div class="container">
+    <div class="d-flex justify-content-between align-items-center mb-3">
+      <h4 class="mb-0">Descargas y edición</h4>
+      <div class="d-flex gap-2">
+        <button id="toggleEdit"  type="button" class="btn btn-outline-primary">
+          <i class="bi bi-pencil-square me-1"></i>Modificar secuencias
+        </button>
+        <button id="toggleWords" type="button" class="btn btn-outline-primary">
+          <i class="bi bi-arrow-counterclockwise"></i>Sustituir / Eliminar palabras
+        </button>
+        <button id="saveEdits"   type="button" class="btn btn-success d-none">
+          <i class="bi bi-check2-circle me-1"></i>Guardar cambios
+        </button>
+      </div>
+    </div>
+
+    <form method="post" action="{{ url_for('main.categoria_detalle', cat=cat) }}" class="card shadow-sm">
+      <input type="hidden" name="edits_json" id="edits_json">
+      <input type="hidden" name="edits_tokens_json" id="edits_tokens_json">
+      <div class="card-body">
+        <div class="table-responsive">
+          <table class="table align-middle">
+            <div class="d-flex justify-content-between">
+              <span class="text-muted small">Marca secuencias para descargar.</span>
+              <button type="submit" class="btn btn-primary">Descargar seleccionadas</button>
+            </div>
+            <thead>
+              <tr>
+                <th style="width:2rem"><input class="form-check-input" type="checkbox" id="checkAll"></th>
+                <th>Oración</th>
+                <th>Secuencia</th>
+                <th class="edit-col d-none">Candidatos</th>
+              </tr>
+            </thead>
+            <tbody>
+              {% for s in selecciones %}
+                {% set idx = loop.index0 %}
+                {% set imgs = (effective[idx] if effective else (s.secuencia_final or s.elecciones or [])) %}
+                <tr data-idx="{{ idx }}"
+                    data-frase="{{ s.oracion|e }}"
+                    data-tokens='{{ (s.tokens or s.oracion.split())|tojson }}'>
+                  <td><input class="form-check-input" type="checkbox" name="indices" value="{{ idx }}"></td>
+                  
+                  <td class="text-wrap align-middle">
+                    <div class="fw-semibold frase-text">{{ s.oracion }}</div>
+                    <div class="chips d-none mt-2"></div>
+                  </td>
+
+                  <td>
+                    <div class="d-flex gap-2 flex-wrap seq-now">
+                      {% for name in imgs if name %}
+                        <img src="{{ url_for('main.pictos', filename=name) }}"
+                             style="height:44px" class="rounded border" alt="{{ name }}">
+                      {% endfor %}
+                    </div>
+                  </td>
+
+                  <td class="edit-col d-none">
+                    <div class="d-flex flex-column gap-2">
+                      {% for tok in s.tokens %}
+                        {% set token_index = loop.index0 %}
+                        {% set cand = (candidatos_map.get(s.oracion, {}).get('candidatos_por_token', {}).get(tok, [])) %}
+                        <div class="token-cands" data-pos="{{ token_index }}">
+                          <div class="d-flex align-items-center gap-2 flex-wrap">
+                            <small class="text-muted" style="width:80px">{{ tok }}</small>
+                            {% if cand %}
+                              {% for opt in cand %}
+                                <img src="{{ url_for('main.pictos', filename=opt) }}"
+                                     data-position="{{ token_index }}" data-file="{{ opt }}"
+                                     class="opt rounded border" style="height:44px;cursor:pointer;" alt="{{ opt }}">
+                              {% endfor %}
+                            {% else %}
+                              <span class="text-muted small">(sin candidatos extra)</span>
+                            {% endif %}
+                          </div>
+                        </div>
+                      {% endfor %}
+                    </div>
+                  </td>
+                </tr>
+              {% endfor %}
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </form>
+  </div>
+</section>
+{% endblock %}
+
+{% block scripts %}
+<style>
+.chip-word{
+  display:inline-flex; align-items:center; gap:.4rem;
+  padding:.25rem .5rem; border-radius:999px;
+  background:#fff; border:1px solid rgba(111,21,50,.2);
+  box-shadow:0 2px 6px rgba(111,21,50,.08); margin:.15rem;
+  font-size:.9rem;
+}
+.chip-word button{
+  border:0; background:transparent; color:#6f1532; cursor:pointer; padding:0;
+}
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  var editsImgs   = {}; 
+  var editsTokens = {}; 
+
+  // palabras que NO necesitan pictograma obligatoriamente
+  function isStopwordLike(w){
+    if (!w) return false;
+    var s = w.toString().trim().toLowerCase();
+    if (s.normalize) s = s.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+    var stop = ["de","a","y","en","la","el","los","las","un","una","unos","unas","o","u","con","por","para","sin","al","del","lo","le","les","me","te","se","que"];
+    return stop.indexOf(s) !== -1;
+  }
+
+  var toggleBtn      = document.getElementById('toggleEdit');
+  var toggleWordsBtn = document.getElementById('toggleWords');
+  var saveBtn        = document.getElementById('saveEdits');
+
+  [toggleBtn, toggleWordsBtn, saveBtn].forEach(function(b){ if(b) b.type='button'; });
+
+  var checkAll = document.getElementById('checkAll');
+  if (checkAll) {
+    checkAll.addEventListener('change', function (e) {
+      document.querySelectorAll('input[name="indices"]').forEach(function (b) {
+        b.checked = e.target.checked;
+      });
+    });
+  }
+
+  // --- Funciones de Utilidad ---
+  function getRowTokens(tr){
+    try { var raw = tr.getAttribute('data-tokens'); if (raw) return JSON.parse(raw); } catch(e){}
+    var t = tr.getAttribute('data-frase') || '';
+    return t.split(/\s+/).filter(Boolean);
+  }
+  function setRowTokens(tr, tokens){
+    tr.setAttribute('data-tokens', JSON.stringify(tokens||[]));
+  }
+  function getSeqNowArray(tr){
+    var idx = tr.getAttribute('data-idx');
+    if (editsImgs[idx]) return editsImgs[idx].slice();
+    var seqNowImgs = Array.prototype.slice.call(tr.querySelectorAll('.seq-now img'));
+    return seqNowImgs.map(function (img) {
+      var src = img.getAttribute('src') || '';
+      var parts = src.split('/pictos/');
+      return (parts.length > 1) ? parts[1] : src;
+    });
+  }
+  function paintSeqNow(tr, arr){
+    var container = tr.querySelector('.seq-now');
+    if (!container) return;
+    var html = (arr||[]).filter(Boolean).map(function (f) {
+      var u = "{{ url_for('main.pictos', filename='__X__') }}".replace('__X__', f);
+      return '<img src="' + u + '" class="rounded border me-1 mb-1" style="height:44px" alt="' + f + '">';
+    }).join('');
+    container.innerHTML = html;
+  }
+  function persistHidden(){
+    var hiddenImgs   = document.getElementById('edits_json');
+    var hiddenTokens = document.getElementById('edits_tokens_json');
+    if (hiddenImgs)   hiddenImgs.value   = JSON.stringify(editsImgs);
+    if (hiddenTokens) hiddenTokens.value = JSON.stringify(editsTokens);
+  }
+
+  // --- Click en imagen de candidato (Modificar secuencias) ---
+  document.addEventListener('click', function (e) {
+    var target = e.target;
+    if (!target || !target.matches || !target.matches('img.opt')) return;
+    var tr = target.closest('tr'); if (!tr) return;
+    var idx = tr.getAttribute('data-idx'); if (idx === null) return;
+    var pos  = Number(target.getAttribute('data-position'));
+    var file = target.getAttribute('data-file');
+    var now = getSeqNowArray(tr);
+    now[pos] = file;
+    editsImgs[idx] = now;
+    paintSeqNow(tr, now);
+    if (saveBtn) saveBtn.classList.remove('d-none');
+    persistHidden();
+  });
+
+  // ====== Lógica de Chips (Sustituir / Eliminar) ======
+  var apiReinfer1 = "{{ url_for('main.api_reinfer_token') }}";
+  var dominioCat  = "{{ cat or '' }}";
+
+  function buildTokenCandsHTML(tokenText, pos, cands){
+    var parts = [];
+    parts.push('<div class="d-flex align-items-center gap-2 flex-wrap">');
+    parts.push('<small class="text-muted" style="width:80px">'+tokenText+'</small>');
+    if (cands && cands.length){
+      cands.forEach(function(opt){
+        var u = "{{ url_for('main.pictos', filename='__X__') }}".replace('__X__', opt);
+        parts.push('<img src="'+u+'" class="opt rounded border" style="height:44px;cursor:pointer" data-position="'+pos+'" data-file="'+opt+'" alt="'+opt+'">');
+      });
+    } else {
+      parts.push('<span class="text-muted small">(sin candidatos extra)</span>');
+    }
+    parts.push('</div>');
+    return parts.join('');
+  }
+
+  function buildChipsForRow(tr){
+    var chipsBox = tr.querySelector('.chips');
+    var fraseBox = tr.querySelector('.frase-text');
+    if(!chipsBox) return;
+
+    var tokens = getRowTokens(tr);
+    chipsBox.innerHTML = '';
+    tokens.forEach(function(tk, i){
+      var div = document.createElement('div');
+      div.className  = 'chip-word';
+      div.dataset.pos = i;
+      div.innerHTML = '<span>'+tk+'</span> ' +
+                      '<button type="button" data-act="sub" title="Sustituir">✎</button> ' +
+                      '<button type="button" data-act="del" title="Eliminar">🗑</button>';
+      chipsBox.appendChild(div);
+    });
+
+    chipsBox.onclick = async function(e){
+      var btn = e.target.closest('button'); if(!btn) return;
+      e.preventDefault(); e.stopPropagation();
+
+      var pos = parseInt(btn.parentElement.dataset.pos, 10);
+      var tokensNow = getRowTokens(tr).slice(); // Copia del estado ACTUAL
+      var original  = tokensNow[pos];
+      var idx       = tr.getAttribute('data-idx');
+
+      if(btn.dataset.act === 'sub'){
+        var nuevo = prompt('Sustituir "'+original+'" por:', original);
+        if(!nuevo || !nuevo.trim()) return;
+        nuevo = nuevo.trim();
+        
+        // 1. PREPARAMOS la frase
+        var tokensTemp = tokensNow.slice();
+        tokensTemp[pos] = nuevo;
+        var nuevaFrase = tokensTemp.join(' ').replace(/\s+/g,' ').trim();
+        
+        try{
+          // 2. Consultamos API
+          var resp = await fetch(apiReinfer1, {
+            method:'POST',
+            headers:{'Content-Type':'application/json'},
+            body: JSON.stringify({ frase: nuevaFrase, pos: pos, token: nuevo, dominio: dominioCat })
+          });
+          var data = await resp.json();
+          
+          if(!resp.ok || data.error){
+            alert('Error API: ' + (data.error || resp.statusText));
+            return;
+          }
+          
+          var cands = data.candidatos || [];
+          // VALIDACIÓN
+          var esVacio = (cands.length === 0) || (cands.length === 1 && cands[0] === "");
+          var esStopword = isStopwordLike(nuevo);
+
+          if (esVacio && !esStopword) {
+             alert('La palabra "' + nuevo + '" no tiene pictograma en la BD. Se mantiene la original.');
+             return; // DETENEMOS TODO.
+          }
+
+          // 3. ACTUALIZAMOS UI (Solo si pasó la validación)
+          var tokensSrv = data.tokens || tokensTemp;
+          var srvPos    = (typeof data.index === 'number') ? data.index : pos;
+          var sugerido  = data.sugerido || null;
+
+          setRowTokens(tr, tokensSrv);
+          tr.setAttribute('data-frase', tokensSrv.join(' '));
+          fraseBox.textContent = tokensSrv.join(' ');
+          buildChipsForRow(tr);
+
+          // Candidatos visuales
+          var wrapper = tr.querySelector('.token-cands[data-pos="'+srvPos+'"]');
+          if (wrapper){
+            wrapper.innerHTML = buildTokenCandsHTML(tokensSrv[srvPos], srvPos, cands);
+          }
+
+          // Secuencia principal
+          var now = getSeqNowArray(tr);
+          if (sugerido && sugerido !== '') {
+            now[srvPos] = sugerido;
+          } else if (cands.length > 0 && cands[0] !== "") {
+            now[srvPos] = cands[0];
+          } else {
+            now[srvPos] = ""; // Se queda en blanco si no hay imagen válida
+          }
+
+          editsImgs[idx] = now;
+          paintSeqNow(tr, now);
+
+          editsTokens[idx] = tokensSrv;
+          if (saveBtn) saveBtn.classList.remove('d-none');
+          persistHidden();
+        
+        }catch(err){
+          console.error(err);
+          alert('Error de conexión.');
+        }
+      
+      } else if(btn.dataset.act === 'del'){
+        // Lógica de borrar
+        if(!confirm('Eliminar "'+original+'"?')) return;
+        tokensNow.splice(pos,1);
+        setRowTokens(tr, tokensNow);
+        tr.setAttribute('data-frase', tokensNow.join(' '));
+        fraseBox.textContent = tokensNow.join(' ');
+        editsTokens[idx] = tokensNow;
+
+        var now = getSeqNowArray(tr);
+        if (pos >= 0 && pos < now.length){ now.splice(pos,1); }
+        editsImgs[idx] = now;
+        paintSeqNow(tr, now);
+
+        var all = tr.querySelectorAll('.token-cands');
+        all.forEach(function(el){
+          var p = parseInt(el.getAttribute('data-pos'), 10);
+          if (p === pos){ el.remove(); } 
+          else if (p > pos){
+            el.setAttribute('data-pos', String(p-1));
+            el.querySelectorAll('img.opt').forEach(function(img){
+              var imgPos = parseInt(img.getAttribute('data-position')||'0',10);
+              img.setAttribute('data-position', String(imgPos-1));
+            });
+          }
+        });
+        if (saveBtn) saveBtn.classList.remove('d-none');
+        persistHidden();
+      }
+    };
+  }
+
+  // --- Manejo de Modos ---
+  let activeMode = null;
+  function showCandidatesUI(){ document.querySelectorAll('.edit-col').forEach(el => el.classList.remove('d-none')); }
+  function hideCandidatesUI(){ document.querySelectorAll('.edit-col').forEach(el => el.classList.add('d-none')); }
+  function showWordsUI(){
+    document.querySelectorAll('tr[data-idx]').forEach(tr => {
+      const box = tr.querySelector('.chips');
+      if(box){ box.classList.remove('d-none'); buildChipsForRow(tr); }
+    });
+  }
+  function hideWordsUI(){ document.querySelectorAll('.chips').forEach(box => box.classList.add('d-none')); }
+
+  function resetModes(){
+    hideCandidatesUI(); hideWordsUI(); activeMode = null;
+    if(toggleBtn){ toggleBtn.disabled=false; toggleBtn.classList.remove('active'); }
+    if(toggleWordsBtn){ toggleWordsBtn.disabled=false; toggleWordsBtn.classList.remove('active'); }
+    if(saveBtn) saveBtn.classList.add('d-none');
+  }
+
+  if (toggleBtn) {
+    toggleBtn.addEventListener('click', function(e){
+      e.preventDefault();
+      if (activeMode === 'cands') resetModes();
+      else {
+        if(activeMode === 'words') hideWordsUI();
+        showCandidatesUI();
+        if(toggleWordsBtn){ toggleWordsBtn.disabled=true; toggleWordsBtn.classList.remove('active'); }
+        toggleBtn.classList.add('active');
+        if(saveBtn) saveBtn.classList.remove('d-none');
+        activeMode = 'cands';
+      }
+    });
+  }
+
+  if (toggleWordsBtn) {
+    toggleWordsBtn.addEventListener('click', function(e){
+      e.preventDefault();
+      if (activeMode === 'words') resetModes();
+      else {
+        if(activeMode === 'cands') hideCandidatesUI();
+        showWordsUI();
+        if(toggleBtn){ toggleBtn.disabled=true; toggleBtn.classList.remove('active'); }
+        toggleWordsBtn.classList.add('active');
+        if(saveBtn) saveBtn.classList.remove('d-none');
+        activeMode = 'words';
+      }
+    });
+  }
+
+  if (saveBtn) {
+    saveBtn.addEventListener('click', function (e) {
+      e.preventDefault(); persistHidden(); resetModes();
+    });
+  }
+  var form = document.querySelector('form');
+  if (form) {
+    form.addEventListener('submit', function () { persistHidden(); });
+  }
+});
+</script>
+{% endblock %}

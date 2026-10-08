@@ -1,0 +1,74 @@
+{% extends 'base.html' %}
+{% block title %}Secuencia — {{ item.oracion }} (Salud){% endblock %}
+{% block content %}
+  <div class='d-flex justify-content-between align-items-end mb-3'>
+    <div>
+      <h3 class='mb-1'>{{ item.oracion }}</h3>
+      <p class='text-muted mb-0'>Personaliza la imagen por palabra usando los candidatos.</p>
+    </div>
+    <a class='btn btn-outline-secondary' href='{{ url_for('main.categoria_salud') }}'>Volver</a>
+  </div>
+  <div class='card shadow-sm mb-3'>
+    <div class='card-body'>
+      <div class='sequence-preview d-flex gap-2 flex-wrap align-items-center' id='preview'>
+        {% for name in final if name %}
+          <img src='{{ url_for('main.pictos', filename=name) }}' class='rounded border' style='height:56px' data-index='{{ loop.index0 }}'>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+  <form method='post' action='{{ url_for('main.descargar_secuencia_salud', idx=idx) }}' class='card shadow-sm'>
+    <div class='card-body'>
+      <div class='row g-3'>
+        {% for tok in tokens %}
+          <div class='col-md-6 col-lg-4'>
+            <label class='form-label small text-uppercase'>{{ tok }}</label>
+            {% set default_img = final[loop.index0] if loop.index0 < final|length else None %}
+            {% set lista = (candidatos.candidatos_por_token.get(tok) if candidatos and candidatos.candidatos_por_token else None) %}
+            <select name='token_{{ loop.index0 }}' class='form-select candidate-select' data-index='{{ loop.index0 }}'>
+              <option value='' {{ '' == (default_img or '') and 'selected' or '' }}>— (omitir)</option>
+              {% if lista %}
+                {% for opt in lista %}
+                  <option value='{{ opt }}' {{ opt == (default_img or '') and 'selected' or '' }}>{{ opt }}</option>
+                {% endfor %}
+              {% else %}
+                {% if default_img %}
+                  <option value='{{ default_img }}' selected>{{ default_img }}</option>
+                {% endif %}
+              {% endif %}
+            </select>
+            <div class='mt-2'>
+              {% if default_img %}
+                <img src='{{ url_for('main.pictos', filename=default_img) }}' class='border rounded' style='height:44px' id='thumb-{{ loop.index0 }}'>
+              {% else %}
+                <div class='text-muted small' id='thumb-{{ loop.index0 }}'>(sin imagen)</div>
+              {% endif %}
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+    <div class='card-footer d-flex justify-content-end gap-2'>
+      <button type='submit' class='btn btn-wine'>Descargar esta secuencia</button>
+    </div>
+  </form>
+{% endblock %}
+{% block scripts %}
+<script>
+  function updateThumb(idx, filename) {
+    const thumb = document.getElementById('thumb-' + idx);
+    if (!thumb) return;
+    if (filename) {
+      const imgUrl = "{{ url_for('main.pictos', filename='__FILE__') }}".replace('__FILE__', filename);
+      if (thumb.tagName.toLowerCase() === 'img') { thumb.src = imgUrl; }
+      else { const img=document.createElement('img'); img.className='border rounded'; img.style.height='44px'; img.src=imgUrl; thumb.replaceWith(img); img.id='thumb-'+idx; }
+    } else {
+      if (thumb.tagName.toLowerCase() === 'img') { const ph=document.createElement('div'); ph.className='text-muted small'; ph.textContent='(sin imagen)'; ph.id='thumb-'+idx; thumb.replaceWith(ph); }
+      else { thumb.textContent='(sin imagen)'; }
+    }
+  }
+  document.addEventListener('DOMContentLoaded', () => {
+    document.querySelectorAll('.candidate-select').forEach(sel => sel.addEventListener('change', e => updateThumb(e.target.dataset.index, e.target.value)));
+  });
+</script>
+{% endblock %}

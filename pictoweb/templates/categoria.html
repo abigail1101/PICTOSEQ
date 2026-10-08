@@ -1,0 +1,59 @@
+{% extends "base.html" %}
+{% block title %}Categorías{% endblock %}
+{% block body_class %}bg-art{% endblock %}
+{% block nav_categorias %}active{% endblock %}
+
+{% block content %}
+<section id="services" class="services section">
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Categorías</h2>
+    <p>Selecciona una categoría para ver sus secuencias</p>
+  </div>
+
+  <div class="container">
+    <!-- nota la clase categories-grid para el halo de luz -->
+    <div class="row gx-4 gy-5 categories-grid">
+
+        <!-- SALUD -->
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+        <div class="card tile-card h-100 text-center p-4">
+          <img src="{{ url_for('static', filename='assets/img/tarjeta_salud.png') }}"
+               alt="Salud" class="category-illustration">
+          <div>
+            <h3 class="mt-1">Salud</h3>
+            <p class="mb-2">Secuencias: {{ counts.salud|default(0) }}</p>
+            <a href="{{ url_for('main.categoria_detalle', cat='salud') }}" class="btn btn-primary">Entrar</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- EDUCACIÓN -->
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+        <div class="card tile-card h-100 text-center p-4">
+          <img src="{{ url_for('static', filename='assets/img/tar_educacion.png') }}"
+               alt="Educación" class="category-illustration">
+          <div>
+            <h3 class="mt-1">Educación</h3>
+            <p class="mb-2">Secuencias: {{ counts.educacion|default(0) }}</p>
+            <a href="{{ url_for('main.categoria_detalle', cat='educacion') }}" class="btn btn-primary">Entrar</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- CULTURA -->
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+        <div class="card tile-card h-100 text-center p-4">
+          <img src="{{ url_for('static', filename='assets/img/tarjeta_cultura.png') }}"
+               alt="Cultura" class="category-illustration">
+          <div>
+            <h3 class="mt-1">Cultura</h3>
+            <p class="mb-2">Secuencias: {{ counts.cultura|default(0) }}</p>
+            <a href="{{ url_for('main.categoria_detalle', cat='cultura') }}" class="btn btn-primary">Entrar</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+{% endblock %}

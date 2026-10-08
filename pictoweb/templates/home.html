@@ -1,0 +1,125 @@
+{% extends "base.html" %}
+{% block title %}Inicio - Pictoseq{% endblock %}
+{% block body_class %}bg-art index-page{% endblock %}
+{% block nav_home %}active{% endblock %}
+
+{% block content %}
+<section id="hero" class="hero-landing section">
+  <div class="container" data-aos="fade-up">
+    <div class="row align-items-center g-5">
+      <!-- Texto -->
+      <div class="col-lg-6">
+        <span class="badge-soft-wine">Proyecto</span>
+        <h1 class="display-5 fw-bold mt-2">Crea secuencias de pictogramas con IA</h1>
+        <p class="lead text-muted mt-2">
+          Genera, ajusta y descarga secuencias visuales de forma sencilla. Cambia candidatos,
+          revisa categorías y arma tus pictosecuencias personalizadas.
+        </p>
+        <div class="d-flex flex-wrap gap-2 mt-3">
+          <a href="{{ url_for('main.categorias_hub') }}" class="btn btn-primary btn-lg px-4">Explorar categorías</a>
+          <a href="{{ url_for('main.crear_picto_secuencia') }}" class="btn btn-outline-secondary btn-lg px-4">Crear Picto Secuencia</a>
+        </div>
+        <ul class="list-unstyled mt-4 small text-muted hero-bullets">
+          <li>• Carruseles por categoría</li>
+          <li>• Reemplazo de candidatos y descarga avanzada</li>
+          <li>• Sugerencias con IA</li>
+        </ul>
+      </div>
+
+      <!-- Ilustración -->
+      <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="100">
+        <!-- 3 imágenes alineadas y del mismo tamaño -->
+         <div class="hero-badges">
+          <figure class="badge-circle">
+            <img src="{{ url_for('static', filename='assets/img/tarjeta_salud.png') }}" alt="Salud">
+          </figure>
+          <figure class="badge-circle">
+            <img src="{{ url_for('static', filename='assets/img/tar_educacion.png') }}" alt="Educación">
+          </figure>
+          <figure class="badge-circle">
+            <img src="{{ url_for('static', filename='assets/img/tarjeta_cultura.png') }}" alt="Cultura">
+          </figure>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Onda decorativa inferior -->
+  <div class="hero-wave" aria-hidden="true">
+    <svg viewBox="0 0 1440 120" preserveAspectRatio="none">
+      <path d="M0,40 C240,120 480,0 720,40 C960,80 1200,20 1440,70 L1440,120 L0,120 Z"
+            fill="rgba(111,21,50,.06)"></path>
+    </svg>
+  </div>
+</section>
+
+<!-- Accesos rápidos -->
+<section class="quick-tiles section pt-0">
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-md-4">
+        <a href="{{ url_for('main.categoria_detalle', cat='salud') }}" class="tile-mini card p-4 text-center h-100">
+          <div class="fs-2">❤</div>
+          <h5 class="mt-2 mb-1">Salud</h5>
+          <p class="small text-muted mb-0">Ver secuencias</p>
+        </a>
+      </div>
+      <div class="col-md-4">
+        <a href="{{ url_for('main.categoria_detalle', cat='educacion') }}" class="tile-mini card p-4 text-center h-100">
+          <div class="fs-2">📚</div>
+          <h5 class="mt-2 mb-1">Educación</h5>
+          <p class="small text-muted mb-0">Ver secuencias</p>
+        </a>
+      </div>
+      <div class="col-md-4">
+        <a href="{{ url_for('main.categoria_detalle', cat='cultura') }}" class="tile-mini card p-4 text-center h-100">
+          <div class="fs-2">🎭</div>
+          <h5 class="mt-2 mb-1">Cultura</h5>
+          <p class="small text-muted mb-0">Ver secuencias</p>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+{% endblock %}
+
+{% block scripts %}
+<style>
+/* Hero */
+.hero-landing{ position: relative; padding: 56px 0 0; }
+.badge-soft-wine{
+  background: rgba(111,21,50,.11); color: #6f1532; font-weight: 700;
+  border-radius: 999px; padding: .35rem .75rem; letter-spacing: .3px;
+}
+.hero-bullets li{ margin-top:.25rem; }
+
+.hero-illustration{
+  position: relative; border-radius: 24px; background: rgba(255,255,255,.92);
+  box-shadow: 0 24px 60px rgba(111,21,50,.12);
+  padding: 14px;
+}
+.hero-illustration img{ display:block; width:100%; height:auto; border-radius: 18px; }
+.hero-illustration .chip{
+  position:absolute; background:#fff; color:#6f1532; font-weight:600;
+  border-radius:999px; padding:.35rem .7rem; font-size:.82rem;
+  box-shadow: 0 8px 22px rgba(111,21,50,.18);
+}
+.chip-1{ top:8%; left:6%;  animation:float 6s ease-in-out infinite; }
+.chip-2{ bottom:10%; left:10%; animation:float 7s ease-in-out -.8s infinite; }
+.chip-3{ top:12%; right:8%; animation:float 5.6s ease-in-out -.4s infinite; }
+@keyframes float{ 0%,100%{ transform:translateY(0) } 50%{ transform:translateY(-8px) } }
+
+.hero-wave{ position: relative; margin-top: 36px; }
+.hero-wave svg{ width:100%; height:84px; display:block; }
+
+/* Tiles */
+.tile-mini{
+  transition: transform .15s ease, box-shadow .2s ease;
+  background: rgba(255,255,255,.92); border:0; border-radius: 18px;
+  box-shadow: 0 12px 36px rgba(111,21,50,.10);
+}
+.tile-mini:hover{ transform: translateY(-4px); box-shadow: 0 20px 52px rgba(111,21,50,.16); }
+</style>
+{% endblock %}
+

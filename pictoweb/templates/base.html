@@ -1,0 +1,115 @@
+{% set brand = "PictoSeq" %}
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>{{ self.title() or brand }}</title>
+
+  <!-- Icono de pestaña -->
+  <link href="{{ url_for('static', filename='assets/img/CIMAT.png') }}" rel="icon">
+  <link href="{{ url_for('static', filename='assets/img/apple-touch-icon.png') }}" rel="apple-touch-icon">
+
+  <!-- Tipos de letra de la pagina  -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Poppins:wght@300;500;700&family=Raleway:wght@300;500;700&display=swap" rel="stylesheet">
+
+  <!-- Proveedor de CSS Bootstrap-->
+  <link href="{{ url_for('static', filename='assets/vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
+  <link href="{{ url_for('static', filename='assets/vendor/bootstrap-icons/bootstrap-icons.css') }}" rel="stylesheet">
+  <link href="{{ url_for('static', filename='assets/vendor/aos/aos.css') }}" rel="stylesheet">
+  <link href="{{ url_for('static', filename='assets/vendor/swiper/swiper-bundle.min.css') }}" rel="stylesheet">
+  <link href="{{ url_for('static', filename='assets/vendor/glightbox/css/glightbox.min.css') }}" rel="stylesheet">
+  
+
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/custom.css') }}">
+  <link href="{{ url_for('static', filename='assets/css/main.css') }}" rel="stylesheet">
+  {% block head %}{% endblock %}
+</head>
+
+<body class="bg-art">
+  <!-- Encabezado de pagina -->
+  <header id="header" class="header d-flex align-items-center light-background sticky-top">
+    <div class="container-fluid position-relative d-flex align-items-center justify-content-between">
+
+      <a href="{{ url_for('main.home') }}" class="logo d-flex align-items-center me-auto me-xl-0">
+        <h1 class="sitename">{{ brand }}</h1>
+      </a>
+
+      <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="{{ url_for('main.home') }}" class="{% block nav_home %}{% endblock %}">Inicio</a></li>
+          <li><a href="{{ url_for('main.acerca_de') }}" class="{% block nav_about %}{% endblock %}">Acerca de</a></li>
+          <li><a href="{{ url_for('main.manual_usuario') }}" class="{% block nav_manual %}{% endblock %}">Manual de Usuario</a></li>
+          <li><a href="{{ url_for('main.categorias_hub') }}" class="{% block nav_categorias %}{% endblock %}">Categorías</a></li>
+          <li><a href="{{ url_for('main.crear_picto_secuencia') }}">Crear Picto Secuencia</a></li>
+        </ul> 
+      </nav>
+
+      <div class="header-social-links">
+        <a href="https://www.youtube.com/user/CIMATMexico" target="_blank" class="youtube">
+          <i class="bi bi-youtube"></i>
+        </a>
+        <a href="https://www.facebook.com/CIMATMexico/?fref=ts" target="_blank" class="facebook">
+          <i class="bi bi-facebook"></i>
+        </a>
+        <a href="https://x.com/cimatoficial" target="_blank" class="twitter">
+          <i class="bi bi-twitter-x"></i>
+        </a>
+        <a href="https://www.instagram.com/cimatoficial/?hl=es" target="_blank" class="instagram">
+          <i class="bi bi-instagram"></i>
+        </a>
+      </div>
+
+    </div>
+  </header>
+
+  <main class="main">
+    {% block content %}{% endblock %}
+  </main>
+
+  <!-- Pie de pagina -->
+   <footer id="footer" class="footer light-background">
+    <div class="container">
+      <div class="copyright text-center">
+        <p>© <span>Proyecto</span> <strong class="px-1 sitename">Integración de IA y Modelos de Lenguaje Natural para la Creación de Secuencias de Pictogramas</strong></p>
+      </div>
+      
+      <!-- Logos  -->
+      <div class="footer-logos" aria-label="Aliados y patrocinadores">
+        <img src="{{ url_for('static', filename='assets/img/ITESG.png') }}"   alt="ITESG">
+        <img src="{{ url_for('static', filename='assets/img/CIMAT.png') }}"   alt="CIMAT">
+        <img src="{{ url_for('static', filename='assets/img/ISC.png') }}"   alt="ISC">
+        <img src="{{ url_for('static', filename='assets/img/TECNM.png') }}"    alt="TECNM">
+      </div>
+      <div class="credits">By <a href="#">Abi</a></div>
+    </div>
+    </footer>
+
+  <!-- Scroll Top + Preloader = animacion que se muestra al cargar la pagina -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <div id="preloader"></div>
+
+  <!-- Proveedor JS -->
+  <script src="{{ url_for('static', filename='assets/vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+  <script src="{{ url_for('static', filename='assets/vendor/php-email-form/validate.js') }}"></script>
+  <script src="{{ url_for('static', filename='assets/vendor/aos/aos.js') }}"></script>
+  <script src="{{ url_for('static', filename='assets/vendor/waypoints/noframework.waypoints.js') }}"></script>
+  <script src="{{ url_for('static', filename='assets/vendor/purecounter/purecounter_vanilla.js') }}"></script>
+  <script src="{{ url_for('static', filename='assets/vendor/swiper/swiper-bundle.min.js') }}"></script>
+  <script src="{{ url_for('static', filename='assets/vendor/glightbox/js/glightbox.min.js') }}"></script>
+  <script src="{{ url_for('static', filename='assets/vendor/imagesloaded/imagesloaded.pkgd.min.js') }}"></script>
+  <script src="{{ url_for('static', filename='assets/vendor/isotope-layout/isotope.pkgd.min.js') }}"></script>
+
+  <!-- Main JS -->
+  <script src="{{ url_for('static', filename='assets/js/main.js') }}"></script>
+  {% block scripts %}
+  
+  {% endblock %}
+</body>
+</html>
+

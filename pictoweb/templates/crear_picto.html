@@ -1,0 +1,410 @@
+{% extends "base.html" %}
+{% block title %}Crear Picto Secuencia{% endblock %}
+
+{% block content %}
+<section class="section">
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Crear Picto Secuencia</h2>
+    <p>Escribe una frase; te sugerimos pictogramas. Elige candidatos dando clic en las imágenes, agrégala a tu lista y repite con más frases.</p>
+  </div>
+
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+    <!-- Overlay de carga global -->
+    <div id="pageLoader" class="loader-overlay" aria-hidden="true">
+      <div class="loader-card" role="status" aria-live="polite">
+        <div class="spinner"></div>
+        <p id="loaderText" class="mt-3 mb-0">Procesando…</p>
+      </div>
+    </div>
+
+    <!-- Form de generar candidatos -->
+    <form id="generateForm" method="post" action="{{ url_for('main.crear_picto_secuencia') }}" class="card shadow-sm mb-4">
+      <input type="hidden" name="basket_json" id="basket_json_form" value='{{ (saved_list or [])|tojson }}'>
+      <div class="card-body">
+        <label class="form-label">Frase</label>
+        <textarea id="fraseInput" name="frase" class="form-control" rows="2" placeholder="Ej: yo querer ir váter">{{ frase or '' }}</textarea>
+        {% if error %}<div class="text-danger mt-2">{{ error }}</div>{% endif %}
+      </div>
+      <div class="card-footer d-flex justify-content-end">
+        <button class="btn btn-primary" type="submit" id="btnGenerar">Generar</button>
+      </div>
+    </form>
+
+    {% if tokens %}
+    <!-- PREVIEW + CANDIDATOS EN IMÁGENES -->
+    {% set full_map = (candidatos_map.get('candidatos_por_token') if candidatos_map and candidatos_map.get('candidatos_por_token') is not none else candidatos_map) or {} %}
+
+    <div id="resultCard" class="card shadow-sm mb-4">
+      <div class="card-body">
+        <h5 class="mb-3">Resultado para: <em>{{ frase }}</em></h5>
+
+        <div class="table-responsive">
+          <table class="table align-middle">
+            <thead>
+              <tr>
+                <th style="width: 22%;">Oración</th>
+                <th style="width: 38%;">Secuencia</th>
+                <th>Candidatos</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr id="current-row" data-frase="{{ frase|e }}">
+                <td class="text-wrap">
+                  <div class="fw-semibold">{{ frase }}</div>
+                </td>
+                <td class="seq-now">
+                  {% for img in sugerida %}
+                    {% if img %}
+                      <img src="{{ url_for('main.pictos', filename=img) }}" class="rounded border me-1 mb-1" style="height:56px" alt="{{ img }}">
+                    {% endif %}
+                  {% endfor %}
+                </td>
+                <td class="edit-col">
+                  <div class="row g-3">
+                    {% for tok in tokens %}
+                      {% set token_index = loop.index0 %}
+                      {% set cand = (full_map.get(tok) or []) %}
+                      <div class="col-lg-6">
+                        <div class="small text-muted mb-1">{{ tok }}</div>
+                        <div class="d-flex flex-wrap gap-2">
+                          {% if cand %}
+                            {% for opt in cand %}
+                              {% set selected = (sugerida[token_index] if token_index < sugerida|length else None) == opt %}
+                              <img
+                                src="{{ url_for('main.pictos', filename=opt) }}"
+                                class="opt rounded border {% if selected %}opt-selected{% endif %}"
+                                style="height:56px; cursor:pointer"
+                                data-index="{{ token_index }}"
+                                data-file="{{ opt }}"
+                                alt="{{ opt }}">
+                            {% endfor %}
+                          {% else %}
+                            <span class="text-muted small">(sin candidatos)</span>
+                          {% endif %}
+                        </div>
+                      </div>
+                    {% endfor %}
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <!-- JSON ocultos necesarios para el botón de IA -->
+        <script id="tokens_json"  type="application/json">{{ (tokens or [])|tojson }}</script>
+        <script id="candmap_json" type="application/json">{{ ((candidatos_map.get('candidatos_por_token') if candidatos_map and candidatos_map.get('candidatos_por_token') is not none else candidatos_map) or {})|tojson }}</script>
+
+        <div class="d-flex gap-2 justify-content-end mt-3">
+          <button id="btn-clip" type="button" class="btn btn-outline-success">Armar con IA</button>
+          <button id="addSeqBtn" class="btn btn-primary" type="button">Agregar esta secuencia a mi lista</button>
+        </div>
+      </div>
+    </div>
+    {% endif %}
+
+    <!-- LISTA (CARRITO) DE SECUENCIAS GUARDADAS -->
+    <div class="card shadow-sm">
+      <div class="card-body">
+        <div class="d-flex justify-content-between align-items-center mb-3">
+          <h5 class="mb-0">Mis picto secuencias</h5>
+          <span class="badge bg-primary" id="countBadge">0</span>
+        </div>
+
+        <div id="savedList" class="mb-3"></div>
+
+        <form method="post" action="{{ url_for('main.descargar_creadas_lote') }}">
+          <input type="hidden" name="basket_json" id="basket_json_download" value='{{ (saved_list or [])|tojson }}'>
+          <div class="d-flex justify-content-end">
+            <button type="submit" class="btn btn-primary" id="downloadAllBtn" disabled>Descargar todas</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+  </div>
+</section>
+{% endblock %}
+
+{% block scripts %}
+<style>
+  .opt { transition: transform .05s ease, box-shadow .2s ease; }
+  .opt:hover { transform: translateY(-1px); box-shadow: 0 0 0 3px rgba(111,21,50,.1); }
+  .opt-selected { box-shadow: 0 0 0 3px #6f1532; }
+  .seq-now img { background: #fff; }
+
+  /* ===== Overlay de carga ===== */
+  .loader-overlay{
+    position: fixed; inset: 0;
+    display: none; align-items: center; justify-content: center;
+    background: rgba(255,255,255,.6);
+    backdrop-filter: blur(4px);
+    z-index: 200000;
+  }
+  .loader-overlay.show{ display: flex; }
+  .loader-card{
+    background: rgba(255,255,255,.92);
+    border: 1px solid rgba(0,0,0,.08);
+    border-radius: 14px;
+    padding: 18px 22px;
+    min-width: 240px;
+    box-shadow: 0 12px 36px rgba(0,0,0,.12);
+    text-align: center;
+  }
+  .spinner{
+    width: 34px; height: 34px; border-radius: 50%;
+    border: 3px solid rgba(111,21,50,.2);
+    border-top-color: var(--wine, #6f1532);
+    animation: spin 1s linear infinite;
+    margin: 0 auto;
+  }
+  @keyframes spin { to { transform: rotate(360deg); } }
+
+  /* ===== Spinner en botones (estado .is-loading) ===== */
+  .btn.is-loading{
+    position: relative;
+    pointer-events: none;
+    opacity: .92;
+  }
+  .btn.is-loading::after{
+    content: "";
+    position: absolute;
+    right: 12px; top: 50%; margin-top: -8px;
+    width: 16px; height: 16px; border-radius: 50%;
+    border: 2px solid rgba(255,255,255,.6);
+    border-top-color: #fff;
+    animation: spin .8s linear infinite;
+  }
+  .btn-outline-success.is-loading::after,
+  .btn-outline-secondary.is-loading::after{
+    border-color: rgba(0,0,0,.25);
+    border-top-color: currentColor;
+  }
+</style>
+
+<!-- Helpers del loader -->
+<script>
+  function showLoader(msg){
+    const ov = document.getElementById('pageLoader');
+    if (!ov) return;
+    const t = document.getElementById('loaderText');
+    if (t) t.textContent = msg || 'Procesando…';
+    ov.classList.add('show');
+    ov.setAttribute('aria-hidden','false');
+    document.body.style.cursor = 'progress';
+  }
+  function hideLoader(){
+    const ov = document.getElementById('pageLoader');
+    if (!ov) return;
+    ov.classList.remove('show');
+    ov.setAttribute('aria-hidden','true');
+    document.body.style.cursor = '';
+  }
+  window.addEventListener('pageshow', () => hideLoader());
+</script>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  // ====== Estado del carrito ======
+  let basket = {{ (saved_list or [])|tojson|safe }};
+  const savedListEl = document.getElementById('savedList');
+  const badge       = document.getElementById('countBadge');
+  const hiddenForm  = document.getElementById('basket_json_form');
+  const hiddenDown  = document.getElementById('basket_json_download');
+  const downloadBtn = document.getElementById('downloadAllBtn');
+
+  function syncHidden() {
+    const j = JSON.stringify(basket);
+    if (hiddenForm) hiddenForm.value = j;
+    if (hiddenDown) hiddenDown.value = j;
+    if (badge)      badge.textContent = String(basket.length);
+    if (downloadBtn) downloadBtn.disabled = basket.length === 0;
+    renderSaved();
+  }
+
+  function renderSaved() {
+    if (!savedListEl) return;
+    if (basket.length === 0) {
+      savedListEl.innerHTML = '<div class="text-muted small">Aún no has agregado secuencias.</div>';
+      return;
+    }
+    const cards = basket.map((it, idx) => {
+      const imgs = (it.imagenes || []).filter(Boolean).map(f => {
+        const u = "{{ url_for('main.pictos', filename='__X__') }}".replace('__X__', f);
+        return `<img src="${u}" class="rounded border me-1 mb-1" style="height:44px" alt="${f}">`;
+      }).join('');
+      return `
+        <div class="border rounded p-2 mb-2">
+          <div class="d-flex justify-content-between align-items-start">
+            <div>
+              <div class="fw-semibold">${it.oracion || '(sin oración)'}</div>
+              <div class="mt-1">${imgs}</div>
+            </div>
+            <button type="button" class="btn btn-sm btn-outline-danger" data-remove="${idx}">Quitar</button>
+          </div>
+        </div>`;
+    }).join('');
+    savedListEl.innerHTML = cards;
+  }
+
+  savedListEl?.addEventListener('click', (e) => {
+    const btn = e.target.closest('[data-remove]');
+    if (!btn) return;
+    const i = parseInt(btn.getAttribute('data-remove'), 10);
+    if (!isNaN(i)) {
+      basket.splice(i, 1);
+      syncHidden();
+    }
+  });
+
+  syncHidden(); // inicial
+
+  // ====== Estado de la secuencia actual (ÚNICA FUENTE) ======
+  const row    = document.getElementById('current-row');
+  const seqNow = row ? row.querySelector('.seq-now') : null;
+  const tokensList = {{ (tokens or [])|tojson|safe }};
+  window.__currentSeq = {{ (sugerida or [])|tojson|safe }};
+
+  function renderSecuencia(files){
+    if (!seqNow) return;
+    seqNow.innerHTML = (files || []).filter(Boolean).map(f => {
+      const u = "{{ url_for('main.pictos', filename='__X__') }}".replace('__X__', f);
+      return `<img src="${u}" class="rounded border me-1 mb-1" style="height:56px" data-file="${f}" alt="${f}">`;
+    }).join('');
+  }
+  renderSecuencia(window.__currentSeq);
+
+  // Clic en miniatura candidata → actualiza __currentSeq
+  document.addEventListener('click', function (e) {
+    const img = e.target;
+    if (!img.matches || !img.matches('img.opt')) return;
+    const pos  = parseInt(img.getAttribute('data-index'), 10);
+    const file = img.getAttribute('data-file');
+
+    const group = img.parentElement;
+    group.querySelectorAll('img.opt').forEach(x => x.classList.remove('opt-selected'));
+    img.classList.add('opt-selected');
+
+    if (!Array.isArray(window.__currentSeq)) window.__currentSeq = [];
+    window.__currentSeq[pos] = file;
+    renderSecuencia(window.__currentSeq);
+  });
+
+  // Botón "Agregar esta secuencia a mi lista" → usa __currentSeq
+  document.getElementById('addSeqBtn')?.addEventListener('click', () => {
+    const seq = (window.__currentSeq || []).slice();
+    if (!tokensList || tokensList.length === 0) {
+      alert('No hay secuencia actual.'); return;
+    }
+    if (!seq.length || seq.every(x => !x)) {
+      alert('La secuencia actual está vacía.'); return;
+    }
+    const frase = row?.getAttribute('data-frase') || (document.getElementById('fraseInput')?.value || '').trim() || '(sin oración)';
+    const item  = { oracion: frase, tokens: tokensList, imagenes: seq };
+    basket.push(item);
+    syncHidden();
+
+    // limpiar para nueva frase (sin recargar)
+    const ta = document.getElementById('fraseInput');
+    if (ta) { ta.value = ''; ta.focus(); }
+    const rc = document.getElementById('resultCard');
+    if (rc) rc.classList.add('d-none');
+  });
+
+  // Submit con Enter (Shift+Enter = nueva línea)
+  const ta = document.getElementById('fraseInput');
+  const genForm = document.getElementById('generateForm');
+  const btnGenerar = document.getElementById('btnGenerar');
+
+  // Spinner y overlay al enviar el form (click en "Generar")
+  genForm?.addEventListener('submit', () => {
+    btnGenerar?.classList.add('is-loading');
+    showLoader('Generando candidatos con IA…');
+  });
+
+  ta?.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter' && !e.shiftKey) {
+      e.preventDefault();
+      syncHidden();
+      btnGenerar?.classList.add('is-loading');
+      showLoader('Generando candidatos con BETO…');
+      if (genForm?.requestSubmit) genForm.requestSubmit();
+      else genForm?.submit();
+    }
+  });
+});
+</script>
+
+<script>
+/* ====== Botón "Armar con IA" (CLIP) ======
+   Lee tokens y candmap desde JSON oculto que renderiza el servidor,
+   llama al endpoint /api/clip/assemble y actualiza window.__currentSeq.
+*/
+document.addEventListener('DOMContentLoaded', function(){
+  function readJson(id, fallback){
+    try{
+      const raw = document.getElementById(id)?.textContent || '';
+      return raw ? JSON.parse(raw) : fallback;
+    }catch(_){ return fallback; }
+  }
+  const tokens  = readJson('tokens_json',  []);
+  const candmap = readJson('candmap_json', {});
+
+  function renderSecuencia(files){
+    const cont = document.querySelector('.seq-now');
+    if (!cont) return;
+    cont.innerHTML = (files||[]).filter(Boolean).map(f=>{
+      const u = "{{ url_for('main.pictos', filename='__X__') }}".replace('__X__', f);
+      return `<img src="${u}" class="rounded border me-1 mb-1" style="height:56px" data-file="${f}" alt="${f}">`;
+    }).join('');
+  }
+
+  function remarkThumbnails(seq){
+    document.querySelectorAll('img.opt').forEach(img=>{
+      const i = parseInt(img.getAttribute('data-index'), 10);
+      const f = img.getAttribute('data-file');
+      img.classList.toggle('opt-selected', seq[i] === f);
+    });
+  }
+
+  const btnIA = document.getElementById('btn-clip');
+  btnIA?.addEventListener('click', async ()=>{
+    const oracion = (document.getElementById('fraseInput')?.value || '').trim()
+                 || document.getElementById('current-row')?.getAttribute('data-frase') || '';
+    if (!oracion){ alert('Escribe una frase y genera candidatos.'); return; }
+    if (!tokens.length){ alert('No pude detectar los tokens.'); return; }
+    if (!Object.keys(candmap).length){ alert('No encontré candidatos.'); return; }
+
+    const old = btnIA.textContent;
+    btnIA.disabled = true; btnIA.textContent = 'Armando…';
+    btnIA.classList.add('is-loading');
+    showLoader('Armando con IA…');
+
+    try{
+      const resp = await fetch('{{ url_for("main.api_clip_assemble") }}', {
+        method: 'POST',
+        headers: {'Content-Type':'application/json'},
+        body: JSON.stringify({ oracion, tokens, candidatos: candmap })
+      });
+      if (!resp.ok) throw new Error('HTTP ' + resp.status);
+      const data = await resp.json();
+      if (!data.ok) throw new Error(data.error || 'Error en CLIP');
+
+      const sec = (data.result && data.result.secuencia_final) || [];
+      window.__currentSeq = sec.slice();
+      renderSecuencia(sec);
+      remarkThumbnails(sec);
+    }catch(err){
+      console.error(err);
+      alert('No se pudo armar con IA: ' + err.message);
+    }finally{
+      btnIA.classList.remove('is-loading');
+      btnIA.disabled = false; btnIA.textContent = old;
+      hideLoader();
+    }
+  });
+});
+</script>
+{% endblock %}
+
